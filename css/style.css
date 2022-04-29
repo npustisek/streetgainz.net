@@ -62,7 +62,7 @@ background: rgb(0,123,255,0.3);
 }
 .banner{
   height: 100vh; 
-  background: url(/images/wallpaper.jpg) no-repeat;
+  background: url(images/wallpaper.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
