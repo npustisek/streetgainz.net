@@ -109,7 +109,7 @@ a:hover {
   .icon {
     display: block;
     float: right;
-    padding-right: 40px;
+    padding-right: 10px;
   }
   .icon:hover {
     color: red;
