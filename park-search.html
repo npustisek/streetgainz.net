@@ -12,30 +12,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script
-      src="https://kit.fontawesome.com/cb5bd5acef.js"
+      src="https://kit.fontawesome.com/4c44b9ed88.js"
       crossorigin="anonymous"
     ></script>
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>StreetGainZ | Tražilica parkova</title>
   </head>
   <body>
     <header>
-      <nav>
-        <ul class="navbar">
-          <li><a href="index.html">Početna</a></li>
-          <li><a href="index.html">O nama</a></li>
-          <li><a href="shop.html">Shop</a></li>
-          <li><a href="gallery.html">Galerija</a></li>
-          <li>
-            <a class="active" href="park-search.html">Lokacije parkova</a>
-          </li>
-          <li><a href="faq.html">Najčešća pitanja</a></li>
-          <li><a href="contact.html">Kontakt</a></li>
-        </ul>
+      <nav class="navbar">
+        <div class="content">
+          <div class="logo"><a href="index.html">StreetGainZ</a></div>
+          <ul class="menu-list">
+            <div class="icon cancel-btn"><i class="fa-solid fa-x"></i></div>
+            <li><a href="index.html">O nama</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="gallery.html">Galerija</a></li>
+            <li><a class="active" href="park-search.html">Pronađi park</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+          </ul>
+          <div class="icon menu-btn"><i class="fa-solid fa-bars"></i></div>
+        </div>
       </nav>
     </header>
     <main>
+      <div class="banner"></div>
       <div class="map-heading"><h3>Pronađi park u svojoj blizini</h3></div>
       <div class="map">
         <iframe
@@ -47,6 +49,29 @@
           loading="lazy"
         ></iframe>
       </div>
+      <script>
+        const body = document.querySelector(" body");
+        const navbar = document.querySelector(".navbar");
+        const menu = document.querySelector(".menu-list");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = () => {
+          menu.classList.add("active");
+          menuBtn.classList.add("hide");
+          body.classList.add("disable-scroll");
+        };
+        cancelBtn.onclick = () => {
+          menu.classList.remove("active");
+          menuBtn.classList.remove("hide");
+          body.classList.remove("disable-scroll");
+        };
+
+        window.onscroll = () => {
+          this.scrollY > 20
+            ? navbar.classList.add("sticky")
+            : navbar.classList.remove("sticky");
+        };
+      </script>
     </main>
     <footer>
       <p>
