@@ -13,8 +13,14 @@
       name="keywords"
       content="streetworkout, calisthenics, streetgainz, workout"
     />
-    <base href="https://platypus712.github.io/streetgainz.net.github.io/">
+    <base href="https://platypus712.github.io/streetgainz.net.github.io/" />
     <title>StreetGainZ</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <script
       src="https://kit.fontawesome.com/4c44b9ed88.js"
@@ -24,48 +30,67 @@
 
   <body>
     <header>
-      <nav class="navbar">
-        <div class="content">
-          <div class="logo">
-            <a href="index.html"><img src="images/logo.png" alt="" /></a>
+      <div class="container">
+        <nav class="navbar row">
+          <div class="content">
+            <div class="logo">
+              <a href="index.html"><img src="images/logo.png" alt="" /></a>
+            </div>
+            <ul class="menu-list">
+              <div class="icon cancel-btn"><i class="fa-solid fa-x"></i></div>
+              <li><a class="active" href="index.html">Početna</a></li>
+              <li class="dropdown">
+                <a href="#about" class="dropbtn">O nama</a>
+                <div class="dropdown-content">
+                  <a href="about.html">O StreetGainZu</a>
+                  <a href="about.html">O Street Workoutu</a>
+                </div>
+              </li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="gallery.html">Galerija</a></li>
+              <li><a href="park-search.html">Pronađi park</a></li>
+              <li><a href="#faq">Najčešća pitanja</a></li>
+              <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+            <div class="icon menu-btn"><i class="fa-solid fa-bars"></i></div>
           </div>
-          <ul class="menu-list">
-            <div class="icon cancel-btn"><i class="fa-solid fa-x"></i></div>
-            <li><a class="active" href="index.html">O nama</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="gallery.html">Galerija</a></li>
-            <li><a href="park-search.html">Pronađi park</a></li>
-            <li><a href="contact.html">Kontakt</a></li>
-          </ul>
-          <div class="icon menu-btn"><i class="fa-solid fa-bars"></i></div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </header>
     <main>
       <div class="banner"></div>
-      <div class="about">
-        <div id="about" class="title">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, minus.
-        </div>
-        <div class="grid-container">
-          <p class="grid-items">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem,
-            nemo rem temporibus sequi numquam ea nobis! Corrupti autem sit
-            obcaecati similique quaerat nesciunt voluptatum, blanditiis fugit
-            consectetur, repellat tenetur soluta sapiente, deleniti ut. Beatae
-            ab dignissimos nemo veritatis. Labore, dolor. Sunt eum nihil
-            corporis voluptate minima! Asperiores dignissimos ipsa nisi nulla
-            quos? Reprehenderit eius excepturi at maiores? Ullam deserunt
-            maiores quia eveniet quibusdam quaerat ipsa delectus. Pariatur,
-            rerum? Ut, sit sunt. Ex itaque sunt natus repellat. Quidem nisi est
-            consectetur.
-          </p>
-          <img class="grid-items" src="images/tim1.jpg" alt="tim" />
+      <div class="about container">
+        <div class="row justify-content-around">
+          <div id="about" class="title col-12">Što je StreetGainZ?</div>
+          <div class="col-lg-7 text-center">
+            <p>
+              Pozdrav svima, mi smo StreetGainZ, street workout tim koji na
+              području Republike Hrvatske djeluje od 2019. godine. Tim trenutno
+              broji 6 aktivnih članova koji se zalažu za popularizaciju street
+              workouta kroz razne sadržaje edukativnog karaktera.
+            </p>
+            <button type="button" class="btn btn-outline-dark btn-lg">
+              <a href="about.html">Želiš znati više?</a>
+            </button>
+          </div>
+          <!-- <p>
+              Na StreetGainZ youtube kanalu može se pronaći mnoštvo videa
+              različite tematike, od tutorijala za statičke i dinamičke
+              elemente, raznih savjeta o treningu i prehrani, pa sve do podcasta
+              sa poznatijim ljudima na street workout sceni. StreetGainZ kao
+              zajednica djeluje na način da preko društvenih mreža nastoji
+              ljudima svih uzrasta približiti street workout i predstaviti ga
+              kao jedan životni stil i način za kvalitetnije provođenje vremena.
+            </p> -->
+          <div class="col-lg-4 col-10">
+            <img class="about-img" src="images/tim.jpg" alt="tim" />
+          </div>
         </div>
       </div>
+      <!-- JS za navbar/sticky animacije-->
       <script>
         const body = document.querySelector(" body");
-        const navbar = document.querySelector(".navbar");
+        const navbar = document.querySelector("header");
         const menu = document.querySelector(".menu-list");
         const menuBtn = document.querySelector(".menu-btn");
         const cancelBtn = document.querySelector(".cancel-btn");
@@ -193,5 +218,10 @@
         ></a>
       </div>
     </footer> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
