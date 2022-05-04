@@ -1,0 +1,112 @@
+<!-- StreetGainZ website -> FAQ section -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Nikola Pustišek" />
+    <meta name="description" content="Službena stranica StreetGainZ tima." />
+    <meta
+      name="keywords"
+      content="streetworkout, calisthenics, streetgainz, workout"
+    />
+    <!-- <base href="https://platypus712.github.io/streetgainz.net.github.io/" /> -->
+    <title>StreetGainZ | FAQ</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/4c44b9ed88.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar row">
+          <div class="content">
+            <div class="logo">
+              <a href="index.html"><img src="images/logo.png" alt="" /></a>
+            </div>
+            <ul class="menu-list">
+              <div class="icon cancel-btn"><i class="fa-solid fa-x"></i></div>
+              <li><a href="index.html">Početna</a></li>
+              <li class="dropdown">
+                <a href="about.html" class="dropbtn">O nama</a>
+                <div class="dropdown-content">
+                  <a href="about.html">O StreetGainZu</a>
+                  <a href="about.html">O Street Workoutu</a>
+                </div>
+              </li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="gallery.html">Galerija</a></li>
+              <li><a href="park-search.html">Pronađi park</a></li>
+              <li><a class="active" href="faq.html">Najčešća pitanja</a></li>
+              <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+            <div class="icon menu-btn"><i class="fa-solid fa-bars"></i></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="banner"></div>
+      <div class="shop-heading">
+        <h1>
+          Stranica je još u razvojnoj fazi stoga web shop nije još dostupan
+        </h1>
+      </div>
+      <div class="shop-img">
+        <img src="/images/coming-soon.png" alt="coming-soon" height="500px" />
+      </div>
+    </main>
+    <footer>
+      <!-- <p>
+        Copyright &copy; 2022 StreetGainZ &amp; Made by Nikola Pustišek; All
+        rights reserved.
+      </p>
+
+      <div class="social-media">
+        <a href="https://www.youtube.com/c/StreetGainZ" target="_blank"
+          ><i class="fab fa-youtube"></i
+        ></a>
+        <a href="https://www.instagram.com/streetgainz_/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.tiktok.com/@streetgainz?lang=en" target="_blank"
+          ><i class="fab fa-tiktok"></i
+        ></a>
+      </div> -->
+      <script>
+        const body = document.querySelector(" body");
+        const navbar = document.querySelector(".navbar");
+        const menu = document.querySelector(".menu-list");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = () => {
+          menu.classList.add("active");
+          menuBtn.classList.add("hide");
+          body.classList.add("disable-scroll");
+        };
+        cancelBtn.onclick = () => {
+          menu.classList.remove("active");
+          menuBtn.classList.remove("hide");
+          body.classList.remove("disable-scroll");
+        };
+
+        window.onscroll = () => {
+          this.scrollY > 20
+            ? navbar.classList.add("sticky")
+            : navbar.classList.remove("sticky");
+        };
+      </script>
+    </footer>
+  </body>
+</html>
