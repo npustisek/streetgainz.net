@@ -131,6 +131,7 @@ header .menu-list {
   width: 100%;
   height: auto;
   object-fit: cover;
+  opacity: 0.8;
 }
 .about .title {
   text-align: center;
@@ -158,6 +159,56 @@ header .menu-list {
   color: #fff;
   font-size: 20px;
   text-decoration: none;
+}
+.shop .row {
+  padding: 25px 0px;
+  background-color: rgba(56, 53, 53, 0.589);
+  border: 1px solid red;
+}
+.shop .title {
+  text-align: center;
+  font-family: "bahnschrift";
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.shop p {
+  padding-top: 10px;
+  color: rgb(255, 255, 255);
+  font-family: "bahnschrift";
+  text-align: center;
+  font-size: 20px;
+}
+.progress {
+  height: 25px;
+  border: 1px solid black;
+}
+.map .row {
+  padding: 25px 0px;
+  background-color: rgba(56, 53, 53, 0.589);
+  border: 1px solid red;
+}
+.map .title {
+  text-align: center;
+  font-family: "bahnschrift";
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.map p {
+  padding-top: 10px;
+  color: rgb(255, 255, 255);
+  font-family: "bahnschrift";
+  text-align: center;
+  font-size: 20px;
+}
+.map-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: 0.8;
 }
 @media (max-width: 1200px) {
   body.disable-scroll {
