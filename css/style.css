@@ -33,6 +33,7 @@ body {
 }
 header {
   position: fixed;
+  top: 0;
   z-index: 5;
   width: 100%;
   transition: all 0.4s ease-out;
@@ -49,8 +50,8 @@ header .content {
   width: 100%;
 }
 header .logo img {
-  height: 90px;
-  width: 90px;
+  height: 95px;
+  width: 95px;
 }
 header .menu-list {
   display: inline-flex;
@@ -63,7 +64,6 @@ header .menu-list {
   font-family: "bahnschrift";
   font-size: 20px;
   margin-left: 25px;
-  padding-bottom: 5px;
   text-decoration: none;
   transition: all 0.4s ease;
 }
@@ -75,11 +75,19 @@ header .menu-list {
   border-bottom: 1px solid red;
 }
 .banner {
-  height: 100vh;
-  background: url(../images/wallpaper2.png) no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+.main-title {
+  font-family: "bahnschrift";
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+  opacity: 0.6;
+}
+.arrow {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  opacity: 0.6;
 }
 .icon {
   color: #fff;
@@ -151,6 +159,8 @@ header .menu-list {
 .btn {
   font-family: "bahnschrift";
   border: 1px solid red;
+  width: fit-content;
+  border-radius: 0px;
 }
 .btn:hover {
   background-color: rgb(255, 0, 0);
@@ -159,6 +169,10 @@ header .menu-list {
   color: #fff;
   font-size: 20px;
   text-decoration: none;
+}
+.carousel.slide img {
+  height: 80vh;
+  object-fit: contain;
 }
 .shop .row {
   padding: 25px 0px;
@@ -183,6 +197,9 @@ header .menu-list {
 .progress {
   height: 25px;
   border: 1px solid black;
+}
+.bg-danger {
+  background-color: red !important;
 }
 .map .row {
   padding: 25px 0px;
