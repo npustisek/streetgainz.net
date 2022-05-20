@@ -13,7 +13,7 @@
       name="keywords"
       content="streetworkout, calisthenics, streetgainz, workout"
     />
-    <base href="https://platypus712.github.io/streetgainz.net.github.io/" /> 
+    <!-- <base href="https://platypus712.github.io/streetgainz.net.github.io/" /> -->
     <title>StreetGainZ | Početna</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -57,6 +57,7 @@
         </nav>
       </div>
     </header>
+
     <main>
       <div class="bg-image"></div>
       <div class="banner container">
@@ -78,7 +79,7 @@
       <div class="about container">
         <div class="row justify-content-around">
           <div
-            class="col-lg-7 text-center flex-column justify-content-center d-flex"
+            class="col-lg-7 col-10 text-center flex-column justify-content-center d-flex"
           >
             <div id="about" class="title">Što je StreetGainZ?</div>
             <p class="my-5">
@@ -214,11 +215,7 @@
             <div id="shop" class="title">
               StreetGainZ shop <i class="fa-solid fa-cart-shopping"></i>
             </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-              mollitia totam eligendi molestiae quaerat numquam odit assumenda
-              quae reiciendis error!
-            </p>
+
             <p>
               Shop je trenutno u fazi razvoja i nije u funkciji pa stoga prati
               napredak na progress baru!
@@ -266,119 +263,368 @@
           </div>
         </div>
       </div>
-      <!-- JS za navbar/sticky animacije-->
-      <script>
-        const body = document.querySelector(" body");
-        const navbar = document.querySelector("header");
-        const menu = document.querySelector(".menu-list");
-        const menuBtn = document.querySelector(".menu-btn");
-        const cancelBtn = document.querySelector(".cancel-btn");
-        menuBtn.onclick = () => {
-          menu.classList.add("active");
-          menuBtn.classList.add("hide");
-          body.classList.add("disable-scroll");
-        };
-        cancelBtn.onclick = () => {
-          menu.classList.remove("active");
-          menuBtn.classList.remove("hide");
-          body.classList.remove("disable-scroll");
-        };
 
-        window.onscroll = () => {
-          this.scrollY > 20
-            ? navbar.classList.add("sticky")
-            : navbar.classList.remove("sticky");
-        };
-      </script>
-      <!-- FAQ section -->
-      <!-- <div id="faq" class="faq-body">
-        <div class="faq-header">
-          <h3 class="faq-title">Najčešća pitanja</h3>
-          <div class="seperator"></div>
-        </div>
-        <div class="faq-list">
-          <div>
-            <details open>
-              <summary title="Question-1">
-                Koliko vas je u timu i tko je glavni?
-              </summary>
-              <p class="faq-content">
-                Kroz vrijeme dosta ljudi je prošlo kroz tim no trenutno nas je
-                7. Nema stroge hijerarhije u timu stoga nema "glavnog" no
-                Stjepan je osnivač tima i ima najviše znanja pa stoga radi više
-                posla pa njega smatramo određenim predstavnikom samoga tima.
-              </p>
-            </details>
+      <div id="faq" class="faq container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-11 title align-left">
+            Najčešća pitanja<i class="fa-solid fa-question"></i>
           </div>
-          <div>
-            <details>
-              <summary title="Question-2">Koliko dugo trenirate?</summary>
-              <p class="faq-content">
-                Nismo svi krenuli u isto vrijeme jer se nismo ni znali, ali
-                Stjepan je krenuo prije 4 godine, a Nikola i Erwin prije godinu
-                i pol tako da su ostali negdje između te dvije granice otprilike
-                2 godine je neki prosjek.
-              </p>
-            </details>
-          </div>
-          <div>
-            <details>
-              <summary title="Question-3">
-                Hoćete li raditi grupne treninge u drugim gradovima?
-              </summary>
-              <p class="faq-content">
-                Trenutno zbog školskih i drugih privatnih obaveza nismo u stanju
-                ići po drugim gradovima no imamo veliku želju. Ove godine smo
-                prvi put organizirali grupni trening izvan Zagreb preciznije u
-                Splitu i odaziv je bio ogroman tako da nam je to samo dodatni
-                motiv za naprijed.
-              </p>
-            </details>
-          </div>
-          <div>
-            <details>
-              <summary title="Question-4">
-                Primate li nove članove u tim?
-              </summary>
-              <p class="faq-content">
-                Zadnje širenje tima je bilo kada smo pozvali Nikolu i Erwina. Za
-                sada nam nije u planu neko novo širenje, svatko ima svoju zadaću
-                i ulogu i stvari funkcioniraju odlično, no sve je moguće u
-                budućnosti tako da zapratite nas na društvenim mrežama kako bi
-                saznali sve na vrijeme.
-              </p>
-            </details>
-          </div>
-          <div>
-            <details>
-              <summary title="Question-5">
-                Hoće li majice biti dostupne za sve ili samo za članove tima?
-              </summary>
-              <p class="faq-content">
-                Trenutno su samo za članove, no zadnjih par mjeseci puno vremena
-                ulažemo u različite dizajne i jako smo zadovoljni izgledom tako
-                da nadamo se da ćemo što prije organizirati sve potrebno kako bi
-                to funkcioniralo jer imamo veliku želju na takav način širit
-                naše ime.
-              </p>
-            </details>
-          </div>
-          <div>
-            <details>
-              <summary title="Question-6">
-                Radite li planove treninga i ishrane?
-              </summary>
-              <p class="faq-content">
-                Zbog činjenice da je većina članova na faksu zbog količine
-                obaveza i manjka slobodnog vremena nismo u stanju odvojiti
-                vrijeme za sastavljanje kvalitetnog plana.
-              </p>
-            </details>
+          <div
+            class="col-11 accordion accordion-flush mt-3"
+            id="accordionFlushExample"
+          >
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  Koliko vas je u timu i tko je glavni?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Kroz vrijeme dosta ljudi je prošlo kroz tim no trenutno nas
+                    je 6. Nema stroge hijerarhije u timu tako da nema "šefa" jer
+                    svi si pomažemo međusobno. Svako ima neku svoju zadaću no
+                    uvijek uskačemo jedni drugima ako vidimo da je potrebno kako
+                    bi završni proizvod bio što kvalitetniji. Stjepan je jedan
+                    od osnivača tima i najviše je u ovom sportu pa shodno tomu
+                    ima i najviše znanja pa njega smatramo kao predstavnika tima
+                    i nekoga ko ima glavnu riječ.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  Imate li u planu raditi grupne treninge i u drugim gradovima?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Trenutno zbog različitih obaveza kao što su škola, faks i
+                    druge privatne obaveze nismo u stanju ići često po drugim
+                    gradovima no imamo veliku želju jer kada smo prošle godine
+                    na ljeto organizirali grupni trening u Splitu odaziv ekipe
+                    je bio ogroman pa nam je to veliki motiv za naprijed tako da
+                    ako se nekad malo oslobodi raspored sigurno ćemo nešto
+                    organizirati tako da zapratite nas na instragramu kako bi
+                    bili na vrijeme obavješteni.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  Koliko dugo trenirate?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Stjepan je krenuo prije 5 godina i on se najduže bavi dok su
+                  Nikola i Erwin najkraće u ovom sportu jer su tek prije 2
+                  godine krenuli, tako da ostatak ekipe je tu negdje između te
+                  dve brojke tako da neki prosjek tima je oko 3 godine.
+                  Detaljniji opis svakog člana možete pronaći
+                  <i class="fa-solid fa-arrow-right"></i>
+                  <a href="about.html">ovdje</a>.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFour"
+                >
+                  Primate li nove članove u tim?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Zadnje širenje tima je bilo kada su se priključili Nikola i
+                    Erwin. Za sada nije u planu neko novo širenje, svatko ima
+                    svoju zadaću i ulogu tako da stvari funkcioniraju dobro, no
+                    sve je moguće u budućnosti tako da zapratite nas na
+                    instagramu kako bi saznali sve na vrijeme.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFive">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFive"
+                >
+                  Hoće li majice biti dostupne za sve ili samo za članove tima?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFive"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingFive"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Trenutno su samo za članove, no zadnjih par mjeseci puno
+                    vremena ulažemo u razvoj web shopa tako da pratite napredak
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <a href="shop.html">ovdje</a>. Također radimo i na
+                    različitim dizajnovima i jako smo zadovoljni izgledom. Osim
+                    majica u ponudi će biti i mnoštvo drugih stvari za koje se
+                    nadamo da će vam se svijdeti tako da stay tuned.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingSix">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSix"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSix"
+                >
+                  Radite li planove treninga i ishrane?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseSix"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingSix"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Zbog činjenice da je većina članova na faksu zbog količine
+                    obaveza i manjka slobodnog vremena nismo u stanju odvojiti
+                    vrijeme za sastavljanje kvalitetnog plana no *spoiler alert*
+                    aktivno se radi na tom projektu tako da pratite napredak
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <a href="shop.html">ovdje</a>.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      End of FAQ section -->
+      <!-- Form section -->
+      <div class="form index-form container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-11 title">Želiš surađivati s nama?</div>
+          <div class="col-12 subtitle mb-3">
+            Pošalji nam poruku kroz obrazac ili direktno na mail
+            streetgainz1@gmail.com s naslovom "SURADNJA"
+          </div>
+          <div class="mb-3 col">
+            <input
+              type="text"
+              id="name"
+              class="form-control"
+              placeholder="Unesite Vaše ime"
+            />
+          </div>
+          <div class="mb-3 col">
+            <input
+              type="email"
+              id="email"
+              class="form-control"
+              placeholder="name@example.com"
+              required
+              checked
+            />
+          </div>
+          <div class="mb-3 col-12">
+            <textarea
+              id="textbox"
+              class="form-control"
+              cols="15"
+              rows="8"
+              placeholder="Prostor za vašu poruku..."
+            >
+            </textarea>
+          </div>
+          <div class="mt-3 col-12 text-center">
+            <button type="button" class="btn btn-outline-dark btn-lg">
+              <a href="#">Pošalji</a>
+            </button>
+          </div>
+        </div>
+      </div>
     </main>
+
+    <footer class="container">
+      <div class="d-flex flex-column h-100">
+        <footer class="w-100 py-4 flex-shrink-0">
+          <div class="container py-4">
+            <div class="row gy-4 gx-5">
+              <div class="col-lg-4 col-md-6">
+                <img src="images/logo.png" alt="" />
+                <p class="small text-muted">I can and I will.</p>
+                <p class="small text-muted mb-0">
+                  &copy; Copyrights. All rights reserved.
+                  <a class="text-primary" href="#"
+                    >Nikola Pustišek (STAVI LINK OD GITHUBA)!!!</a
+                  >
+                </p>
+              </div>
+              <div class="col-lg-2 col-md-6">
+                <h5 class="text-white mb-3">IZBORNIK</h5>
+                <ul class="list-unstyled text-muted">
+                  <li><a href="index.html">Početna</a></li>
+                  <li><a href="about.html">O nama</a></li>
+                  <li><a href="shop.html">Shop</a></li>
+                  <li><a href="gallery.html">Galerija</a></li>
+                  <li><a href="park-search.html">Pronađi park</a></li>
+                  <li><a href="#faq">FAQ</a></li>
+                  <li><a href="contact.html">Kontakt</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2 col-md-6">
+                <h5 class="text-white mb-3">DRUŠTVENE MREŽE</h5>
+                <ul class="list-unstyled text-muted">
+                  <li>
+                    <a
+                      href="https://www.youtube.com/c/StreetGainZ"
+                      target="_blank"
+                      >Youtube</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/streetgainz_/?hl=en"
+                      target="_blank"
+                      >Instagram</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.tiktok.com/@streetgainz?lang=en"
+                      target="_blank"
+                      >TikTok</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.facebook.com/groups/3693239400804956"
+                      target="_blank"
+                      >Facebook</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <h5 class="text-white mb-3">Newsletter</h5>
+                <p class="small text-muted">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt.
+                </p>
+                <form action="#">
+                  <div class="input-group mb-3">
+                    <input
+                      class="form-control"
+                      type="text"
+                      placeholder="Recipient's username"
+                      aria-label="Recipient's username"
+                      aria-describedby="button-addon2"
+                    />
+                    <button
+                      class="btn btn-primary"
+                      id="button-addon2"
+                      type="button"
+                    >
+                      <i class="fas fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </footer>
+    <!-- JS za navbar/sticky animacije-->
+    <script>
+      const body = document.querySelector(" body");
+      const navbar = document.querySelector("header");
+      const menu = document.querySelector(".menu-list");
+      const menuBtn = document.querySelector(".menu-btn");
+      const cancelBtn = document.querySelector(".cancel-btn");
+      menuBtn.onclick = () => {
+        menu.classList.add("active");
+        menuBtn.classList.add("hide");
+        body.classList.add("disable-scroll");
+      };
+      cancelBtn.onclick = () => {
+        menu.classList.remove("active");
+        menuBtn.classList.remove("hide");
+        body.classList.remove("disable-scroll");
+      };
+
+      window.onscroll = () => {
+        this.scrollY > 20
+          ? navbar.classList.add("sticky")
+          : navbar.classList.remove("sticky");
+      };
+    </script>
+
     <!-- <footer>
       <p>
         Copyright &copy; 2022 StreetGainZ &amp; Made by Nikola Pustišek; All
