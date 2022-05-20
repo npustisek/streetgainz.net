@@ -199,7 +199,7 @@ header .menu-list {
   border: 1px solid black;
 }
 .bg-danger {
-  background-color: red !important;
+  background-color: rgba(255, 0, 0, 0.836) !important;
 }
 .map .row {
   padding: 25px 0px;
@@ -227,6 +227,83 @@ header .menu-list {
   object-fit: cover;
   opacity: 0.8;
 }
+.faq .row {
+  padding: 25px 0px;
+  background-color: rgba(56, 53, 53, 0.589);
+  border: 1px solid red;
+}
+.faq .title {
+  font-family: "bahnschrift";
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.accordion-button:hover,
+.accordion-button:focus {
+  background-color: rgb(255, 0, 0);
+}
+.accordion-button {
+  background-color: rgba(0, 0, 0, 0.856);
+  color: rgb(255, 255, 255);
+  font-family: "bahnschrift";
+  font-size: 20px;
+}
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.856);
+}
+.accordion-body {
+  background-color: rgba(0, 0, 0, 0.856);
+  color: rgb(255, 255, 255);
+  font-family: "bahnschrift";
+  font-size: 15px;
+}
+.accordion-body a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.accordion-body a:hover {
+  color: red;
+}
+.index-form .row {
+  padding: 25px 0px;
+  background-color: rgba(56, 53, 53, 0.589);
+  border: 1px solid red;
+}
+.index-form .title {
+  text-align: center;
+  font-family: "bahnschrift";
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.index-form .subtitle {
+  padding-top: 10px;
+  color: rgb(255, 255, 255);
+  font-family: "bahnschrift";
+  text-align: center;
+  font-size: 20px;
+}
+.form-control {
+  border: 1px solid red;
+  background-color: rgba(56, 53, 53, 0.589);
+}
+.form-control input {
+  color: white;
+  font-weight: bolder;
+}
+footer {
+  background: rgba(7, 7, 7, 0.904);
+  width: 100%;
+}
+footer img {
+  height: 95px;
+  width: 95px;
+}
 @media (max-width: 1200px) {
   body.disable-scroll {
     overflow: hidden;
@@ -246,6 +323,7 @@ header .menu-list {
   .icon.hide {
     display: none;
   }
+
   header .menu-list {
     position: fixed;
     top: 0;
@@ -270,7 +348,7 @@ header .menu-list {
     font-size: 23px;
   }
   .dropdown {
-    margin-right: 15px;
+    text-align: center;
   }
   .dropdown-content a {
     padding: 10px;
