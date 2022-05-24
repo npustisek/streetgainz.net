@@ -1,36 +1,19 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
 }
-
 body {
   background: url(../images/VODORAVNA.png) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
-@font-face {
-  font-family: "bahnschrift";
-  src: url("../fonts/bahnschrift/Bahnschrift.otf");
-  src: url("../fonts/bahnschrift/Bahnschrift.otf") format(opentype),
-    url("../fonts/bahnschrift/Bahnschrift.ttf") format(truetype),
-    url("../fonts/bahnschrift/Bahnschrift.woff") format(woff),
-    url("../fonts/bahnschrift/Bahnschrift.woff2") format(woff2);
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "bebasruglar";
-  src: url("../fonts/bebas/Bebas-Regular.otf");
-  src: url("../fonts/bebas/Bebas-Regular.otf") format(opentype),
-    url("../fonts/bebas/Bebas-Regular.ttf") format(truetype),
-    url("../fonts/bebas/Bebas-Regular.woff") format(woff),
-    url("../fonts/bebas/Bebas-Regular.woff2") format(woff2);
-  font-weight: normal;
-  font-style: normal;
-}
+
+/* NAVBAR */
 header {
   position: fixed;
   top: 0;
@@ -50,8 +33,8 @@ header .content {
   width: 100%;
 }
 header .logo img {
-  height: 85px;
-  width: 85px;
+  height: 65px;
+  width: 65px;
 }
 header .menu-list {
   display: inline-flex;
@@ -112,22 +95,27 @@ header .menu-list {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+/* PROSTOR ZA GLAVNI NATPIS */
 .banner {
   margin-top: 200px;
   margin-bottom: 150px;
 }
-.main-title {
+.banner-img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+}
+.banner-img {
   font-family: "bahnschrift";
   font-size: 80px;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
-  opacity: 0.6;
+  opacity: 0.7;
 }
 .arrow {
   position: absolute;
   left: 50%;
-  bottom: -60px;
+  bottom: -80px;
 }
 .arrow span {
   display: block;
@@ -158,6 +146,7 @@ header .menu-list {
     transform: rotate(45deg) translate(20px, 20px);
   }
 }
+/* ABOUT SEKCIJA */
 #about {
   scroll-margin-block-start: 110px;
 }
@@ -174,7 +163,7 @@ header .menu-list {
 }
 .about .title {
   text-align: center;
-  font-family: "bahnschrift";
+  font-family: "Bebas Neue", sans-serif;
   color: rgb(255, 255, 255);
   font-size: 35px;
   font-weight: 700;
@@ -183,12 +172,12 @@ header .menu-list {
 .about p {
   padding-top: 10px;
   color: rgb(255, 255, 255);
-  font-family: "bahnschrift";
+  font-family: "Oswald", sans-serif;
   text-align: center;
   font-size: 20px;
 }
 .btn {
-  font-family: "bahnschrift";
+  font-family: "Oswald", sans-serif;
   border: 1px solid red;
   width: fit-content;
   border-radius: 0px;
@@ -201,10 +190,15 @@ header .menu-list {
   font-size: 20px;
   text-decoration: none;
 }
+/* SLIDER */
 .carousel.slide img {
   height: 80vh;
   object-fit: contain;
 }
+.carousel-item img {
+  border: 1px solid red;
+}
+/* SHOP SEKCIJA */
 .shop .row {
   padding: 25px 0px;
   background-color: rgba(56, 53, 53, 0.589);
@@ -232,6 +226,7 @@ header .menu-list {
 .bg-danger {
   background-color: rgba(255, 0, 0, 0.836) !important;
 }
+/* PRONAĐI PARK SEKCIJA */
 .map .row {
   padding: 25px 0px;
   background-color: rgba(56, 53, 53, 0.589);
@@ -258,6 +253,7 @@ header .menu-list {
   object-fit: cover;
   opacity: 0.8;
 }
+/* FAQ SEKCIJA */
 .faq .row {
   padding: 25px 0px;
   background-color: rgba(56, 53, 53, 0.589);
@@ -270,7 +266,6 @@ header .menu-list {
   font-weight: 700;
   text-transform: uppercase;
 }
-
 .accordion-button:hover,
 .accordion-button:focus {
   background-color: rgb(255, 0, 0);
@@ -299,6 +294,7 @@ header .menu-list {
 .accordion-body a:hover {
   color: red;
 }
+/* INDEX FORM SEKCIJA */
 .index-form .row {
   padding: 25px 0px;
   background-color: rgba(56, 53, 53, 0.589);
@@ -327,6 +323,7 @@ header .menu-list {
   color: white;
   font-weight: bolder;
 }
+/* FOOTER */
 footer {
   background: rgba(7, 7, 7, 0.904);
   width: 100%;
@@ -335,7 +332,6 @@ footer a {
   text-decoration: none;
   color: white;
 }
-
 .social a {
   padding: 5px;
 }
@@ -350,11 +346,11 @@ footer a {
 .btn-primary:focus {
   border: none;
 }
-
 footer img {
   height: 80px;
   width: 80px;
 }
+/* MEDIA QUERYI */
 @media (max-width: 1200px) {
   body.disable-scroll {
     overflow: hidden;
@@ -368,8 +364,8 @@ footer img {
     color: red;
   }
   header .logo img {
-    height: 80px;
-    width: 80px;
+    height: 40px;
+    width: 40px;
   }
   .icon.hide {
     display: none;
@@ -413,7 +409,7 @@ footer img {
 }
 @media (max-width: 425px) {
   body {
-    background: url(../images/wallpaper2.png) no-repeat;
+    background: url(../images/okomita.png) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
