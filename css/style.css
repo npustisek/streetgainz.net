@@ -229,10 +229,17 @@ header .menu-list {
   object-fit: contain;
 }
 .carousel-item img {
-  border: 1px solid red;
+  border: 2px solid red;
   width: auto;
 }
-.carousel-control-prev-icon {
+.fa-angle-left,
+.fa-angle-right {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  cursor: pointer;
+}
+.fa-angle-left:hover,
+.fa-angle-right:hover {
   color: red;
 }
 .carousel-item.active {
@@ -297,6 +304,9 @@ header .menu-list {
   opacity: 0.8;
 }
 /* FAQ SEKCIJA */
+#faq {
+  scroll-margin-block-start: 120px;
+}
 .faq .row {
   padding: 25px 0px;
   background-color: rgba(56, 53, 53, 0.589);
@@ -324,6 +334,7 @@ header .menu-list {
 }
 .accordion-button:hover {
   background-color: rgb(255, 0, 0);
+  color: black;
 }
 .accordion-button:focus {
   border: 0;
@@ -366,6 +377,12 @@ header .menu-list {
   text-align: center;
   font-size: 20px;
 }
+.index-form span {
+  font-weight: bolder;
+}
+.index-form span:hover {
+  color: #ff0000;
+}
 .form-control {
   border: 1px solid red;
   background-color: rgba(56, 53, 53, 0.589);
@@ -384,6 +401,7 @@ textarea.form-control {
   outline: 0;
   box-shadow: none;
 }
+
 /* FOOTER */
 footer {
   background: rgba(7, 7, 7, 0.904);
@@ -440,8 +458,8 @@ footer .btn-primary {
     color: red;
   }
   header .logo img {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
   }
   .icon.hide {
     display: none;
@@ -486,6 +504,10 @@ footer .btn-primary {
   .main-title {
     font-size: 6vw;
   }
+  footer img {
+    width: 35%;
+    object-fit: cover;
+  }
 }
 @media (max-width: 425px) {
   body {
@@ -499,5 +521,10 @@ footer .btn-primary {
   }
   main {
     overflow: hidden;
+  }
+  footer img {
+    width: 20%;
+    object-fit: cover;
+    padding-bottom: 15px;
   }
 }
