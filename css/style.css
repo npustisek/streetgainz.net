@@ -100,17 +100,14 @@ header .menu-list {
   margin-top: 200px;
   margin-bottom: 150px;
 }
-.banner-img {
-  width: 100%;
-  height: 100%;
-  opacity: 0.7;
-}
-.banner-img {
-  font-family: "bahnschrift";
+.main-title {
+  font-family: "Bebas Neue", sans-serif;
   font-size: 80px;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   opacity: 0.7;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
+  letter-spacing: -0.5px;
 }
 .arrow {
   position: absolute;
@@ -150,10 +147,14 @@ header .menu-list {
 #about {
   scroll-margin-block-start: 110px;
 }
+.about .container {
+  margin-top: 100px;
+}
 .about .row {
   padding: 25px 0px;
   background-color: rgba(56, 53, 53, 0.589);
   border: 1px solid red;
+  margin-top: 150px;
 }
 .about-img {
   width: 100%;
@@ -170,6 +171,37 @@ header .menu-list {
   text-transform: uppercase;
 }
 .about p {
+  padding-top: 10px;
+  color: rgb(255, 255, 255);
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+/* ABOUT SW SUB-SECTION */
+.about-sw.container {
+  margin-top: 150px;
+}
+.about-sw .row {
+  padding: 25px 0px;
+  background-color: rgba(56, 53, 53, 0.589);
+  border: 1px solid red;
+  margin: 150px 0px;
+}
+.about-sw-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.about-sw .title {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.about-sw p {
   padding-top: 10px;
   color: rgb(255, 255, 255);
   font-family: "Oswald", sans-serif;
@@ -197,16 +229,25 @@ header .menu-list {
 }
 .carousel-item img {
   border: 1px solid red;
+  width: auto;
+}
+.carousel-control-prev-icon {
+  color: red;
+}
+.carousel-item.active {
+  display: flex;
+  justify-content: center;
 }
 /* SHOP SEKCIJA */
 .shop .row {
   padding: 25px 0px;
   background-color: rgba(56, 53, 53, 0.589);
   border: 1px solid red;
+  margin-top: 150px;
 }
 .shop .title {
   text-align: center;
-  font-family: "bahnschrift";
+  font-family: "Bebas Neue", sans-serif;
   color: rgb(255, 255, 255);
   font-size: 35px;
   font-weight: 700;
@@ -231,10 +272,11 @@ header .menu-list {
   padding: 25px 0px;
   background-color: rgba(56, 53, 53, 0.589);
   border: 1px solid red;
+  margin-top: 150px;
 }
 .map .title {
   text-align: center;
-  font-family: "bahnschrift";
+  font-family: "Bebas Neue", sans-serif;
   color: rgb(255, 255, 255);
   font-size: 35px;
   font-weight: 700;
@@ -258,27 +300,34 @@ header .menu-list {
   padding: 25px 0px;
   background-color: rgba(56, 53, 53, 0.589);
   border: 1px solid red;
+  margin-top: 150px;
 }
 .faq .title {
-  font-family: "bahnschrift";
+  font-family: "Bebas Neue", sans-serif;
   color: rgb(255, 255, 255);
   font-size: 35px;
   font-weight: 700;
   text-transform: uppercase;
 }
-.accordion-button:hover,
-.accordion-button:focus {
-  background-color: rgb(255, 0, 0);
-}
-.accordion-button {
+.accordion-button.collapsed {
   background-color: rgba(0, 0, 0, 0.856);
   color: rgb(255, 255, 255);
   font-family: "bahnschrift";
   font-size: 20px;
 }
 .accordion-button:not(.collapsed) {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.856);
+  background-color: rgb(255, 0, 0);
+  color: rgb(0, 0, 0);
+  font-family: "bahnschrift";
+  font-size: 20px;
+}
+.accordion-button:hover {
+  background-color: rgb(255, 0, 0);
+}
+.accordion-button:focus {
+  border: 0;
+  outline: 0;
+  box-shadow: none;
 }
 .accordion-body {
   background-color: rgba(0, 0, 0, 0.856);
@@ -299,10 +348,11 @@ header .menu-list {
   padding: 25px 0px;
   background-color: rgba(56, 53, 53, 0.589);
   border: 1px solid red;
+  margin-top: 150px;
 }
 .index-form .title {
   text-align: center;
-  font-family: "bahnschrift";
+  font-family: "Bebas Neue", sans-serif;
   color: rgb(255, 255, 255);
   font-size: 35px;
   font-weight: 700;
@@ -319,14 +369,26 @@ header .menu-list {
   border: 1px solid red;
   background-color: rgba(56, 53, 53, 0.589);
 }
-.form-control input {
-  color: white;
+input.form-control {
+  color: white !important;
   font-weight: bolder;
+}
+textarea.form-control {
+  color: white !important;
+  font-weight: bolder;
+}
+.form-control:focus {
+  border: 1px solid red;
+  background-color: rgba(56, 53, 53, 0.589);
+  outline: 0;
+  box-shadow: none;
 }
 /* FOOTER */
 footer {
   background: rgba(7, 7, 7, 0.904);
   width: 100%;
+  bottom: 0;
+  margin-top: 150px;
 }
 footer a {
   text-decoration: none;
@@ -347,8 +409,21 @@ footer a {
   border: none;
 }
 footer img {
-  height: 80px;
-  width: 80px;
+  width: 50%;
+  object-fit: cover;
+}
+footer hr {
+  color: white;
+  opacity: 1;
+}
+footer h5 {
+  font-family: "Bebas Neue", sans-serif;
+}
+footer .form-control {
+  height: 38px;
+}
+footer .btn-primary {
+  height: 38px;
 }
 /* MEDIA QUERYI */
 @media (max-width: 1200px) {
@@ -404,7 +479,7 @@ footer img {
     margin-bottom: 10px;
   }
   .main-title {
-    font-size: 7vw;
+    font-size: 6vw;
   }
 }
 @media (max-width: 425px) {
