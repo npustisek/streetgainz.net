@@ -113,6 +113,7 @@ header .menu-list {
   position: absolute;
   left: 50%;
   bottom: -80px;
+  width: 60px;
 }
 .arrow span {
   display: block;
@@ -145,7 +146,7 @@ header .menu-list {
 }
 /* ABOUT SEKCIJA */
 #about {
-  scroll-margin-block-start: 110px;
+  scroll-margin-block-start: 150px;
 }
 .about .container {
   margin-top: 100px;
