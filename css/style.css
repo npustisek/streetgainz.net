@@ -45,7 +45,7 @@ header .menu-list {
 .menu-list li a {
   color: #fff;
   font-family: "bahnschrift";
-  font-size: 20px;
+  font-size: 1.3rem;
   margin-left: 25px;
   text-decoration: none;
   transition: all 0.4s ease;
@@ -59,17 +59,9 @@ header .menu-list {
 }
 .icon {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.3rem;
   cursor: pointer;
   display: none;
-}
-.dropbtn {
-  font-family: "bahnschrift";
-  font-size: 20px;
-  margin-left: 25px;
-  padding-bottom: 5px;
-  text-decoration: none;
-  transition: all 0.4s ease;
 }
 .dropdown {
   position: relative;
@@ -85,7 +77,7 @@ header .menu-list {
   border-bottom: 5px solid rgb(247, 31, 31);
 }
 .dropdown-content a {
-  padding: 20px;
+  padding: 12px;
   text-decoration: none;
   display: block;
 }
@@ -101,13 +93,13 @@ header .menu-list {
   margin-bottom: 150px;
 }
 .main-title {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 80px;
+  font-family: "Bebas Neue";
+  font-size: 3.6rem;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   opacity: 0.7;
-  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
-  letter-spacing: -0.5px;
+  text-shadow: 6px 3px 2px rgb(0, 0, 0);
+  letter-spacing: -0.7px;
 }
 .arrow {
   position: absolute;
@@ -146,16 +138,13 @@ header .menu-list {
 }
 /* ABOUT SEKCIJA */
 #about {
-  scroll-margin-block-start: 150px;
-}
-.about .container {
-  margin-top: 100px;
+  scroll-margin-block-start: 170px;
 }
 .about .row {
   padding: 25px 0px;
   background-color: rgba(56, 53, 53, 0.589);
   border: 1px solid red;
-  margin-top: 150px;
+  margin: 150px 0;
 }
 .about-img {
   width: 100%;
@@ -167,8 +156,7 @@ header .menu-list {
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
   color: rgb(255, 255, 255);
-  font-size: 35px;
-  font-weight: 700;
+  font-size: 2.2rem;
   text-transform: uppercase;
 }
 .about p {
@@ -176,9 +164,12 @@ header .menu-list {
   color: rgb(255, 255, 255);
   font-family: "Oswald", sans-serif;
   text-align: center;
-  font-size: 20px;
+  font-size: 1.1rem;
 }
 /* ABOUT SW SUB-SECTION */
+#about-sw {
+  scroll-margin-block-start: 170px;
+}
 .about-sw.container {
   margin-top: 150px;
 }
@@ -198,8 +189,7 @@ header .menu-list {
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
   color: rgb(255, 255, 255);
-  font-size: 35px;
-  font-weight: 700;
+  font-size: 2.2rem;
   text-transform: uppercase;
 }
 .about-sw p {
@@ -207,7 +197,7 @@ header .menu-list {
   color: rgb(255, 255, 255);
   font-family: "Oswald", sans-serif;
   text-align: center;
-  font-size: 20px;
+  font-size: 1.1rem;
 }
 .btn {
   font-family: "Oswald", sans-serif;
@@ -220,7 +210,7 @@ header .menu-list {
 }
 .btn a {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.1rem;
   text-decoration: none;
 }
 /* SLIDER */
@@ -235,7 +225,7 @@ header .menu-list {
 .fa-angle-left,
 .fa-angle-right {
   color: rgb(255, 255, 255);
-  font-size: 50px;
+  font-size: 3rem;
   cursor: pointer;
 }
 .fa-angle-left:hover,
@@ -251,14 +241,14 @@ header .menu-list {
   padding: 25px 0px;
   background-color: rgba(56, 53, 53, 0.589);
   border: 1px solid red;
+  margin: 150px 0;
   margin-top: 150px;
 }
 .shop .title {
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
   color: rgb(255, 255, 255);
-  font-size: 35px;
-  font-weight: 700;
+  font-size: 2.2rem;
   text-transform: uppercase;
 }
 .shop p {
@@ -266,28 +256,28 @@ header .menu-list {
   color: rgb(255, 255, 255);
   font-family: "bahnschrift";
   text-align: center;
-  font-size: 20px;
+  font-size: 1.1rem;
 }
 .progress {
-  height: 25px;
+  height: 1.5rem;
   border: 1px solid black;
 }
 .bg-danger {
-  background-color: rgba(255, 0, 0, 0.836) !important;
+  background-color: rgb(255, 0, 0) !important;
 }
 /* PRONAĐI PARK SEKCIJA */
 .map .row {
   padding: 25px 0px;
   background-color: rgba(56, 53, 53, 0.589);
   border: 1px solid red;
+  margin: 150px 0;
   margin-top: 150px;
 }
 .map .title {
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
   color: rgb(255, 255, 255);
-  font-size: 35px;
-  font-weight: 700;
+  font-size: 2.2rem;
   text-transform: uppercase;
 }
 .map p {
@@ -295,7 +285,7 @@ header .menu-list {
   color: rgb(255, 255, 255);
   font-family: "bahnschrift";
   text-align: center;
-  font-size: 20px;
+  font-size: 1.1rem;
 }
 .map-img {
   width: 100%;
@@ -305,32 +295,32 @@ header .menu-list {
 }
 /* FAQ SEKCIJA */
 #faq {
-  scroll-margin-block-start: 120px;
+  scroll-margin-block-start: 140px;
 }
 .faq .row {
   padding: 25px 0px;
   background-color: rgba(56, 53, 53, 0.589);
   border: 1px solid red;
+  margin: 150px 0;
   margin-top: 150px;
 }
 .faq .title {
   font-family: "Bebas Neue", sans-serif;
   color: rgb(255, 255, 255);
-  font-size: 35px;
-  font-weight: 700;
+  font-size: 2.2rem;
   text-transform: uppercase;
 }
 .accordion-button.collapsed {
   background-color: rgba(0, 0, 0, 0.856);
   color: rgb(255, 255, 255);
   font-family: "bahnschrift";
-  font-size: 20px;
+  font-size: 1.1rem;
 }
 .accordion-button:not(.collapsed) {
   background-color: rgb(255, 0, 0);
   color: rgb(0, 0, 0);
   font-family: "bahnschrift";
-  font-size: 20px;
+  font-size: 1.1rem;
 }
 .accordion-button:hover {
   background-color: rgb(255, 0, 0);
@@ -345,7 +335,7 @@ header .menu-list {
   background-color: rgba(0, 0, 0, 0.856);
   color: rgb(255, 255, 255);
   font-family: "bahnschrift";
-  font-size: 15px;
+  font-size: 1.1rem;
 }
 .accordion-body a {
   text-decoration: none;
@@ -360,14 +350,14 @@ header .menu-list {
   padding: 25px 0px;
   background-color: rgba(56, 53, 53, 0.589);
   border: 1px solid red;
+  margin: 150px 0;
   margin-top: 150px;
 }
 .index-form .title {
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
   color: rgb(255, 255, 255);
-  font-size: 35px;
-  font-weight: 700;
+  font-size: 2.2rem;
   text-transform: uppercase;
 }
 .index-form .subtitle {
@@ -375,13 +365,11 @@ header .menu-list {
   color: rgb(255, 255, 255);
   font-family: "bahnschrift";
   text-align: center;
-  font-size: 20px;
+  font-size: 1.1rem;
 }
 .index-form span {
   font-weight: bolder;
-}
-.index-form span:hover {
-  color: #ff0000;
+  color: red;
 }
 .form-control {
   border: 1px solid red;
@@ -431,18 +419,25 @@ footer img {
   width: 50%;
   object-fit: cover;
 }
+footer .fmenu {
+  font-size: 1.1rem;
+}
 footer hr {
   color: white;
   opacity: 1;
 }
 footer h5 {
   font-family: "Bebas Neue", sans-serif;
+  font-size: 2.2rem;
 }
 footer .form-control {
   height: 38px;
 }
 footer .btn-primary {
   height: 38px;
+}
+footer .small {
+  font-size: 1.1rem;
 }
 /* MEDIA QUERYI */
 @media (max-width: 1200px) {
@@ -452,7 +447,7 @@ footer .btn-primary {
   .icon {
     display: block;
     float: right;
-    padding-right: 30px;
+    padding-right: 20px;
   }
   .icon:hover {
     color: red;
@@ -474,7 +469,7 @@ footer .btn-primary {
     max-width: 400px;
     background: rgba(7, 7, 7, 0.904);
     display: block;
-    padding: 40px 0;
+    padding: 13px 0;
     text-align: center;
     border-right: 1px red solid;
     transition: all 0.4s ease;
@@ -509,18 +504,105 @@ footer .btn-primary {
     object-fit: cover;
   }
 }
+
 @media (max-width: 425px) {
+  main {
+    overflow: hidden;
+  }
   body {
     background: url(../images/okomita.png) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
   }
-  .about .row {
-    overflow: hidden;
+  .menu-list li a {
+    font-size: 1rem;
   }
-  main {
-    overflow: hidden;
+  .main-title {
+    font-size: 2rem;
+  }
+  .arrow {
+    bottom: -45px;
+  }
+  .arrow span {
+    width: 20px;
+    height: 20px;
+  }
+  #about {
+    scroll-margin-block-start: 245px;
+  }
+  .about .title {
+    font-size: 1.3rem;
+  }
+  .about p {
+    font-size: 1rem;
+    margin: 10px 0 !important;
+  }
+  .btn a {
+    font-size: 1rem;
+  }
+  .about-sw .title {
+    font-size: 1.3rem;
+    margin-top: 5px;
+  }
+  .about-sw p {
+    font-size: 1rem;
+    margin: 10px 0 !important;
+  }
+  .about-sw .btn {
+    margin-top: 10px !important;
+  }
+  .shop .title {
+    font-size: 1.3rem;
+  }
+  .shop p {
+    font-size: 1rem;
+  }
+  .map .title {
+    font-size: 1.3rem;
+  }
+  .map p {
+    font-size: 1rem;
+  }
+  #faq {
+    scroll-margin-block-start: 70px;
+  }
+  .faq .title {
+    font-size: 1.3rem;
+  }
+  .accordion-button.collapsed {
+    font-size: 1rem;
+  }
+  .accordion-button:not(.collapsed) {
+    font-size: 1rem;
+  }
+  .accordion-body {
+    font-size: 1rem;
+  }
+  .index-form .title {
+    font-size: 1.3rem;
+  }
+  .index-form .subtitle {
+    font-size: 1rem;
+  }
+  input.form-control {
+    color: white !important;
+    font-weight: bolder;
+    font-size: 1rem;
+  }
+  textarea.form-control {
+    color: white !important;
+    font-weight: bolder;
+    font-size: 1rem;
+  }
+  footer .fmenu {
+    font-size: 1rem;
+  }
+  footer .small {
+    font-size: 1rem;
+  }
+  footer h5 {
+    font-size: 1.3rem;
   }
   footer img {
     width: 20%;
