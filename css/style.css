@@ -101,6 +101,9 @@ header .menu-list {
   text-shadow: 6px 3px 2px rgb(0, 0, 0);
   letter-spacing: -0.7px;
 }
+.main-title span {
+  color: rgb(255, 0, 0);
+}
 .arrow {
   position: absolute;
   left: 50%;
