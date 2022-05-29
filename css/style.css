@@ -1,9 +1,8 @@
 /* FONTS */
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Trykker&display=swap");
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
   font-family: sans-serif;
 }
 body {
@@ -157,7 +156,7 @@ header .menu-list {
 }
 .about .title {
   text-align: center;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Trykker", sans-serif;
   color: rgb(255, 255, 255);
   font-size: 2.2rem;
   text-transform: uppercase;
@@ -165,7 +164,7 @@ header .menu-list {
 .about p {
   padding-top: 10px;
   color: rgb(255, 255, 255);
-  font-family: "Oswald", sans-serif;
+  font-family: "Trykker", sans-serif;
   text-align: center;
   font-size: 1.1rem;
 }
@@ -423,15 +422,17 @@ footer img {
   object-fit: cover;
 }
 footer .fmenu {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 footer hr {
   color: white;
   opacity: 1;
 }
-footer h5 {
+.ftext {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: white;
 }
 footer .form-control {
   height: 38px;
@@ -440,7 +441,7 @@ footer .btn-primary {
   height: 38px;
 }
 footer .small {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 /* MEDIA QUERYI */
 @media (max-width: 1200px) {
@@ -471,8 +472,10 @@ footer .small {
     width: 100%;
     max-width: 400px;
     background: rgba(7, 7, 7, 0.904);
-    display: block;
     padding: 13px 0;
+    display: flex;
+    align-items: middle;
+    flex-direction: column;
     text-align: center;
     border-right: 1px red solid;
     transition: all 0.4s ease;
@@ -480,8 +483,11 @@ footer .small {
   header .menu-list.active {
     left: -0%;
   }
-  header .menu-list li {
-    margin-top: 40px;
+  .cancel-btn i {
+    float: right;
+  }
+  .menu-list li {
+    margin-top: 20px;
   }
   header .menu-list li a {
     font-size: 23px;
@@ -503,8 +509,17 @@ footer .small {
     font-size: 6vw;
   }
   footer img {
-    width: 35%;
+    width: 55%;
     object-fit: cover;
+  }
+  footer .fmenu {
+    font-size: 1rem;
+  }
+  .ftext {
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: white;
   }
 }
 
@@ -513,7 +528,7 @@ footer .small {
     overflow: hidden;
   }
   body {
-    background: url(../images/okomita.png) no-repeat;
+    background: url(../images/okomita.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -599,13 +614,16 @@ footer .small {
     font-size: 1rem;
   }
   footer .fmenu {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   footer .small {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
-  footer h5 {
-    font-size: 1.3rem;
+  .ftext {
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: white;
   }
   footer img {
     width: 20%;
