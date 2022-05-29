@@ -5,17 +5,12 @@
   padding: 0;
   font-family: sans-serif;
 }
-
-html {
-  height: -webkit-fill-available;
-}
 body {
   background: url(../images/VODORAVNA.png) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
+  scroll-behavior: snap;
 }
 /* NAVBAR */
 header {
