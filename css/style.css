@@ -6,7 +6,7 @@
   font-family: sans-serif;
 }
 body {
-  background: url(../images/VODORAVNA.png) no-repeat;
+  background: url(/images/VODORAVNA.png) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -528,7 +528,7 @@ footer .small {
     overflow: hidden;
   }
   body {
-    background: url(../images/okomita.jpeg) no-repeat;
+    background: url(/images/okomita.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
