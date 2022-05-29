@@ -17,6 +17,7 @@ body {
 }
 body {
   background: url(../images/VODORAVNA.png) no-repeat center center fixed;
+  background-size: cover;
 }
 /* NAVBAR */
 header {
@@ -545,6 +546,7 @@ footer .small {
   }
   body {
     background: url(../images/okomita.jpeg) no-repeat center center fixed;
+    background-size: cover;
   }
   .menu-list li a {
     font-size: 1rem;
