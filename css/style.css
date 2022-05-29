@@ -5,15 +5,13 @@
   padding: 0;
   font-family: sans-serif;
 }
-html {
-  -webkit-overflow-scrolling: auto;
-}
+
 body {
   background: url(../images/VODORAVNA.png) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  -webkit-overflow-scrolling: auto;
+  height: 100vh;
 }
 
 /* NAVBAR */
@@ -536,7 +534,6 @@ footer .small {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    -webkit-overflow-scrolling: auto;
   }
   .menu-list li a {
     font-size: 1rem;
