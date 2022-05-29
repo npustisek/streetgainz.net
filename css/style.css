@@ -6,11 +6,12 @@
   font-family: sans-serif;
 }
 body {
-  background: url(../images/VODORAVNA.png) no-repeat;
+  height: 100%;
+  background: url(../images/VODORAVNA.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  scroll-snap-type: y mandatory;
 }
 /* NAVBAR */
 header {
@@ -528,10 +529,12 @@ footer .small {
     overflow: hidden;
   }
   body {
-    background: url(../images/okomita.jpeg) no-repeat;
+    height: 100%;
+    background: url(../images/okomita.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
   }
   .menu-list li a {
     font-size: 1rem;
