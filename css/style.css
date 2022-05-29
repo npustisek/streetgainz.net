@@ -535,7 +535,7 @@ footer .small {
   main {
     overflow: hidden;
   }
-  body:before {
+  /* body:before {
     content: "";
     display: block;
     position: fixed;
@@ -549,7 +549,7 @@ footer .small {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+  } */
   .menu-list li a {
     font-size: 1rem;
   }
