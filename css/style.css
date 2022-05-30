@@ -5,19 +5,11 @@
   padding: 0;
   font-family: sans-serif;
 }
-body:before {
-  content: "";
-  display: block;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -10;
-  background: url(../images/VODORAVNA.png) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: url(../images/VODORAVNA.png) no-repeat center center fixed;
   background-size: cover;
 }
 /* NAVBAR */
@@ -147,9 +139,7 @@ header .menu-list {
   }
 }
 /* ABOUT SEKCIJA */
-#about {
-  scroll-margin-block-start: 170px;
-}
+
 .about .row {
   padding: 25px 0px;
   background-color: rgba(56, 53, 53, 0.589);
@@ -177,9 +167,9 @@ header .menu-list {
   font-size: 1.1rem;
 }
 /* ABOUT SW SUB-SECTION */
-#about-sw {
+/* #about-sw {
   scroll-margin-block-start: 170px;
-}
+} */
 .about-sw.container {
   margin-top: 150px;
 }
@@ -227,6 +217,7 @@ header .menu-list {
 .swiper {
   width: 100%;
   height: 100%;
+  margin-top: 150px;
 }
 .swiper-slide {
   text-align: center;
@@ -310,9 +301,9 @@ header .menu-list {
   opacity: 0.8;
 }
 /* FAQ SEKCIJA */
-#faq {
+/* #faq {
   scroll-margin-block-start: 140px;
-}
+} */
 .faq .row {
   padding: 25px 0px;
   background-color: rgba(56, 53, 53, 0.589);
@@ -538,6 +529,10 @@ footer .small {
 }
 
 @media (max-width: 425px) {
+  body {
+    background: url(../images/okomita.png) no-repeat center center fixed;
+    background-size: cover;
+  }
   main {
     overflow: hidden;
   }
@@ -554,9 +549,9 @@ footer .small {
     width: 20px;
     height: 20px;
   }
-  #about {
+  /* #about {
     scroll-margin-block-start: 245px;
-  }
+  } */
   .about .title {
     font-size: 1.3rem;
   }
@@ -590,9 +585,9 @@ footer .small {
   .map p {
     font-size: 1rem;
   }
-  #faq {
+  /* #faq {
     scroll-margin-block-start: 70px;
-  }
+  } */
   .faq .title {
     font-size: 1.3rem;
   }
