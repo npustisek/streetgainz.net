@@ -224,27 +224,33 @@ header .menu-list {
   text-decoration: none;
 }
 /* SLIDER */
-.carousel.slide img {
-  height: 80vh;
-  object-fit: contain;
+.swiper {
+  width: 100%;
+  height: 100%;
 }
-.carousel-item img {
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border: 2px solid red;
-  width: auto;
 }
-.fa-angle-left,
-.fa-angle-right {
-  color: rgb(255, 255, 255);
-  font-size: 3rem;
-  cursor: pointer;
-}
-.fa-angle-left:hover,
-.fa-angle-right:hover {
+.swiper-button-next,
+.swiper-button-prev {
   color: red;
+  font-weight: bold;
 }
-.carousel-item.active {
-  display: flex;
-  justify-content: center;
+.swiper-pagination > .swiper-pagination-bullet {
+  opacity: 1;
+  border: rgb(255, 0, 0) solid 1px;
+  background-color: transparent;
+}
+.swiper-pagination > .swiper-pagination-bullet-active {
+  background-color: rgb(255, 0, 0);
 }
 /* SHOP SEKCIJA */
 .shop .row {
@@ -535,21 +541,6 @@ footer .small {
   main {
     overflow: hidden;
   }
-  /* body:before {
-    content: "";
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -10;
-    background: url(../images/okomita.jpeg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  } */
   .menu-list li a {
     font-size: 1rem;
   }
