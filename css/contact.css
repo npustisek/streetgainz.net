@@ -1,0 +1,389 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: url(../images/VODORAVNA.png) no-repeat center center fixed;
+  background-size: cover;
+}
+/* NAVBAR */
+header {
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+  transition: all 0.4s ease-out;
+}
+header.sticky {
+  background: rgba(7, 7, 7, 0.904);
+  border-bottom: 5px solid rgb(247, 31, 31);
+}
+header .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+}
+header .logo img {
+  height: 65px;
+  width: 65px;
+}
+header .menu-list {
+  display: inline-flex;
+}
+.menu-list li {
+  list-style: none;
+}
+.menu-list li a {
+  color: #fff;
+  font-family: "bahnschrift";
+  font-size: 1.3rem;
+  margin-left: 25px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.menu-list li a:hover {
+  color: red;
+}
+.menu-list li a.active {
+  color: red;
+  border-bottom: 1px solid red;
+}
+.icon {
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+  display: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: rgba(7, 7, 7, 0.904);
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-bottom: 5px solid rgb(247, 31, 31);
+}
+.dropdown-content a {
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  color: red;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* PROSTOR ZA GLAVNI NATPIS */
+.banner {
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+.main-title {
+  font-family: "Bebas Neue";
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+  text-shadow: 6px 3px 2px rgb(0, 0, 0);
+  letter-spacing: -0.7px;
+}
+.main-title span {
+  color: rgb(255, 0, 0);
+}
+.arrow {
+  position: absolute;
+  left: 50%;
+  bottom: -80px;
+  width: 60px;
+}
+.arrow span {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-bottom: 5px solid #ff0000;
+  border-right: 5px solid #ff0000;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+/* FORM */
+.form {
+  width: 500px;
+  height: 610px;
+  background: #000000d3;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px rgb(255, 0, 0);
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+h2 {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  color: #ffffff;
+  border-bottom: 3px solid #ff0000;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #ffffff;
+}
+input:focus {
+  border-bottom: 2px solid #ff0000;
+}
+p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+button {
+  padding: 8px 0px;
+  width: 30%;
+  margin: 8px 0 0;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #ff0000;
+  background: 0;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.fbtn {
+  float: right;
+  margin-right: 37%;
+}
+
+button:hover {
+  background: #ff0000;
+  color: rgb(255, 255, 255);
+}
+.contact-details {
+  position: absolute;
+  bottom: -15px;
+  right: -20px;
+  background: #ff0000bd;
+  color: rgb(0, 0, 0);
+  width: 320px;
+  padding: 16px 4px 16px 0;
+  border-radius: 6px;
+  font-size: 15px;
+  box-shadow: 10px 10px 40px -14px rgb(255, 0, 0);
+}
+span {
+  margin: 0 5px 0 15px;
+}
+/* KRAJ FORME */
+/* FOOTER */
+footer {
+  background: rgba(7, 7, 7, 0.904);
+  width: 100%;
+  bottom: 0;
+  margin-top: 150px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+.social a {
+  padding: 5px;
+}
+.fmenu a:hover,
+.social a:hover {
+  color: red;
+}
+.btn-primary {
+  background-color: rgb(255, 0, 0);
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  border: none;
+}
+footer img {
+  width: 45%;
+  object-fit: cover;
+  opacity: 0.7;
+}
+footer .fmenu {
+  font-size: 1rem;
+}
+footer hr {
+  color: white;
+  opacity: 1;
+}
+.ftext {
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: white;
+}
+footer .form-control {
+  height: 38px;
+}
+footer .btn-primary {
+  height: 38px;
+}
+footer .small {
+  font-size: 1rem;
+}
+/* MEDIA QUERYI */
+@media (max-width: 1200px) {
+  body.disable-scroll {
+    overflow: hidden;
+  }
+  .icon {
+    display: block;
+    float: right;
+    padding-right: 20px;
+  }
+  .icon:hover {
+    color: red;
+  }
+  header .logo img {
+    height: 50px;
+    width: 50px;
+  }
+  .icon.hide {
+    display: none;
+  }
+
+  header .menu-list {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100vh;
+    width: 100%;
+    max-width: 400px;
+    background: rgba(7, 7, 7, 0.904);
+    padding: 13px 0;
+    display: flex;
+    align-items: middle;
+    flex-direction: column;
+    text-align: center;
+    border-right: 1px red solid;
+    transition: all 0.4s ease;
+  }
+  header .menu-list.active {
+    left: -0%;
+  }
+  .cancel-btn i {
+    float: right;
+  }
+  .menu-list li {
+    margin-top: 20px;
+  }
+  header .menu-list li a {
+    font-size: 23px;
+  }
+  .dropdown {
+    text-align: center;
+  }
+  .dropdown-content {
+    transform: translateX(-50%);
+    left: 50%;
+  }
+  .dropdown-content a {
+    padding: 10px;
+  }
+  .btn {
+    margin-bottom: 10px;
+  }
+  .main-title {
+    font-size: 6vw;
+  }
+  footer img {
+    width: 55%;
+    object-fit: cover;
+  }
+  footer .fmenu {
+    font-size: 1rem;
+  }
+  .ftext {
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: white;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    background: url(../images/okomita.png) no-repeat center center fixed;
+    background-size: cover;
+  }
+  main {
+    overflow: hidden;
+  }
+  .menu-list li a {
+    font-size: 1rem;
+  }
+  .main-title {
+    font-size: 2rem;
+  }
+  .arrow {
+    bottom: -45px;
+  }
+  .arrow span {
+    width: 20px;
+    height: 20px;
+  }
+  footer .fmenu {
+    font-size: 0.8rem;
+  }
+  footer .small {
+    font-size: 0.8rem;
+  }
+  .ftext {
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: white;
+  }
+  footer img {
+    width: 20%;
+    object-fit: cover;
+    padding-bottom: 15px;
+  }
+}
