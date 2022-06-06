@@ -26,12 +26,17 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <script
       src="https://kit.fontawesome.com/4c44b9ed88.js"
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico" />
   </head>
 
@@ -80,11 +85,14 @@
           </div>
         </div>
         <div class="col-12 position-relative justify-self-center">
-          <a href="#about" class="arrow">
-            <span></span>
-            <span></span>
-            <span></span>
-          </a>
+          <div data-aos="zoom-in-down">
+            <a href="#about" class="arrow">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </div>
+          </div>
         </div>
       </div>
       <!-- KRAJ PROSTORA ZA GLAVNI NATPIS -->
@@ -132,7 +140,7 @@
               <div data-aos="fade-up">
                 <img
                   class="about-sw-img"
-                  src="images/Artboard 1.png"
+                  src="images/erwin.jpg"
                   alt="podjela-swa"
                 />
               </div>
@@ -143,27 +151,32 @@
               <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                 <div id="about-sw" class="title">Što je Street Workout?</div>
                 <p class="my-5">
-                  Ulično vježbanje ili Street Workout je relativno novi sport
+                  Ulično vježbanje (eng. Street workout) je relativno novi sport
                   koji ima za cilj promovirati bazično vježbanje. Podsjetimo,
                   bazične vježbe su zgibovi, sklekovi, propadanje, ruski zgibovi
-                  i čučnjevi. One tijelo dovode do lijepog i skladnog izgleda,
-                  ali i do povećavanja određenih preformansi tijela. Naime, ono
+                  i čučnjevi. One tijelo dovode do lijepog i skladnog izgleda i ono
+                  <!-- ,
+                  ali i do povećavanja određenih preformansi tijela. Naime, ono -->
                   postaje eksplozivnije, izdržljivije, ali i puno snažnije.
+                
+                  
                 </p>
                 <p class="mb-1">
                   Osim bazičnih vježbi, postoje i razni statični i dinamički
+                  elementi koji su također dio ovog sporta, a među popularnijima možemo izvdojiti zastavu (eng. human flag), stoj na rukama (eng. handstand), prednju i stražnju vagu (eng. front and back lever) i planche.
+                  <!-- Osim bazičnih vježbi, postoje i razni statični i dinamički
                   elementi koji su također dio ovog sporta. To su “ljudska
                   zastava”, prednja i stražnja vaga, “planche”… Treninzi se
                   odvijaju u tzv. Street Workout parkovima, ali se mogu izvoditi
                   bilo gdje, s obzirom na veliku mogućnost improvizacije i
                   fleksibilnosti samog sporta. Čar ovog sporta i jest ta
-                  domišljatost i kreativnost!
+                  domišljatost i kreativnost! -->
                 </p>
                 <button
                   type="button"
                   class="btn btn-outline-dark btn-lg mt-5 mx-auto"
                 >
-                  <a href="about.html">Zanima te povijest ovog sporta?</a>
+                  <a href="about.html">Želiš saznati više o ovom sportu?</a>
                 </button>
               </div>
             </div>
@@ -275,9 +288,7 @@
           <div class="row justify-content-center">
             <div class="col-11">
               <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                <div class="title align-left">
-                  Najčešća pitanja<i class="fa-solid fa-question"></i>
-                </div>
+                <div class="title align-left">Najčešća pitanja?</div>
               </div>
               <div
                 class="col-11 accordion accordion-flush mt-3"
@@ -492,10 +503,13 @@
           <div data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
             <div class="row justify-content-center">
               <div data-aos="fade-down" data-aos-anchor-placement="top-bottom">
-                <div class="col-11 title">Želiš surađivati s nama?</div>
+                <div class="col-11 title">
+                  Imaš pitanje za nas ili želiš suradnju?
+                </div>
                 <div class="col-12 subtitle mb-3">
-                  Pošalji nam poruku kroz obrazac ili direktno na mail
-                  <span>streetgainz1@gmail.com</span> s naslovom "SURADNJA"
+                  Kontaktiraj nas putem našeg maila
+                  <span>streetgainz1@gmail.com</span> s naslovom "SURADNJA" ili
+                  putem ovog obrasca u prilogu
                 </div>
               </div>
               <div class="mb-3 col-sm-6">
@@ -698,14 +712,14 @@
     </script>
     <!-- JQUERY ZA SCROLL -->
     <script>
-      $(document).on("click", "a.page-scroll", function (e) {
+      jQuery(document).on("click", "a.page-scroll", function (e) {
         e.preventDefault(); // To prevent it from directly going to the section.
-        parseInt("350"); // To get the number of pixels to scroll.
+        console.log($($(this).attr("href")).offset().top); // To get the number of pixels to scroll.
         $("html, body").animate(
           {
             scrollTop: $($(this).attr("href")).offset().top + 50,
           }, // It store the section id
-          1000
+          0
         );
       });
     </script>
