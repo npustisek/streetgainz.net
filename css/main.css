@@ -147,6 +147,7 @@ header .menu-list {
 }
 .about .row:hover {
   box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
+  transition: 500ms linear;
 }
 .about-img {
   width: 100%;
@@ -181,6 +182,7 @@ header .menu-list {
 }
 .about-sw .row:hover {
   box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
+  transition: 500ms linear;
 }
 .about-sw-img {
   width: 100%;
@@ -254,6 +256,7 @@ header .menu-list {
 }
 .shop .row:hover {
   box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
+  transition: 500ms linear;
 }
 .shop .title {
   text-align: center;
@@ -285,6 +288,7 @@ header .menu-list {
 }
 .map .row:hover {
   box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
+  transition: 500ms linear;
 }
 .map .title {
   text-align: center;
@@ -318,6 +322,7 @@ header .menu-list {
 }
 .faq .row:hover {
   box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
+  transition: 500ms linear;
 }
 .faq .title {
   font-family: "Bebas Neue", sans-serif;
@@ -369,6 +374,7 @@ header .menu-list {
 }
 .index-form .row:hover {
   box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
+  transition: 500ms linear;
 }
 .index-form .title {
   text-align: center;
