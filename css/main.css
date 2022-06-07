@@ -1,16 +1,18 @@
 /* FONTS */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akshar&display=swap");
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
 html {
+  overflow-y: scroll;
   scroll-behavior: smooth;
 }
 body {
   background: url(../images/VODORAVNA.png) no-repeat center center fixed;
   background-size: cover;
+  overflow: hidden;
 }
 /* NAVBAR */
 header {
@@ -43,7 +45,7 @@ header .menu-list {
 }
 .menu-list li a {
   color: #fff;
-  font-family: "bahnschrift";
+  font-family: "Akshar", sans-serif;
   font-size: 1.3rem;
   margin-left: 25px;
   text-decoration: none;
@@ -92,7 +94,7 @@ header .menu-list {
   margin-bottom: 150px;
 }
 .main-title {
-  font-family: "Bebas Neue";
+  font-family: "Bebas Neue", cursive;
   font-size: 3.6rem;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
@@ -156,7 +158,7 @@ header .menu-list {
 }
 .about .title {
   text-align: center;
-  font-family: "Trykker", sans-serif;
+  font-family: "Bebas Neue", cursive;
   color: rgb(255, 255, 255);
   font-size: 2.2rem;
   text-transform: uppercase;
@@ -164,7 +166,7 @@ header .menu-list {
 .about p {
   padding-top: 10px;
   color: rgb(255, 255, 255);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Akshar", sans-serif;
   text-align: center;
   font-size: 1.1rem;
 }
@@ -191,7 +193,7 @@ header .menu-list {
 }
 .about-sw .title {
   text-align: center;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Bebas Neue", cursive;
   color: rgb(255, 255, 255);
   font-size: 2.2rem;
   text-transform: uppercase;
@@ -199,12 +201,12 @@ header .menu-list {
 .about-sw p {
   padding-top: 10px;
   color: rgb(255, 255, 255);
-  font-family: "Oswald", sans-serif;
+  font-family: "Akshar", sans-serif;
   text-align: center;
   font-size: 1.1rem;
 }
 .btn {
-  font-family: "Oswald", sans-serif;
+  font-family: "Akshar", sans-serif;
   border: 1px solid red;
   width: fit-content;
   border-radius: 0px;
@@ -219,8 +221,8 @@ header .menu-list {
 }
 /* SLIDER */
 .swiper {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   margin-top: 150px;
 }
 .swiper-slide {
@@ -260,7 +262,7 @@ header .menu-list {
 }
 .shop .title {
   text-align: center;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Bebas Neue", cursive;
   color: rgb(255, 255, 255);
   font-size: 2.2rem;
   text-transform: uppercase;
@@ -268,7 +270,7 @@ header .menu-list {
 .shop p {
   padding-top: 10px;
   color: rgb(255, 255, 255);
-  font-family: "bahnschrift";
+  font-family: "Akshar", sans-serif;
   text-align: center;
   font-size: 1.1rem;
 }
@@ -292,7 +294,7 @@ header .menu-list {
 }
 .map .title {
   text-align: center;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Bebas Neue", cursive;
   color: rgb(255, 255, 255);
   font-size: 2.2rem;
   text-transform: uppercase;
@@ -300,7 +302,7 @@ header .menu-list {
 .map p {
   padding-top: 10px;
   color: rgb(255, 255, 255);
-  font-family: "bahnschrift";
+  font-family: "Akshar", sans-serif;
   text-align: center;
   font-size: 1.1rem;
 }
@@ -325,7 +327,7 @@ header .menu-list {
   transition: 500ms linear;
 }
 .faq .title {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Bebas Neue", cursive;
   color: rgb(255, 255, 255);
   font-size: 2.2rem;
   text-transform: uppercase;
@@ -333,13 +335,13 @@ header .menu-list {
 .accordion-button.collapsed {
   background-color: rgba(0, 0, 0, 0.856);
   color: rgb(255, 255, 255);
-  font-family: "bahnschrift";
+  font-family: "Akshar", sans-serif;
   font-size: 1.1rem;
 }
 .accordion-button:not(.collapsed) {
   background-color: rgb(255, 0, 0);
   color: rgb(0, 0, 0);
-  font-family: "bahnschrift";
+  font-family: "Akshar", sans-serif;
   font-size: 1.1rem;
 }
 .accordion-button:hover {
@@ -354,7 +356,7 @@ header .menu-list {
 .accordion-body {
   background-color: rgba(0, 0, 0, 0.856);
   color: rgb(255, 255, 255);
-  font-family: "bahnschrift";
+  font-family: "Akshar", sans-serif;
   font-size: 1.1rem;
 }
 .accordion-body a {
@@ -378,7 +380,7 @@ header .menu-list {
 }
 .index-form .title {
   text-align: center;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Bebas Neue", cursive;
   color: rgb(255, 255, 255);
   font-size: 2.2rem;
   text-transform: uppercase;
@@ -386,7 +388,7 @@ header .menu-list {
 .index-form .subtitle {
   padding-top: 10px;
   color: rgb(255, 255, 255);
-  font-family: "bahnschrift";
+  font-family: "Akshar", sans-serif;
   text-align: center;
   font-size: 1.1rem;
 }
@@ -401,10 +403,12 @@ header .menu-list {
 input.form-control {
   color: white !important;
   font-weight: bolder;
+  caret-color: #ff0000;
 }
 textarea.form-control {
   color: white !important;
   font-weight: bolder;
+  caret-color: #ff0000;
 }
 .form-control:focus {
   border: 1px solid red;
@@ -445,6 +449,7 @@ footer img {
 }
 footer .fmenu {
   font-size: 1rem;
+  font-family: "Akshar", sans-serif;
 }
 footer hr {
   color: white;
@@ -464,6 +469,7 @@ footer .btn-primary {
 }
 footer .small {
   font-size: 1rem;
+  font-family: "Akshar", sans-serif;
 }
 /* MEDIA QUERYI */
 @media (max-width: 1200px) {
@@ -527,8 +533,11 @@ footer .small {
   .btn {
     margin-bottom: 10px;
   }
+  .banner {
+    margin-top: 180px;
+  }
   .main-title {
-    font-size: 6vw;
+    font-size: 2.5rem;
   }
   .about .row {
     box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
@@ -573,6 +582,9 @@ footer .small {
   }
   .menu-list li a {
     font-size: 1rem;
+  }
+  .banner {
+    margin-top: 130px;
   }
   .main-title {
     font-size: 2rem;
