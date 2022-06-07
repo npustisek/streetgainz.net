@@ -1,16 +1,18 @@
 /* FONTS */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akshar&display=swap");
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
 html {
+  overflow-y: scroll;
   scroll-behavior: smooth;
 }
 body {
   background: url(../images/VODORAVNA.png) no-repeat center center fixed;
   background-size: cover;
+  overflow: hidden;
 }
 /* NAVBAR */
 header {
@@ -43,7 +45,7 @@ header .menu-list {
 }
 .menu-list li a {
   color: #fff;
-  font-family: "bahnschrift";
+  font-family: "Akshar", sans-serif;
   font-size: 1.3rem;
   margin-left: 25px;
   text-decoration: none;
@@ -92,8 +94,8 @@ header .menu-list {
   margin-bottom: 150px;
 }
 .main-title {
-  font-family: "Bebas Neue";
-  font-size: 2.6rem;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   opacity: 0.7;
@@ -140,17 +142,20 @@ header .menu-list {
 }
 /* FORM */
 .form {
-  width: 500px;
-  height: 610px;
+  width: 550px;
+  height: 640px;
   background: #000000d3;
   border-radius: 8px;
-  box-shadow: 0 0 40px -10px rgb(255, 0, 0);
-  margin: calc(50vh - 220px) auto;
+  margin: 10px auto;
   padding: 20px 30px;
   max-width: calc(100vw - 40px);
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Akshar", sans-serif;
   position: relative;
+}
+.form:hover {
+  box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
+  transition: 500ms linear;
 }
 h2 {
   margin: 10px 0;
@@ -158,7 +163,8 @@ h2 {
   color: #ffffff;
   border-bottom: 3px solid #ff0000;
 }
-input {
+input,
+textarea {
   width: 100%;
   padding: 10px;
   box-sizing: border-box;
@@ -166,11 +172,14 @@ input {
   outline: none;
   resize: none;
   border: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Akshar", sans-serif;
   transition: all 0.3s;
   border-bottom: 2px solid #ffffff;
+  caret-color: #ff0000;
+  color: white;
 }
-input:focus {
+input:focus,
+textarea:focus {
   border-bottom: 2px solid #ff0000;
 }
 p:before {
@@ -178,20 +187,18 @@ p:before {
   display: block;
   margin: 28px 0 0;
   font-size: 1.1rem;
-  color: #ffffff;
+  color: #ff0000;
 }
-button {
+.fbtn {
   padding: 8px 0px;
   width: 30%;
   margin: 8px 0 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Akshar", sans-serif;
   border: 2px solid #ff0000;
   background: 0;
   color: #ffffff;
   cursor: pointer;
   transition: all 0.3s;
-}
-.fbtn {
   float: right;
   margin-right: 37%;
 }
@@ -204,13 +211,12 @@ button:hover {
   position: absolute;
   bottom: -15px;
   right: -20px;
-  background: #ff0000bd;
+  background: #ff0000;
   color: rgb(0, 0, 0);
   width: 320px;
   padding: 16px 4px 16px 0;
   border-radius: 6px;
   font-size: 15px;
-  box-shadow: 10px 10px 40px -14px rgb(255, 0, 0);
 }
 span {
   margin: 0 5px 0 15px;
@@ -234,6 +240,16 @@ footer a {
 .social a:hover {
   color: red;
 }
+.form-control {
+  border: 1px solid red;
+  background-color: rgba(56, 53, 53, 0.589);
+}
+.form-control:focus {
+  border: 1px solid red;
+  background-color: rgba(56, 53, 53, 0.589);
+  outline: 0;
+  box-shadow: none;
+}
 .btn-primary {
   background-color: rgb(255, 0, 0);
 }
@@ -248,6 +264,7 @@ footer img {
 }
 footer .fmenu {
   font-size: 1rem;
+  font-family: "Akshar", sans-serif;
 }
 footer hr {
   color: white;
@@ -267,6 +284,7 @@ footer .btn-primary {
 }
 footer .small {
   font-size: 1rem;
+  font-family: "Akshar", sans-serif;
 }
 /* MEDIA QUERYI */
 @media (max-width: 1200px) {
@@ -330,8 +348,11 @@ footer .small {
   .btn {
     margin-bottom: 10px;
   }
+  .banner {
+    margin-top: 180px;
+  }
   .main-title {
-    font-size: 6vw;
+    font-size: 2.5rem;
   }
   footer img {
     width: 55%;
@@ -341,7 +362,7 @@ footer .small {
     font-size: 1rem;
   }
   .ftext {
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Bebas Neue", cursive;
     text-transform: uppercase;
     font-size: 1.1rem;
     color: white;
@@ -376,7 +397,7 @@ footer .small {
     font-size: 0.8rem;
   }
   .ftext {
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Bebas Neue", cursive;
     text-transform: uppercase;
     font-size: 1rem;
     color: white;
