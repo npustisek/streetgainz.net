@@ -113,8 +113,8 @@ header .menu-list {
 }
 .arrow span {
   display: block;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   border-bottom: 5px solid #ff0000;
   border-right: 5px solid #ff0000;
   transform: rotate(45deg);
@@ -141,21 +141,24 @@ header .menu-list {
   }
 }
 /* FORM */
+.fdiv {
+  margin: 500px auto 300px auto;
+  width: fit-content;
+}
 .form {
   width: 550px;
   height: 640px;
   background: #000000d3;
   border-radius: 8px;
-  margin: 10px auto;
   padding: 20px 30px;
   max-width: calc(100vw - 40px);
   box-sizing: border-box;
   font-family: "Akshar", sans-serif;
   position: relative;
+  transition: 500ms linear;
 }
 .form:hover {
   box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
-  transition: 500ms linear;
 }
 h2 {
   margin: 10px 0;
@@ -212,7 +215,7 @@ button:hover {
   bottom: -15px;
   right: -20px;
   background: #ff0000;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   width: 320px;
   padding: 16px 4px 16px 0;
   border-radius: 6px;
@@ -251,11 +254,21 @@ footer a {
   box-shadow: none;
 }
 .btn-primary {
-  background-color: rgb(255, 0, 0);
+  background-color: rgba(56, 53, 53, 0.589);
+  border: 1px solid red;
+  outline: 0 !important;
+  outline-color: transparent !important;
 }
-.btn-primary:hover,
-.btn-primary:focus {
+.btn-primary:hover {
+  border: 1px solid rgb(255, 0, 0);
+  background-color: red;
+}
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: red;
   border: none;
+  outline: none;
+  box-shadow: none;
 }
 footer img {
   width: 45%;
