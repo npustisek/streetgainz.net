@@ -100,7 +100,6 @@ header .menu-list {
   color: rgb(255, 255, 255);
   opacity: 0.7;
   text-shadow: 6px 3px 2px rgb(0, 0, 0);
-  letter-spacing: -0.7px;
 }
 .main-title span {
   color: rgb(255, 0, 0);
@@ -146,10 +145,10 @@ header .menu-list {
   padding: 25px 0px;
   background-color: rgba(0, 0, 0, 0.589);
   margin: 150px 0;
+  transition: 500ms linear;
 }
 .about .row:hover {
   box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
-  transition: 500ms linear;
 }
 .about-img {
   width: 100%;
@@ -171,9 +170,6 @@ header .menu-list {
   font-size: 1.1rem;
 }
 /* ABOUT SW SUB-SECTION */
-/* #about-sw {
-  scroll-margin-block-start: 170px;
-} */
 .about-sw.container {
   margin-top: 150px;
 }
@@ -181,10 +177,10 @@ header .menu-list {
   padding: 25px 0px;
   background-color: rgba(0, 0, 0, 0.589);
   margin: 150px 0px;
+  transition: 500ms linear;
 }
 .about-sw .row:hover {
   box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
-  transition: 500ms linear;
 }
 .about-sw-img {
   width: 100%;
@@ -255,10 +251,10 @@ header .menu-list {
   background-color: rgba(0, 0, 0, 0.589);
   margin: 150px 0;
   margin-top: 150px;
+  transition: 500ms linear;
 }
 .shop .row:hover {
   box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
-  transition: 500ms linear;
 }
 .shop .title {
   text-align: center;
@@ -287,10 +283,10 @@ header .menu-list {
   background-color: rgba(0, 0, 0, 0.589);
   margin: 150px 0;
   margin-top: 150px;
+  transition: 500ms linear;
 }
 .map .row:hover {
   box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
-  transition: 500ms linear;
 }
 .map .title {
   text-align: center;
@@ -313,18 +309,15 @@ header .menu-list {
   opacity: 0.8;
 }
 /* FAQ SEKCIJA */
-/* #faq {
-  scroll-margin-block-start: 140px;
-} */
 .faq .row {
   padding: 25px 0px;
   background-color: rgba(0, 0, 0, 0.589);
   margin: 150px 0;
   margin-top: 150px;
+  transition: 500ms linear;
 }
 .faq .row:hover {
   box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
-  transition: 500ms linear;
 }
 .faq .title {
   font-family: "Bebas Neue", cursive;
@@ -373,10 +366,10 @@ header .menu-list {
   background-color: rgba(0, 0, 0, 0.589);
   margin: 150px 0;
   margin-top: 150px;
+  transition: 500ms linear;
 }
 .index-form .row:hover {
   box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
-  transition: 500ms linear;
 }
 .index-form .title {
   text-align: center;
@@ -436,11 +429,21 @@ footer a {
   color: red;
 }
 .btn-primary {
-  background-color: rgb(255, 0, 0);
+  background-color: rgba(56, 53, 53, 0.589);
+  border: 1px solid red;
+  outline: 0 !important;
+  outline-color: transparent !important;
 }
-.btn-primary:hover,
-.btn-primary:focus {
+.btn-primary:hover {
+  border: 1px solid rgb(255, 0, 0);
+  background-color: red;
+}
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: red;
   border: none;
+  outline: none;
+  box-shadow: none;
 }
 footer img {
   width: 45%;
@@ -533,9 +536,6 @@ footer .small {
   .btn {
     margin-bottom: 10px;
   }
-  .banner {
-    margin-top: 180px;
-  }
   .main-title {
     font-size: 2.5rem;
   }
@@ -583,9 +583,6 @@ footer .small {
   .menu-list li a {
     font-size: 1rem;
   }
-  .banner {
-    margin-top: 130px;
-  }
   .main-title {
     font-size: 2rem;
   }
@@ -596,9 +593,6 @@ footer .small {
     width: 20px;
     height: 20px;
   }
-  /* #about {
-    scroll-margin-block-start: 245px;
-  } */
   .about .title {
     font-size: 1.3rem;
   }
@@ -632,9 +626,6 @@ footer .small {
   .map p {
     font-size: 1rem;
   }
-  /* #faq {
-    scroll-margin-block-start: 70px;
-  } */
   .faq .title {
     font-size: 1.3rem;
   }
