@@ -10,7 +10,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: url(../images/VODORAVNA.png) no-repeat center center fixed;
+  background: url(../images/vodoravna.png) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
@@ -100,6 +100,7 @@ header .menu-list {
   color: rgb(255, 255, 255);
   opacity: 0.7;
   text-shadow: 6px 3px 2px rgb(0, 0, 0);
+  line-height: 1.1;
 }
 .main-title span {
   color: rgb(255, 0, 0);
@@ -592,6 +593,9 @@ footer .small {
   .arrow span {
     width: 20px;
     height: 20px;
+  }
+  .about .row {
+    margin-top: 250px;
   }
   .about .title {
     font-size: 1.3rem;
