@@ -575,11 +575,9 @@ footer .small {
 
 @media (max-width: 425px) {
   html {
-    background: url(../images/okomita.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
+  background: url(../images/okomita.png) no-repeat center center fixed;
+  background-size: cover;
+}
   main {
     overflow: hidden;
   }
