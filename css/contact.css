@@ -179,7 +179,7 @@ textarea {
   transition: all 0.3s;
   border-bottom: 2px solid #ffffff;
   caret-color: #ff0000;
-  color: white;
+  color: white !important;
 }
 input:focus,
 textarea:focus {
@@ -197,7 +197,7 @@ p:before {
   width: 30%;
   margin: 8px 0 0;
   font-family: "Akshar", sans-serif;
-  border: 2px solid #ff0000;
+  border: 2px solid rgb(156, 10, 10);
   background: 0;
   color: #ffffff;
   cursor: pointer;
@@ -207,14 +207,14 @@ p:before {
 }
 
 button:hover {
-  background: #ff0000;
+  background-color: rgb(209, 10, 10);
   color: rgb(255, 255, 255);
 }
 .contact-details {
   position: absolute;
   bottom: -15px;
   right: -20px;
-  background: #ff0000;
+  background-color: rgb(209, 10, 10);
   color: rgb(255, 255, 255);
   width: 320px;
   padding: 16px 4px 16px 0;
@@ -402,6 +402,10 @@ footer .small {
   .arrow span {
     width: 20px;
     height: 20px;
+  }
+  .contact-details {
+    right: 29px;
+    width: 206px;
   }
   footer .fmenu {
     font-size: 0.8rem;
