@@ -204,12 +204,12 @@ header .menu-list {
 }
 .btn {
   font-family: "Akshar", sans-serif;
-  border: 1px solid red;
+  border: 1px solid rgb(156, 10, 10);
   width: fit-content;
   border-radius: 0px;
 }
 .btn:hover {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(209, 10, 10);
 }
 .btn a {
   color: #fff;
@@ -396,12 +396,12 @@ header .menu-list {
 }
 input.form-control {
   color: white !important;
-  font-weight: bolder;
+  font-family: "Akshar", sans-serif;
   caret-color: #ff0000;
 }
 textarea.form-control {
   color: white !important;
-  font-weight: bolder;
+  font-family: "Akshar", sans-serif;
   caret-color: #ff0000;
 }
 .form-control:focus {
