@@ -1,0 +1,424 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akshar&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+body {
+  background: url(../images/vodoravna.png) no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+/* NAVBAR */
+header {
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+  transition: all 0.4s ease-out;
+}
+header.sticky {
+  background: rgba(7, 7, 7, 0.904);
+  border-bottom: 5px solid rgb(247, 31, 31);
+}
+header .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+}
+header .logo img {
+  height: 65px;
+  width: 65px;
+}
+header .menu-list {
+  display: inline-flex;
+}
+.menu-list li {
+  list-style: none;
+}
+.menu-list li a {
+  color: #fff;
+  font-family: "Akshar", sans-serif;
+  font-size: 1.3rem;
+  margin-left: 25px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.menu-list li a:hover {
+  color: red;
+}
+.menu-list li a.active {
+  color: red;
+  border-bottom: 1px solid red;
+}
+.icon {
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+  display: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: rgba(7, 7, 7, 0.904);
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-bottom: 5px solid rgb(247, 31, 31);
+}
+.dropdown-content a {
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  color: red;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* PROSTOR ZA GLAVNI NATPIS */
+.banner {
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+.main-title {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+  text-shadow: 6px 3px 2px rgb(0, 0, 0);
+  letter-spacing: -0.7px;
+}
+.main-title span {
+  color: rgb(255, 0, 0);
+}
+.arrow {
+  position: absolute;
+  left: 50%;
+  bottom: -80px;
+  width: 60px;
+}
+.arrow span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid #ff0000;
+  border-right: 5px solid #ff0000;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+/* GALERIJA */
+.gallery {
+  display: flex;
+  padding: 10px;
+  transition: 0.3s;
+  margin-top: 400px;
+  margin-bottom: 250px;
+}
+.gallery__image {
+  display: block;
+  width: 100%;
+  transition: 1s;
+  filter: grayscale(100%);
+}
+.gallery__image:hover {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+.gallery__column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.gallery__thumb {
+  position: relative;
+  overflow: hidden;
+  margin: 2px;
+}
+.gallery__caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px 0 5px 5px;
+  width: 100%;
+  font-family: "Akshar", sans-serif;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.774);
+  opacity: 0;
+  transition: 0.3s;
+}
+.gallery__thumb:hover .gallery__caption {
+  opacity: 0.8;
+}
+/* .gallery-container {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+  margin-top: 300px;
+}
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: 0.5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  line-height: 0;
+}
+.box > img {
+  width: 100%;
+  height: 100%;
+  /* height: calc(100% - 10vh); 
+  object-fit: cover;
+  transition: 0.5s;
+}
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+.box:hover {
+  flex: 1 1 50%;
+}
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+} */
+
+/* KRAJ GALERIJE */
+/* FOOTER */
+footer {
+  background: rgba(7, 7, 7, 0.904);
+  width: 100%;
+  bottom: 0;
+  margin-top: 150px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+.social a {
+  padding: 5px;
+}
+.fmenu a:hover,
+.social a:hover {
+  color: red;
+}
+.form-control {
+  border: 1px solid red;
+  background-color: rgba(56, 53, 53, 0.589);
+}
+.form-control:focus {
+  border: 1px solid red;
+  background-color: rgba(56, 53, 53, 0.589);
+  outline: 0;
+  box-shadow: none;
+}
+.input-group input {
+  caret-color: #ff0000;
+  color: white !important;
+  font-family: "Akshar", sans-serif;
+}
+.btn-primary {
+  background-color: rgba(56, 53, 53, 0.589);
+  border: 1px solid red;
+  outline: 0 !important;
+  outline-color: transparent !important;
+}
+.btn-primary:hover {
+  border: 1px solid rgb(255, 0, 0);
+  background-color: red;
+}
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: red;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+footer img {
+  width: 45%;
+  object-fit: cover;
+  opacity: 0.7;
+}
+footer .fmenu {
+  font-size: 1rem;
+  font-family: "Akshar", sans-serif;
+}
+footer hr {
+  color: white;
+  opacity: 1;
+}
+.ftext {
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: white;
+}
+footer .form-control {
+  height: 38px;
+}
+footer .btn-primary {
+  height: 38px;
+}
+footer .small {
+  font-size: 1rem;
+  font-family: "Akshar", sans-serif;
+}
+/* MEDIA QUERYI */
+@media (max-width: 1200px) {
+  body.disable-scroll {
+    overflow: hidden;
+  }
+  .icon {
+    display: block;
+    float: right;
+    padding-right: 20px;
+  }
+  .icon:hover {
+    color: red;
+  }
+  header .logo img {
+    height: 50px;
+    width: 50px;
+  }
+  .icon.hide {
+    display: none;
+  }
+
+  header .menu-list {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100vh;
+    width: 100%;
+    max-width: 400px;
+    background: rgba(7, 7, 7, 0.904);
+    padding: 13px 0;
+    display: flex;
+    align-items: middle;
+    flex-direction: column;
+    text-align: center;
+    border-right: 1px red solid;
+    transition: all 0.4s ease;
+  }
+  header .menu-list.active {
+    left: -0%;
+  }
+  .cancel-btn i {
+    float: right;
+  }
+  .menu-list li {
+    margin-top: 20px;
+  }
+  header .menu-list li a {
+    font-size: 23px;
+  }
+  .dropdown {
+    text-align: center;
+  }
+  .dropdown-content {
+    transform: translateX(-50%);
+    left: 50%;
+  }
+  .dropdown-content a {
+    padding: 10px;
+  }
+  .banner {
+    margin-top: 180px;
+  }
+  .main-title {
+    font-size: 2.5rem;
+  }
+  footer img {
+    width: 55%;
+    object-fit: cover;
+  }
+  footer .fmenu {
+    font-size: 1rem;
+  }
+  .ftext {
+    font-family: "Bebas Neue", cursive;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: white;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    background: url(../images/okomita.png) no-repeat center center fixed;
+    background-size: cover;
+  }
+  main {
+    overflow: hidden;
+  }
+  .menu-list li a {
+    font-size: 1rem;
+  }
+  .main-title {
+    font-size: 2rem;
+  }
+  .arrow {
+    bottom: -45px;
+  }
+  .arrow span {
+    width: 20px;
+    height: 20px;
+  }
+  footer .fmenu {
+    font-size: 0.8rem;
+  }
+  footer .small {
+    font-size: 0.8rem;
+  }
+  .ftext {
+    font-family: "Bebas Neue", cursive;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: white;
+  }
+  footer img {
+    width: 20%;
+    object-fit: cover;
+    padding-bottom: 15px;
+  }
+}
