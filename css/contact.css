@@ -11,7 +11,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: url(../images/vodoravna.png) no-repeat center center fixed;
+  background: url(../images/bg-vodoravna.webp) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
@@ -385,7 +385,7 @@ footer .small {
 
 @media (max-width: 425px) {
   body {
-    background: url(../images/okomita.png) no-repeat center center fixed;
+    background: url(../images/bg-okomita.webp) no-repeat center center fixed;
     background-size: cover;
   }
   main {
