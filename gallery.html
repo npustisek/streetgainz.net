@@ -21,6 +21,7 @@
       crossorigin="anonymous"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="css/lightbox/lightbox.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/gallery.css" />
     <script
       src="https://kit.fontawesome.com/4c44b9ed88.js"
@@ -68,6 +69,9 @@
     </header>
 
     <main>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa-solid fa-chevron-up"></i>
+      </button>
       <div class="banner container">
         <!-- PROSTOR ZA GLAVNI NATPIS -->
         <div class="row justify-content-center">
@@ -95,7 +99,10 @@
         <!--PRVI RED-->
         <div class="gallery__column">
           <figure class="gallery__thumb">
-            <a href="images/galerija-1.webp" target="_blank"
+            <a
+              href="images/slika 3.png"
+              data-lightbox="image-1"
+              data-title="wux je super"
               ><img
                 src="images/galerija-1.webp"
                 alt="nikola je super"
@@ -208,11 +215,15 @@
         <div class="gallery__column">
           <!--DRUGI RED-->
           <figure class="gallery__thumb">
-            <img
-              src="images/galerija-4.webp"
-              alt="nikola je super"
-              class="gallery__image"
-            />
+            <a
+              href="images/SLIKA 2.png"
+              data-lightbox="image-2"
+              data-title="wux je super"
+              ><img
+                src="images/galerija-4.webp"
+                alt="nikola je super"
+                class="gallery__image"
+            /></a>
             <figcaption class="gallery__caption">nikola je super</figcaption>
           </figure>
 
@@ -329,11 +340,15 @@
         <div class="gallery__column">
           <!--TRECI RED-->
           <figure class="gallery__thumb">
-            <img
-              src="images/galerija-7.webp"
-              alt="nikola je super"
-              class="gallery__image"
-            />
+            <a
+              href="images/DSC02931.jpg"
+              data-lightbox="image-7"
+              data-title="wux je super"
+              ><img
+                src="images/galerija-7.webp"
+                alt="nikola je super"
+                class="gallery__image"
+            /></a>
             <figcaption class="gallery__caption">nikola je super</figcaption>
           </figure>
 
@@ -450,29 +465,41 @@
         <div class="gallery__column">
           <!--CETVRTI RED-->
           <figure class="gallery__thumb">
-            <img
-              src="images/grupni-svetice.webp"
-              alt="nikola je super"
-              class="gallery__image"
-            />
+            <a
+              href="images/grupni-svetice.webp"
+              data-lightbox="slideshow"
+              data-title="wux je peder"
+              ><img
+                src="images/grupni-svetice.webp"
+                alt="nikola je super"
+                class="gallery__image"
+            /></a>
             <figcaption class="gallery__caption">nikola je super</figcaption>
           </figure>
 
           <figure class="gallery__thumb">
-            <img
-              src="images/swiper-1.webp"
-              alt="nikola je super"
-              class="gallery__image"
-            />
+            <a
+              href="images/swiper-1.webp"
+              data-lightbox="slideshow"
+              data-title="wux je peder"
+              ><img
+                src="images/swiper-1.webp"
+                alt="nikola je super"
+                class="gallery__image"
+            /></a>
             <figcaption class="gallery__caption">nikola je super</figcaption>
           </figure>
 
           <figure class="gallery__thumb">
-            <img
-              src="images/swiper-2.webp"
-              alt="nikola je super"
-              class="gallery__image"
-            />
+            <a
+              href="images/swiper-2.webp"
+              data-lightbox="slideshow"
+              data-title="wux je peder"
+              ><img
+                src="images/swiper-2.webp"
+                alt="nikola je super"
+                class="gallery__image"
+            /></a>
             <figcaption class="gallery__caption">nikola je super</figcaption>
           </figure>
 
@@ -586,24 +613,6 @@
         </div>
         <!--KRAJ CETVRTOG REDA-->
       </div>
-      <!-- <div id="gallery" class="gallery-container">
-        <div class="box">
-          <img src="images/zaba-šćrbak.png" />
-          <span>CSS</span>
-        </div>
-        <div class="box">
-          <img src="images/grupni-voditelji.png" />
-          <span>Image</span>
-        </div>
-        <div class="box">
-          <img src="images/grupni4.png" />
-          <span>Hover</span>
-        </div>
-        <div class="box">
-          <img src="https://source.unsplash.com/1000x806" />
-          <span>Effect</span>
-        </div>
-      </div> -->
       <!-- KRAJ PROSTORA ZA GALERIJU  -->
     </main>
 
@@ -702,8 +711,6 @@
       <!-- KRAJ FOOTER SEKCIJE -->
     </footer>
 
-    <!-- Extra JavaScript -->
-
     <!-- JS ZA BOOTSTRAP-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -716,6 +723,18 @@
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- LIGHTBOX JS -->
+    <script src="js/lightbox/lightbox.js"></script>
+    <script>
+      lightbox.option({
+        resizeDuration: 200,
+        wrapAround: true,
+        showImageNumberLabel: false,
+        imageFadeDuration: 100,
+        disableScrolling: true,
+      });
+    </script>
 
     <!-- MAIN JS -->
     <script src="js/main.js"></script>
