@@ -131,7 +131,8 @@ function myMap() {
     document.getElementById("park-link").innerHTML =
       "<a href='https://goo.gl/maps/rkYZFMf3x1BFV39aA' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
-    document.getElementById("park-rating").innerHTML = "Ocjena:";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -158,7 +159,8 @@ function myMap() {
     document.getElementById("park-link").innerHTML =
       "<a href='https://goo.gl/maps/dL7N1ZzrCCbyoXmR8' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
-    document.getElementById("park-rating").innerHTML = "Ocjena:";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -185,7 +187,8 @@ function myMap() {
     document.getElementById("park-link").innerHTML =
       "<a href='https://goo.gl/maps/HrZLmVUbE3EKmDb7A' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
-    document.getElementById("park-rating").innerHTML = "Ocjena:";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -212,7 +215,8 @@ function myMap() {
     document.getElementById("park-link").innerHTML =
       "<a href='https://goo.gl/maps/6PnKpWyq9YtRmHej8' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
-    document.getElementById("park-rating").innerHTML = "Ocjena:";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -239,7 +243,8 @@ function myMap() {
     document.getElementById("park-link").innerHTML =
       "<a href='https://goo.gl/maps/1suKL9hkAr3CqnN38' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
-    document.getElementById("park-rating").innerHTML = "Ocjena:";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -266,7 +271,8 @@ function myMap() {
     document.getElementById("park-link").innerHTML =
       "<a href='https://goo.gl/maps/ATCuJMVBKK6HJmwH7' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
-    document.getElementById("park-rating").innerHTML = "Ocjena:";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -293,7 +299,8 @@ function myMap() {
     document.getElementById("park-link").innerHTML =
       "<a href='https://goo.gl/maps/97UCaF1Ej6HjNphSA' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
-    document.getElementById("park-rating").innerHTML = "Ocjena:";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -320,7 +327,8 @@ function myMap() {
     document.getElementById("park-link").innerHTML =
       "<a href='https://goo.gl/maps/xQpTk7UG7sAwx2vv6' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
-    document.getElementById("park-rating").innerHTML = "Ocjena:";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -348,7 +356,8 @@ function myMap() {
     document.getElementById("park-link").innerHTML =
       "<a href='https://goo.gl/maps/iHbaNbx6Nonfzgks5' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
-    document.getElementById("park-rating").innerHTML = "Ocjena:";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -375,7 +384,8 @@ function myMap() {
     document.getElementById("park-link").innerHTML =
       "<a href='https://goo.gl/maps/XshNN5s8oKUVMTu66' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
-    document.getElementById("park-rating").innerHTML = "Ocjena:";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -402,7 +412,8 @@ function myMap() {
     document.getElementById("park-link").innerHTML =
       "<a href='https://goo.gl/maps/YEGKXDzSYFpwtcjT6' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
-    document.getElementById("park-rating").innerHTML = "Ocjena:";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -429,7 +440,8 @@ function myMap() {
     document.getElementById("park-link").innerHTML =
       "<a href='https://goo.gl/maps/dRE2ctPwnPD3UpYs8' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
-    document.getElementById("park-rating").innerHTML = "Ocjena:";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -456,7 +468,8 @@ function myMap() {
     document.getElementById("park-link").innerHTML =
       "<a href='https://goo.gl/maps/CNgAxe692gDCrJy46' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
-    document.getElementById("park-rating").innerHTML = "Ocjena:";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -483,7 +496,8 @@ function myMap() {
     document.getElementById("park-link").innerHTML =
       "<a href='https://goo.gl/maps/Dbe1sonARSKGSXJ17' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
-    document.getElementById("park-rating").innerHTML = "Ocjena:";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -510,7 +524,8 @@ function myMap() {
     document.getElementById("park-link").innerHTML =
       "<a href='https://goo.gl/maps/pV6aAdrAH99uWkbv7' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
-    document.getElementById("park-rating").innerHTML = "Ocjena:";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -537,7 +552,8 @@ function myMap() {
     document.getElementById("park-link").innerHTML =
       "<a href='https://goo.gl/maps/ZsRNo65vd3HQSucm7' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
-    document.getElementById("park-rating").innerHTML = "Ocjena:";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -564,7 +580,8 @@ function myMap() {
     document.getElementById("park-link").innerHTML =
       "<a href='https://goo.gl/maps/32YSQk3gXziYMyRP9' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
-    document.getElementById("park-rating").innerHTML = "Ocjena:";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -591,7 +608,8 @@ function myMap() {
     document.getElementById("park-link").innerHTML =
       "<a href='https://goo.gl/maps/yL6GFgmvJJpbpXcw5' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
-    document.getElementById("park-rating").innerHTML = "Ocjena:";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -618,7 +636,8 @@ function myMap() {
     document.getElementById("park-link").innerHTML =
       "<a href='https://g.page/street-workout-park-zagreb?share' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
-    document.getElementById("park-rating").innerHTML = "Ocjena:";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 }
