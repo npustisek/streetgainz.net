@@ -207,7 +207,7 @@ header .menu-list {
   font-family: "Akshar", sans-serif;
   color: rgb(255, 255, 255);
   font-size: 1.2rem;
-  /* text-decoration: none; */
+  text-decoration: none;
 }
 /* FOOTER */
 footer {
