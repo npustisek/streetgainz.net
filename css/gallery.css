@@ -215,6 +215,15 @@ header .menu-list {
 .gallery__thumb:hover .gallery__caption {
   opacity: 0.8;
 }
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  text-decoration: none;
+}
 /* KRAJ GALERIJE */
 /* FOOTER */
 footer {
