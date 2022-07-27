@@ -7,11 +7,7 @@
   box-sizing: border-box;
 }
 html {
-  overflow-y: scroll;
   scroll-behavior: smooth;
-}
-body {
-  overflow: hidden;
 }
 body::before {
   content: "";
@@ -22,6 +18,7 @@ body::before {
   background-image: url(../images/bg-vodoravna.webp);
   background-position: center;
   background-size: cover;
+  top: 0;
 }
 /* NAVBAR */
 header {
@@ -126,12 +123,11 @@ header .menu-list {
 }
 .main-title {
   font-family: "Bebas Neue", cursive;
-  font-size: 3rem;
+  font-size: 3.6rem;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   opacity: 0.7;
   text-shadow: 6px 3px 2px rgb(0, 0, 0);
-  letter-spacing: -0.7px;
 }
 .main-title span {
   color: rgb(255, 0, 0);
@@ -176,8 +172,6 @@ header .menu-list {
   display: flex;
   padding: 10px;
   transition: 0.3s;
-  margin-top: 400px;
-  margin-bottom: 250px;
 }
 .gallery__image {
   display: block;
