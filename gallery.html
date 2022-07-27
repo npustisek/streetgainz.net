@@ -1113,17 +1113,17 @@
 
           <figure class="gallery__thumb">
             <a
-              href="images/!TREBA-ZAMJENIT"
+              href="images/grupni-trnover.webp"
               data-lightbox="image-1"
-              data-title="<a href='https://www.instagram.com/nikola_pustisek/?hl=en' target='_blank' style='color: rgb(255, 0, 0);'
-              >Nikola Pustišek</a
-            >, član StreetGainZ tima"
+              data-title="Grupni trening na trnoveru 19.7.2021."
               ><img
-                src="images/!TREBA-ZAMJENIT"
-                alt="FALI SLIKA"
+                src="images/grupni-trnover(10).webp"
+                alt="grupni trening"
                 class="gallery__image"
             /></a>
-            <figcaption class="gallery__caption">nikola je super</figcaption>
+            <figcaption class="gallery__caption">
+              Grupni trening na trnoveru 19.7.2021.
+            </figcaption>
           </figure>
 
           <figure class="gallery__thumb">
@@ -1577,17 +1577,17 @@
 
           <figure class="gallery__thumb">
             <a
-              href="images/!TREBA-ZAMJENIT"
+              href="images/grupni-split.webp"
               data-lightbox="image-1"
-              data-title="<a href='https://www.instagram.com/nikola_pustisek/?hl=en' target='_blank' style='color: rgb(255, 0, 0);'
-              >Nikola Pustišek</a
-            >, član StreetGainZ tima"
+              data-title="Grupni trening u Splitu 30.7.2021."
               ><img
-                src="images/!TREBA-ZAMJENIT"
-                alt="TREBA ZAMJENIT"
+                src="images/grupni-split(20).webp"
+                alt="grupni-split"
                 class="gallery__image"
             /></a>
-            <figcaption class="gallery__caption">nikola je super</figcaption>
+            <figcaption class="gallery__caption">
+              Grupni trening u Splitu 30.7.2021.
+            </figcaption>
           </figure>
 
           <figure class="gallery__thumb">
@@ -1611,17 +1611,15 @@
 
           <figure class="gallery__thumb">
             <a
-              href="images/!TREBA-ZAMJENIT"
+              href="images/sgzteam-britanac.webp"
               data-lightbox="image-1"
-              data-title="<a href='https://www.instagram.com/nikola_pustisek/?hl=en' target='_blank' style='color: rgb(255, 0, 0);'
-              >Nikola Pustišek</a
-            >, član StreetGainZ tima"
+              data-title="StreetGainZ tim"
               ><img
-                src="images/!TREBA-ZAMJENIT"
-                alt="TREBA ZAMJENIT"
+                src="images/sgzteam-britanac(60).webp"
+                alt="sgzteam-britanac"
                 class="gallery__image"
             /></a>
-            <figcaption class="gallery__caption">nikola je super</figcaption>
+            <figcaption class="gallery__caption">StreetGainZ tim</figcaption>
           </figure>
 
           <figure class="gallery__thumb">
@@ -1672,7 +1670,7 @@
             </ul>
           </div>
           <div class="col-lg-6 col-md-12 col-sm-12 text-center">
-            <div class="ftext mb-3">Newsletter</div>
+            <div class="ftext mb-2">Newsletter</div>
             <p class="small text-white">
               Prati najnovije informacije o našem radu i svim našim događajima!
             </p>
@@ -1744,6 +1742,20 @@
       </div>
       <!-- KRAJ FOOTER SEKCIJE -->
     </footer>
+
+    <!-- Extra JavaScript -->
+    <script>
+      // JQUERY ZA SCROLL
+      $("a.page-scroll").on("click", function (e) {
+        e.preventDefault();
+        $("html, body").animate(
+          {
+            scrollTop: $($(this).attr("href")).offset().top - 80,
+          },
+          50
+        );
+      });
+    </script>
 
     <!-- JS ZA BOOTSTRAP-->
     <script
