@@ -38,17 +38,6 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-// JQUERY ZA SCROLL
-$("a.page-scroll").on("click", function (e) {
-  e.preventDefault();
-  $("html, body").animate(
-    {
-      scrollTop: $($(this).attr("href")).offset().top + 90,
-    },
-    50
-  );
-});
-
 // BACK TO TOP GUMB
 //Get the button:
 mybutton = document.getElementById("myBtn");
@@ -102,6 +91,8 @@ function myMap() {
   const trnsko = { lat: 45.77090484005913, lng: 15.964890712441298 };
   const trnover = { lat: 45.83388731897813, lng: 16.071220495488262 };
   const britanac = { lat: 45.81193831275142, lng: 15.963523730695016 };
+  const spansko = { lat: 45.800536496435996, lng: 15.898664952412943 };
+  const gajnice = { lat: 45.81736288334762, lng: 15.876114131361767 };
 
   const map = new google.maps.Map(document.getElementById("googleMap"), {
     zoom: 12,
@@ -130,7 +121,6 @@ function myMap() {
       "Horizontalne ljestve (&#34Monkey bar&#34) <br>Sprava za veslanje <br>Bicikl u kombinaciji sa šipkom za zgibove i rotirajućim krugom";
     document.getElementById("park-link").innerHTML =
       "<a href='https://goo.gl/maps/rkYZFMf3x1BFV39aA' target=_blank>Klikni i pogledaj slike parka!</a>";
-    document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
@@ -204,7 +194,7 @@ function myMap() {
   remizaMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
       "Street Workout park - Remiza";
-    document.getElementById("park-image").src = "images/swiper-1.webp";
+    document.getElementById("park-image").src = "images/remiza.webp";
     document.getElementById("park-image").style.border = "2px solid red";
     document.getElementById("park-image").style.marginBottom = "20px";
     document.getElementById("subtitle").innerHTML = "StreetGainZ opis parka";
@@ -288,7 +278,7 @@ function myMap() {
   voltinoMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
       "Street Workout park - Voltino";
-    document.getElementById("park-image").src = "images/swiper-1.webp";
+    document.getElementById("park-image").src = "images/voltino.webp";
     document.getElementById("park-image").style.border = "2px solid red";
     document.getElementById("park-image").style.marginBottom = "20px";
     document.getElementById("subtitle").innerHTML = "StreetGainZ opis parka";
@@ -316,7 +306,7 @@ function myMap() {
   ljubljanicaMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
       "Street Workout park - Ljubljanica";
-    document.getElementById("park-image").src = "images/swiper-1.webp";
+    document.getElementById("park-image").src = "images/ljubljanica.webp";
     document.getElementById("park-image").style.border = "2px solid red";
     document.getElementById("park-image").style.marginBottom = "20px";
     document.getElementById("subtitle").innerHTML = "StreetGainZ opis parka";
@@ -429,7 +419,7 @@ function myMap() {
   rudesMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
       "Street Workout park - Rudeš";
-    document.getElementById("park-image").src = "images/swiper-1.webp";
+    document.getElementById("park-image").src = "images/rudes.webp";
     document.getElementById("park-image").style.border = "2px solid red";
     document.getElementById("park-image").style.marginBottom = "20px";
     document.getElementById("subtitle").innerHTML = "StreetGainZ opis parka";
@@ -485,7 +475,7 @@ function myMap() {
   preckoMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
       "Street Workout park - Prečko";
-    document.getElementById("park-image").src = "images/swiper-1.webp";
+    document.getElementById("park-image").src = "images/precko.webp";
     document.getElementById("park-image").style.border = "2px solid red";
     document.getElementById("park-image").style.marginBottom = "20px";
     document.getElementById("subtitle").innerHTML = "StreetGainZ opis parka";
@@ -625,16 +615,72 @@ function myMap() {
   britanacMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
       "Street Workout park - Britanac";
-    document.getElementById("park-image").src = "images/swiper-1.webp";
+    document.getElementById("park-image").src = "images/britanac.webp";
     document.getElementById("park-image").style.border = "2px solid red";
     document.getElementById("park-image").style.marginBottom = "20px";
     document.getElementById("subtitle").innerHTML = "StreetGainZ opis parka";
     document.getElementById("park-description").innerHTML = britanacInfo;
     document.getElementById("eq-subtitle").innerHTML = "Popis sprava u parku: ";
     document.getElementById("park-equipment").innerHTML =
-      "Srednje visoke paralelne šipke za propadanja <br>Dva seta od tri visoke horizontalne šipke za zgibove različitih visina u kombinaciji s kratkim švedskim ljestvama i dodatkom za vježbu snage u prstima <br>Šipke za sklekove <br>Niz srednje visokih horizontalnih šike za zgibove različitih visina";
+      "Jedan par visokih i srednje visokih paralelnih šipki za propadanja <br>Dva seta od tri visoke horizontalne šipke za zgibove različitih visina u kombinaciji s švedskim ljestvama <br>Set od dvije niske horizontalne šipke različitih visina <br>Set malih vodoravnih šipki na podu";
     document.getElementById("park-link").innerHTML =
       "<a href='https://g.page/street-workout-park-zagreb?share' target=_blank>Klikni i pogledaj slike parka!</a>";
+    document.getElementById("park-link").style.textDecorationStyle = "none";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+    document.getElementById("park-name").scrollIntoView();
+  });
+
+  const spanskoMarker = new google.maps.Marker({
+    position: spansko,
+    map: map,
+    title: "Street Workout park - Špansko",
+  });
+
+  const spanskoInfo =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+
+  spanskoMarker.addListener("click", () => {
+    document.getElementById("park-name").innerHTML =
+      "Street Workout park - Špansko";
+    document.getElementById("park-image").src = "images/spansko.webp";
+    document.getElementById("park-image").style.border = "2px solid red";
+    document.getElementById("park-image").style.marginBottom = "20px";
+    document.getElementById("subtitle").innerHTML = "StreetGainZ opis parka";
+    document.getElementById("park-description").innerHTML = spanskoInfo;
+    document.getElementById("eq-subtitle").innerHTML = "Popis sprava u parku: ";
+    document.getElementById("park-equipment").innerHTML =
+      "Jedan par visokih paralelnih šipki za propadanja <br>Horizontalne ljestve (&#34Monkey bar&#34) <br>Set od tri visoke horizontalne šipke za zgibove različitih visina <br>Set paralelnih šipki za propadanja različitih visina <br>Klupica za trbušnjake <br>Sprava za veslanje <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih <br>Bicikl <br>Set od dvije stolice različitih funkcija; pull/push pokreti <br>Set od dvije sprave za ljuljanje okrenute jedna nasuprot drugoj";
+    document.getElementById("park-link").innerHTML =
+      "<a href='https://goo.gl/maps/d8fDrr4f3VxPWFPA7' target=_blank>Klikni i pogledaj slike parka!</a>";
+    document.getElementById("park-link").style.textDecorationStyle = "none";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+    document.getElementById("park-name").scrollIntoView();
+  });
+
+  const gajniceMarker = new google.maps.Marker({
+    position: gajnice,
+    map: map,
+    title: "Street Workout park - Gajnice",
+  });
+
+  const gajniceInfo =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+
+  gajniceMarker.addListener("click", () => {
+    document.getElementById("park-name").innerHTML =
+      "Street Workout park - Gajnice";
+    document.getElementById("park-image").src = "images/gajnice.webp";
+    document.getElementById("park-image").style.border = "2px solid red";
+    document.getElementById("park-image").style.marginBottom = "20px";
+    document.getElementById("subtitle").innerHTML = "StreetGainZ opis parka";
+    document.getElementById("park-description").innerHTML = gajniceInfo;
+    document.getElementById("eq-subtitle").innerHTML = "Popis sprava u parku: ";
+    document.getElementById("park-equipment").innerHTML =
+      "Jedan par visokih paralelnih šipki za propadanja <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih <br>Horizontalne ljestve (&#34Monkey bar&#34) <br>Set od tri visoke horizontalne šipke za zgibove različitih visina <br>Klupa s ručkama <br>Sprava za propadanje";
+    document.getElementById("park-link").innerHTML =
+      "<a href='https://goo.gl/maps/kDBbQ3zn75fgTW3R9' target=_blank>Klikni i pogledaj slike parka!</a>";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
