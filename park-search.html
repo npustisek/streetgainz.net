@@ -79,8 +79,8 @@
           <div class="col-lg-12 col-11">
             <div class="main-title text-center">
               <div data-aos="zoom-in-down">
-                Dobrodošli na službenu StreetGain<span>Z</span> tražilicu
-                parkova
+                Dobrodošli na službenu <br />
+                StreetGain<span>Z</span> tražilicu parkova
               </div>
             </div>
           </div>
@@ -229,6 +229,21 @@
       </div>
       <!-- KRAJ FOOTER SEKCIJE -->
     </footer>
+
+    <!-- Extra JavaScript -->
+    <script>
+      // JQUERY ZA SCROLL
+      $("a.page-scroll").on("click", function (e) {
+        e.preventDefault();
+        $("html, body").animate(
+          {
+            scrollTop: $($(this).attr("href")).offset().top - 120,
+          },
+          50
+        );
+      });
+    </script>
+
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
