@@ -57,7 +57,9 @@
               <li><a href="shop.html">Shop</a></li>
               <li><a href="gallery.html">Galerija</a></li>
               <li><a href="park-search.html">Pronađi park</a></li>
-              <li><a href="index.html">Najčešća pitanja</a></li>
+              <li>
+                <a href="index.html#faq">Najčešća pitanja</a>
+              </li>
               <li><a class="active" href="contact.html">Kontakt</a></li>
             </ul>
             <div class="icon menu-btn"><i class="fa-solid fa-bars"></i></div>
@@ -77,8 +79,8 @@
           <div class="col-lg-12 col-11">
             <div class="main-title text-center">
               <div data-aos="zoom-in-down">
-                Imaš dodatnih pitanja ili jednostavno želiš
-                saznati više o nama?
+                Imaš dodatnih pitanja ili jednostavno <br />
+                želiš saznati više o nama?
               </div>
             </div>
           </div>
@@ -96,21 +98,57 @@
       <!-- KRAJ PROSTORA ZA GLAVNI NATPIS -->
       <!-- PROSTOR ZA FORMU -->
       <div class="fdiv">
-        <form class="form" id="contact" >
-          <div class="ftitle">KONTAKTIRAJ NAS!</div>
-          <p type="Ime:"><input placeholder="Upišite svoje ime.."></input></p>
-          <p type="Prezime:"><input placeholder="Upišite svoje prezme.."></input></p>
-          <p type="Email:"><input placeholder="Upišite email oblika name@example.com" re></input></p>
-          <p type="Prostor za tekst:"><textarea
-            id="textbox"
-            placeholder="Prostor za vašu poruku..."
-            value=""
-          ></textarea></p>
-          <button class="fbtn">Pošalji</button>
-          <div class="contact-details">
-            <span class="fa fa-envelope-o"></span> streetgainz1@gmail.com
+        <div class="row justify-content-center">
+          <div class="col-lg-5 col-10 justify-content-center">
+            <div data-aos="zoom-in-up">
+              <form class="form" id="contact">
+                <div class="ftitle text-center justify-content-between d-flex">
+                  KONTAKTIRAJ NAS!
+                  <span
+                    ><i class="fa fa-envelope-o"></i>
+                    streetgainz1@gmail.com</span
+                  >
+                </div>
+                <p type="Ime:">
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Unesite Vaše ime"
+                    required
+                  />
+                </p>
+                <p type="Prezime:">
+                  <input
+                    type="text"
+                    id="prezime"
+                    placeholder="Unesite Vaše prezime"
+                    required
+                  />
+                </p>
+                <p type="Email:">
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Unesite email oblika name@example.com"
+                    required
+                    checked
+                  />
+                </p>
+                <p type="Prostor za tekst:">
+                  <textarea
+                    id="textbox"
+                    cols="5"
+                    rows="2"
+                    placeholder="Prostor za vašu poruku..."
+                    value=""
+                    required
+                  ></textarea>
+                </p>
+                <button class="fbtn">Pošalji</button>
+              </form>
+            </div>
           </div>
-        </form>
+        </div>
       </div>
       <!-- KRAJ PROSTORA ZA FORMU -->
     </main>
@@ -137,7 +175,7 @@
             </ul>
           </div>
           <div class="col-lg-6 col-md-12 col-sm-12 text-center">
-            <div class="ftext mb-3">Newsletter</div>
+            <div class="ftext mb-2">Newsletter</div>
             <p class="small text-white">
               Prati najnovije informacije o našem radu i svim našim događajima!
             </p>
@@ -211,6 +249,18 @@
     </footer>
 
     <!-- Extra JavaScript -->
+    <script>
+      // JQUERY ZA SCROLL
+      $("a.page-scroll").on("click", function (e) {
+        e.preventDefault();
+        $("html, body").animate(
+          {
+            scrollTop: $($(this).attr("href")).offset().top - 90,
+          },
+          50
+        );
+      });
+    </script>
 
     <!-- JS ZA BOOTSTRAP-->
     <script
