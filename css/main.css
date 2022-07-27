@@ -169,7 +169,6 @@ header .menu-list {
 .about .row {
   padding: 25px 0px;
   background-color: rgba(0, 0, 0, 0.589);
-  margin: 150px 0;
   transition: 500ms linear;
 }
 .about .row:hover {
@@ -357,13 +356,13 @@ header .menu-list {
   font-size: 1.1rem;
 }
 .accordion-button:not(.collapsed) {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(192, 12, 12);
   color: rgb(0, 0, 0);
   font-family: "Akshar", sans-serif;
   font-size: 1.1rem;
 }
 .accordion-button:hover {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(192, 12, 12);
   color: black;
 }
 .accordion-button:focus {
@@ -599,7 +598,7 @@ footer .small {
 
 @media (max-width: 425px) {
   body {
-    background: url(../images/bg-okomita.webp);
+    background: url(../images/DSC06072.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -693,7 +692,7 @@ footer .small {
   .ftext {
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: white;
   }
   footer img {
