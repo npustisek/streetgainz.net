@@ -118,12 +118,12 @@ header .menu-list {
 }
 .main-title {
   font-family: "Bebas Neue", cursive;
-  font-size: 3rem;
+  font-size: 3.6rem;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   opacity: 0.7;
   text-shadow: 6px 3px 2px rgb(0, 0, 0);
-  letter-spacing: -0.7px;
+  line-height: 1.1;
 }
 .main-title span {
   color: rgb(255, 0, 0);
@@ -164,32 +164,33 @@ header .menu-list {
   }
 }
 /* FORM */
-.fdiv {
-  margin: 500px auto 300px auto;
-  width: fit-content;
-}
 .form {
-  width: 550px;
-  height: 640px;
   background: #000000d3;
   border-radius: 8px;
   padding: 20px 30px;
-  max-width: calc(100vw - 40px);
   box-sizing: border-box;
   font-family: "Akshar", sans-serif;
   position: relative;
   transition: 500ms linear;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-bottom: 50px;
 }
 .form:hover {
   box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
 }
 .ftitle {
-  margin: 10px 0;
-  padding-bottom: 10px;
   color: #ffffff;
   font-family: "Bebas Neue", cursive;
-  font-size: 32px;
+  font-size: 2.2rem;
   border-bottom: 3px solid #ff0000;
+}
+.ftitle span {
+  font-family: "Akshar", sans-serif;
+  font-size: 1.4rem;
+  color: rgb(255, 0, 0);
+  align-self: center;
 }
 input,
 textarea {
@@ -218,8 +219,8 @@ p:before {
   color: #ff0000;
 }
 .fbtn {
-  padding: 8px 0px;
-  width: 30%;
+  padding: 8px 22px;
+  width: fit-content;
   margin: 8px 0 0;
   font-family: "Akshar", sans-serif;
   border: 2px solid rgb(156, 10, 10);
@@ -227,27 +228,13 @@ p:before {
   color: #ffffff;
   cursor: pointer;
   transition: all 0.3s;
-  float: right;
-  margin-right: 37%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 button:hover {
   background-color: rgb(209, 10, 10);
   color: rgb(255, 255, 255);
-}
-.contact-details {
-  position: absolute;
-  bottom: -15px;
-  right: -20px;
-  background-color: rgb(209, 10, 10);
-  color: rgb(255, 255, 255);
-  width: 320px;
-  padding: 16px 4px 16px 0;
-  border-radius: 6px;
-  font-size: 15px;
-}
-span {
-  margin: 0 5px 0 15px;
 }
 /* KRAJ FORME */
 /* FOOTER */
@@ -344,7 +331,6 @@ footer .small {
   .icon.hide {
     display: none;
   }
-
   header .menu-list {
     position: fixed;
     top: 0;
@@ -383,17 +369,14 @@ footer .small {
   .dropdown-content a {
     padding: 10px;
   }
-  .banner {
-    margin-top: 180px;
-  }
   .main-title {
     font-size: 2.5rem;
   }
-  .fdiv {
+  .form {
     box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
   }
   footer img {
-    width: 55%;
+    width: 35%;
     object-fit: cover;
   }
   footer .fmenu {
@@ -428,9 +411,16 @@ footer .small {
     width: 20px;
     height: 20px;
   }
-  .contact-details {
-    right: 29px;
-    width: 206px;
+  .ftitle {
+    font-size: 1.3rem;
+  }
+  .ftitle span {
+    font-size: 0.9rem;
+  }
+  p,
+  p:before {
+    font-size: 0.7rem;
+    margin: 18px 0 0;
   }
   footer .fmenu {
     font-size: 0.8rem;
