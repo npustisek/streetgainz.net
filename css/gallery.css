@@ -298,6 +298,9 @@ footer .small {
   font-size: 1rem;
   font-family: "Akshar", sans-serif;
 }
+p.small.text-white::before {
+  margin-top: 7px;
+}
 /* MEDIA QUERYI */
 @media (max-width: 1200px) {
   body.disable-scroll {
