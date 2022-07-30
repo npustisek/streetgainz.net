@@ -11,7 +11,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: url(../images/DSC06073.webp) no-repeat center center fixed;
+  background: url(../images/bg-vodoravna.webp) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
@@ -598,7 +598,7 @@ footer .small {
 
 @media (max-width: 425px) {
   body {
-    background: url(../images/DSC06072.webp);
+    background: url(../images/bg-okomita.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -618,9 +618,6 @@ footer .small {
   .arrow span {
     width: 20px;
     height: 20px;
-  }
-  .about .row {
-    margin-top: 250px;
   }
   .about .title {
     font-size: 1.3rem;
