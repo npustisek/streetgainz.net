@@ -510,7 +510,10 @@
       </div>
       <!-- KRAJ FAQ SEKCIJE -->
 
-      <form>
+      <form
+        action="https://formsubmit.co/nikolapustisek@gmail.com"
+        method="POST"
+      >
         <div class="form index-form container mt-5">
           <!-- POČETAK INDEX FORM SEKCIJE -->
           <div data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
@@ -525,18 +528,26 @@
                   prilogu!
                 </div>
               </div>
+              <input
+                type="hidden"
+                name="_next"
+                value="https://platypus712.github.io/streetgainz.net/thankyou.html"
+              />
+              <input type="hidden" name="_subject" value="Nova suradnja!" />
               <div class="mb-3 col-sm-6">
                 <input
                   type="text"
+                  name="name"
                   id="name"
                   class="form-control"
-                  placeholder="Unesite Vaše ime"
+                  placeholder="Unesite Vaše ime ili ime organizacije"
                   required
                 />
               </div>
               <div class="mb-3 col-sm-6">
                 <input
                   type="email"
+                  name="email"
                   id="email"
                   class="form-control"
                   placeholder="Unesite email oblika name@example.com"
@@ -547,6 +558,7 @@
               <div class="mb-3 col-12">
                 <textarea
                   id="textbox"
+                  name="message"
                   class="form-control"
                   cols="15"
                   rows="8"
