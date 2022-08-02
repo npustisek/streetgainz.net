@@ -422,7 +422,7 @@ p.small.text-white::before {
   }
   p,
   p:before {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     margin: 18px 0 0;
   }
   footer .fmenu {
