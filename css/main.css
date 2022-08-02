@@ -170,6 +170,7 @@ header .menu-list {
   padding: 25px 0px;
   background-color: rgba(0, 0, 0, 0.589);
   transition: 500ms linear;
+  margin: 0px;
 }
 .about .row:hover {
   box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);

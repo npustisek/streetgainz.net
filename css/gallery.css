@@ -19,6 +19,7 @@ body::before {
   background-position: center;
   background-size: cover;
   top: 0;
+  z-index: -1;
 }
 /* NAVBAR */
 header {
