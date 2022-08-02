@@ -420,8 +420,8 @@ p.small.text-white::before {
   .ftitle span {
     font-size: 0.9rem;
   }
-  p,
-  p:before {
+  .form p,
+  .form p:before {
     font-size: 0.8rem;
     margin: 18px 0 0;
   }
