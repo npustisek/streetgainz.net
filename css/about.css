@@ -163,6 +163,29 @@ header .menu-list {
     transform: rotate(45deg) translate(20px, 20px);
   }
 }
+/* PROSTOR ZA COUNTER */
+.counter-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+}
+.counter {
+  animation-duration: 1s;
+  animation-delay: 0s;
+  color: rgb(255, 0, 0);
+}
+.counter-subtitle {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-family: "Akshar", sans-serif;
+}
+.counter-icons a {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.counter-icons a:hover {
+  color: rgb(255, 0, 0);
+}
 /* FOOTER */
 footer {
   background: rgba(7, 7, 7, 0.904);
