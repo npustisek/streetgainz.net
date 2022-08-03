@@ -163,37 +163,6 @@ header .menu-list {
     transform: rotate(45deg) translate(20px, 20px);
   }
 }
-/* PROSTOR ZA COMING SOON */
-/* .bar {
-  height: 0.3rem;
-  border-radius: 10px;
-  box-shadow: inset 0px 0px 8px rgb(0, 0, 0);
-  overflow: hidden;
-  padding: 8px;
-  border: 2px solid rgb(255, 0, 0);
-  margin: 0px auto;
-}
-
-.progress {
-  height: inherit;
-  border-radius: inherit;
-  background: rgb(255, 0, 0);
-  animation: load 3s linear infinite;
-  animation-delay: 2s;
-}
-
-@keyframes load {
-  0% {
-    width: 0%;
-  }
-  50% {
-    width: 100%;
-  }
-  100% {
-    width: 0%;
-    float: right;
-  }
-}   */
 /* FOOTER */
 footer {
   background: rgba(7, 7, 7, 0.904);
