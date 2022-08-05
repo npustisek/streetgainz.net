@@ -233,6 +233,7 @@ header .menu-list {
 .about p a:hover {
   color: rgb(255, 0, 0);
 }
+/* MEMBERS IN & OUT */
 .list-members {
   line-height: 2;
 }
@@ -247,6 +248,30 @@ header .menu-list {
 }
 .list-members .out a:hover {
   color: rgb(236, 12, 12);
+}
+/* MEMBERS & AVATARS */
+.members-div {
+  flex-wrap: wrap;
+}
+.members-title {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  color: rgb(255, 255, 255);
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+.avatar {
+  border: 5px solid rgb(255, 0, 0);
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  position: relative;
+}
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 /* PROSTOR ZA O SW-U */
 .about-sw .row {
