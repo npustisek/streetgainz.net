@@ -107,7 +107,7 @@ function myMap() {
   });
 
   const knezijaInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Knežija smješten je u Zagrebu, preciznije u kvartu Knežija po kojem je i dobio ime. Park je jako loše postavljen jer osim &#34Monkey bar&#34 i jedne samostalne šipke nema potrebnih sprava za kvalitetan trening pogotovo što se tiče push dijela jer nema šipki za propadanja niti sklekove. Veliki plus ovog parka prema ostalima je što veliku većinu dana prostor parka u hladu zbog gustog drveća pa je ugodno za trenirati pogotovo u ljetnm razdoblju.";
 
   knezijaMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -151,7 +151,7 @@ function myMap() {
       "Klikni <a href='https://goo.gl/maps/dL7N1ZzrCCbyoXmR8' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -179,7 +179,7 @@ function myMap() {
       "Klikni <a href='https://goo.gl/maps/HrZLmVUbE3EKmDb7A' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -207,7 +207,7 @@ function myMap() {
       "Klikni <a href='https://goo.gl/maps/6PnKpWyq9YtRmHej8' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -235,7 +235,7 @@ function myMap() {
       "Klikni <a href='https://goo.gl/maps/1suKL9hkAr3CqnN38' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -246,12 +246,12 @@ function myMap() {
   });
 
   const fallerovoInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Fallerovo smješten je u Zagrebu, preciznije u kvartu Trešnjevka, u sklopu Fallerovog šetališta po kojem je i dobio ime. Park je dosta loše postavljen, ima dosta nepotrebnih sprava i nema sprava za push vježbe kao što su šipke za propadanja i sklekove. Što se tiče pull vježbi, &#34Monkey bar&#34 i ostale šipke su odlične debljine i visine. Veliki plus ovog parka prema ostalima je što veliku većinu dana prostor parka u hladu zbog guste šume pa je ugodno za trenirati pogotovo u ljetnm razdoblju.";
 
   fallerovoMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
       "Street Workout park - Fallerovo";
-    document.getElementById("park-image").src = "images/swiper-1.webp";
+    document.getElementById("park-image").src = "images/fallerovo.webp";
     document.getElementById("park-image").style.border = "2px solid red";
     document.getElementById("park-image").style.marginBottom = "20px";
     document.getElementById("subtitle").innerHTML = "StreetGainZ opis parka";
@@ -291,7 +291,7 @@ function myMap() {
       "Klikni <a href='https://goo.gl/maps/97UCaF1Ej6HjNphSA' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -319,7 +319,7 @@ function myMap() {
       "Klikni <a href='https://goo.gl/maps/xQpTk7UG7sAwx2vv6' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -330,7 +330,7 @@ function myMap() {
   });
 
   const tresnjevackiplacInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Trešnjevački plac smješten je u Zagrebu, preciznije u kvartu Trešnjevka u blizini trešnjevačkog placa po kojem je i dobio ime. Park je solidno postavljen, debljina i visina šipki je taman i sadrži sve potrebne sprave za kvalitetan trening. Park se nalazi odmah pored Osnovne škole Julija Klovića i u sklopu je kompleksa doma za starije osobe. Veliki plus ovog parka prema ostalima je što veliku većinu dana prostor parka u hladu zbog velikog drveća pa je ugodno za trenirati pogotovo u ljetnm razdoblju. Jedina mala zamjerka u parku je da je na nekim dijelovima teren malo neravan tj. nije ravan pa je nezgodno raditi handstand i slične stvari.";
 
   tresnjevackiplacMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -348,7 +348,7 @@ function myMap() {
       "Klikni <a href='https://goo.gl/maps/iHbaNbx6Nonfzgks5' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -359,7 +359,7 @@ function myMap() {
   });
 
   const savicaInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Savica smješten je u Zagrebu, preciznije u kvartu Savica po kojem je i dobio ime. Park je dosta loše postavljen jer ima mali izbor šipki za zgibove. Horizontalne ljestve tj. &#34Monkey bar&#34 ima predebele šipke i samo s jedne strane mogućnost izvedbe zgibova jer su s druge strane švedske ljestve. Ostale dvije šipke za zgibove imaju dobar hvat no dosta su čudnih visina pa nisu bas korisne pogotovo za neke vježbe kao što su ruski zgibovi. Park se nalazi na uređenom savskom nasipu pa je dobar za usputni trening uz neki cardio ili obrnuto. Također par metara od parka se nalazi i crpka za vodu.Jedina mala zamjerka je tokom ljetnog perioda nedostatak hlada na prostoru parka.";
 
   savicaMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -376,7 +376,7 @@ function myMap() {
       "Klikni <a href='https://goo.gl/maps/XshNN5s8oKUVMTu66' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -404,7 +404,7 @@ function myMap() {
       "Klikni <a href='https://goo.gl/maps/YEGKXDzSYFpwtcjT6' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -432,7 +432,7 @@ function myMap() {
       "Klikni <a href='https://goo.gl/maps/dRE2ctPwnPD3UpYs8' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -443,7 +443,7 @@ function myMap() {
   });
 
   const sveticeInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Svetice smješten je u Zagrebu, preciznije u kvartu Svetice po kojem je i dobio ime. Park je odlično postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening no ovaj park se također ističe i po velikom izboru različitih šipki i ostalih sprava što ga čini idealnim izborom kada se organizira bilo kakav grupni trening. Park se nalazi u sklopu jedne vrste sportsko rekreacijskog centra gdje još djeluju dva atletska kluba Svetice i Dinamo Zrinjevac, malo dalje je smješten i kompleks bazena Svetice, ali glavna stvar je stadion Maksimir. Ovaj park zajedno s još dva parka Trnover i Britanac spada u najbolje parkove Zagreba, a usudili bi se reći i Hrvatske. Sva tri parka su planski izgrađena u dogovoru s lokalnom zajednicom i zbog toga se dosta ističu od šablonski postavljenih parkova koji prevladavaju u ostatku Zagreba. Jedina mala zamjerka je tokom ljetnog perioda nedostatak hlada na prostoru parka i dosta mali razmak između sprava s obzirom koliko još mjesta ima na raspolaganju.";
 
   sveticeMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -460,7 +460,7 @@ function myMap() {
       "Klikni <a href='https://goo.gl/maps/CNgAxe692gDCrJy46' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -488,7 +488,7 @@ function myMap() {
       "Klikni <a href='https://goo.gl/maps/Dbe1sonARSKGSXJ17' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -499,12 +499,12 @@ function myMap() {
   });
 
   const ciglenicaInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Ciglenica smješten je u Zagrebu, preciznije u kvartu Trešnjevka po kojem je i dobio ime. Park je odlično postavljen jedan od boljih u Zagrebu, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening. Jedina mala zamjerka je tokom ljetnog perioda nedostatak hlada na prostoru parka.";
 
   ciglenicaMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
       "Street Workout park - Ciglenica";
-    document.getElementById("park-image").src = "images/swiper-1.webp";
+    document.getElementById("park-image").src = "images/ciglenica.webp";
     document.getElementById("park-image").style.border = "2px solid red";
     document.getElementById("park-image").style.marginBottom = "20px";
     document.getElementById("subtitle").innerHTML = "StreetGainZ opis parka";
@@ -516,7 +516,7 @@ function myMap() {
       "Klikni <a href='https://goo.gl/maps/pV6aAdrAH99uWkbv7' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -527,7 +527,7 @@ function myMap() {
   });
 
   const sigetInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Siget smješten je u Zagrebu, preciznije u kvartu Siget po kojem je i dobio ime. Park je solidno postavljen, no problem je debljina  i visina šipki jer je jedna previsoka za nekog prosječne visine, dok je druga preniska za određene vježbe kao što su ruski zgibovi pa onda ostaje samo jedna korisna šipka u parku, a sličan problem je i s visinom šipki za propadanja koje su preniske. Veliki plus ovog parka prema ostalima je što veliku većinu dana prostor parka u hladu zbog guste šume pa je ugodno za trenirati pogotovo u ljetnm razdoblju. Ovaj park je u sklopu jedne vrste trim staze koja je postavljena u obliku šetnjice kroz park pa ima raznih sprava od grede za hodanje do različitih prepreka za preskakanje i klupica za trbušnjake.";
 
   sigetMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -544,7 +544,7 @@ function myMap() {
       "Klikni <a href='https://goo.gl/maps/ZsRNo65vd3HQSucm7' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -555,7 +555,7 @@ function myMap() {
   });
 
   const trnskoInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Trnsko smješten je u Zagrebu, preciznije u kvartu Trnsko po kojem je i dobio ime. Park je solidno postavljen, debljina i visina šipki dobra možda bi bilo super kad bi bio malo veći izbor viših šipki za ruske zgibove. Po dizajnu i izgledu se razlikuje od ostalih parkova jer ima i zanimljive dodatke kao što je ploča za penjanje tj. za razvijanje snage u prstiju dosta česta oprema u dvoranama za penjanje. Jedina mala zamjerka je tokom ljetnog perioda nedostatak hlada na prostoru parka.";
 
   trnskoMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -572,7 +572,7 @@ function myMap() {
       "Klikni <a href='https://goo.gl/maps/32YSQk3gXziYMyRP9' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -583,7 +583,7 @@ function myMap() {
   });
 
   const trnoverInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Trnover smješten je u Zagrebu, preciznije u kvartu Trnovčica po kojem je i dobio ime. Park je odlično postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening. Park se nalazi odmah pored Osnovne škole Antuna Branka Šimića pa često zna biti dosta mladih u parku. Ovaj park zajedno s još dva parka Svetice i Britanac spadaju u najbolje parkove Zagreba, a usudili bi se reći i Hrvatske. Sva tri parka su planski izgrađena u dogovoru s lokalnom zajednicom i zbog toga se dosta ističu od šablonski postavljenih parkova koji prevladavaju u ostatku Zagreba. Jedina mala zamjerka je tokom ljetnog perioda nedostatak hlada na prostoru parka.";
 
   trnoverMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -600,7 +600,7 @@ function myMap() {
       "Klikni <a href='https://goo.gl/maps/yL6GFgmvJJpbpXcw5' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -611,7 +611,7 @@ function myMap() {
   });
 
   const britanacInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Britanac smješten je u Zagrebu, preciznije u blizini Britanskog trga po kojem je i dobio ime. Park je odlično postavljen, debljina i visina šipki također taman kao i veliki izbor šipki, a također sadrži i sve potrebne sprave za kvalitetan trening. Također, veliki plus ovog parka prema ostalima je što veliku većinu dana prostor parka je u hladu zbog okolnih zgrada pa je ugodno za trenirati pogotovo u ljetnm razdoblju. Ovaj park zajedno s još dva parka Svetice i Trnover spada u najbolje parkove Zagreba, a usudili bi se reći i Hrvatske. Sva tri parka su planski izgrađena u dogovoru s lokalnom zajednicom i zbog toga se dosta ističu od šablonski postavljenih parkova koji prevladavaju u ostatku Zagreba. Jedina mala zamjerka je pošto je okružen stambenim zgradama nije baš poželjno puštati preglasno muziku zbog okolnih stanara.";
 
   britanacMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -628,7 +628,7 @@ function myMap() {
       "Klikni <a href='https://g.page/street-workout-park-zagreb?share' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -656,7 +656,7 @@ function myMap() {
       "Klikni <a href='https://goo.gl/maps/d8fDrr4f3VxPWFPA7' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -684,7 +684,7 @@ function myMap() {
       "Klikni <a href='https://goo.gl/maps/kDBbQ3zn75fgTW3R9' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 
@@ -695,7 +695,7 @@ function myMap() {
   });
 
   const klakaInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Klaka smješten je u Zagrebu, preciznije kvart Klaka po kojem je i dobio ime. Park je dobro postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening no sadrži i nekolicinu nepotrebnih sprava pa stoga mali minus no unatoč tomu jedan je od boljih parkovau Zagrebu. Park se također nalazi u sklopu sportsko rekreacijskog centra Klaka koji ima puno toga za ponuditi od atletske staze do različith terena i podloga.Jedina mala zamjerka je tokom ljetnog perioda nedostatak hlada na prostoru parka.";
 
   klakaMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -712,7 +712,7 @@ function myMap() {
       "Klikni <a href='https://goo.gl/maps/RDpHY6TfSa15KeSa9' target=_blank>ovdje</a> i pogledaj slike parka!";
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 }
