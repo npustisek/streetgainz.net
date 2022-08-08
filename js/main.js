@@ -359,7 +359,7 @@ function myMap() {
   });
 
   const savicaInfo =
-    "Street Workout park Savica smješten je u Zagrebu, preciznije u kvartu Savica po kojem je i dobio ime. Park je dosta loše postavljen jer ima mali izbor šipki za zgibove. Horizontalne ljestve tj. &#34Monkey bar&#34 ima predebele šipke i samo s jedne strane mogućnost izvedbe zgibova jer su s druge strane švedske ljestve. Ostale dvije šipke za zgibove imaju dobar hvat no dosta su čudnih visina pa nisu bas korisne pogotovo za neke vježbe kao što su ruski zgibovi. Park se nalazi na uređenom savskom nasipu pa je dobar za usputni trening uz neki cardio ili obrnuto. Dodatan plus je i mogućnost dopune vode na obližnoj crpki. Jedina mala zamjerka je tokom ljetnog perioda nedostatak hlada na prostoru parka.";
+    "Street Workout park Savica smješten je u Zagrebu, preciznije u kvartu Savica po kojem je i dobio ime. Park je dosta loše postavljen jer ima mali izbor šipki za zgibove. Horizontalne ljestve tj. &#34Monkey bar&#34 ima predebele šipke i samo s jedne strane mogućnost izvedbe zgibova jer su s druge strane švedske ljestve. Ostale dvije šipke za zgibove imaju dobar hvat no neprikladne su visine pa nisu naročito korisne pogotovo za neke vježbe kao što su ruski zgibovi. Park se nalazi na uređenom savskom nasipu te je dobar za usputni trening uz neki cardio ili obrnuto. Prednost mu je i mogućnost dopune vode na obližnoj crpki. Mala zamjerka je da tokom ljetnog perioda nema hlada na prostoru parka.";
 
   savicaMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -611,7 +611,7 @@ function myMap() {
   });
 
   const britanacInfo =
-    "Street Workout park Britanac smješten je u Zagrebu, preciznije u blizini Britanskog trga po kojem je i dobio ime. Park je odlično postavljen, debljina i visina šipki također taman kao i veliki izbor šipki, a također sadrži i sve potrebne sprave za kvalitetan trening. Također, veliki plus ovog parka prema ostalima je što veliku većinu dana prostor parka je u hladu zbog okolnih zgrada pa je ugodno za trenirati pogotovo u ljetnm razdoblju. Ovaj park zajedno s još dva parka Svetice i Trnover spada u najbolje parkove Zagreba, a usudili bi se reći i Hrvatske. Sva tri parka su planski izgrađena u dogovoru s lokalnom zajednicom i zbog toga se dosta ističu od šablonski postavljenih parkova koji prevladavaju u ostatku Zagreba. Jedina mala zamjerka je pošto je okružen stambenim zgradama nije baš poželjno puštati preglasno muziku zbog okolnih stanara.";
+    "Street Workout park Britanac smješten je u Zagrebu, preciznije u blizini Britanskog trga po kojem je i dobio ime. Park je odlično postavljen, debljina i visina šipki također taman kao i veliki izbor šipki, a također sadrži i sve potrebne sprave za kvalitetan trening. Veliki plus ovog parka prema ostalima je što je veliku većinu dana prostor parka u hladu zbog okolnih zgrada pa je ugodno za trenirati posebice u ljetnom periodu. Ovaj park zajedno s još dva parka Svetice i Trnover spada u najbolje parkove Zagreba, a usudili bi se reći i Hrvatske. Sva tri parka su planski izgrađena u dogovoru s lokalnom zajednicom i zbog toga se dosta ističu od šablonski postavljenih parkova koji prevladavaju u ostatku Zagreba. Jedina mala zamjerka je pošto je okružen stambenim zgradama nije baš poželjno puštati preglasno muziku zbog okolnih stanara.";
 
   britanacMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
