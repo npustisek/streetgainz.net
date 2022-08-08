@@ -134,7 +134,7 @@ function myMap() {
   });
 
   const srednjaciInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Srednjaci smješten je u Zagrebu, preciznije u kvartu Srednjaci po kojem je i dobio ime. Park je odlično postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening. Jedine zamjerke su da tokom ljetnog perioda nema hlada na prostoru parka i park je u sklopu velikog parka za djecu i između Osnovne škole Josipa Račića i dječjeg vrtića Srednjaci";
 
   srednjaciMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -162,7 +162,7 @@ function myMap() {
   });
 
   const grediceInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Gredice smješten je u Zagrebu, preciznije u kvartu Gredice po kojem je i dobio ime. Park je jako loše postavljen jer osim &#34Monkey bar&#34 i jedne samostalne šipke nema potrebnih sprava za kvalitetan trening pogotovo što se tiče push dijela jer nema šipki za propadanja niti sklekove. Jedina mala zamjerka je tokom ljetnog perioda nedostatak hlada na prostoru parka.";
 
   grediceMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -190,7 +190,7 @@ function myMap() {
   });
 
   const remizaInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Remiza smješten je u Zagrebu, preciznije u kvartu Vurovčica.  Kvart je dosta mali i s obzirom da većinu toga prostora zahvaća Remiza ZET-a onda se tokom vremena među ljudima uobičajilo ime „Remiza“ po kojem je i dobio ime. Park je odlično postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening. Park je zanimljiv jer je dosta niži u odnosu na razinu ulice, pa nije toliko vidljiv slučajnim prolaznicima. Ovisno o periodu dana na velikom dijelu parka je hlad što je veliki plus tokom ljetnog razdoblja. Dodatan plus je i mogućnost dopune vode u podrumu obližnje zgrade. Jedina mala zamjerka je ta da se u sklopu parka nalazi i parkić za djecu.";
 
   remizaMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -218,7 +218,7 @@ function myMap() {
   });
 
   const jarunInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Jarun smješten je u Zagrebu, preciznije na jezeru Jarun po kojem je i dobio ime. Na cijelom jezeru nalaze se dva parka i oba parka su odlično postavljena, među boljima u Zagrebu. Park je zanimljiv jer ima mix starih old school šipki i novih tako da malo je problem debljina šipki jer su jedne predebele dok su druge pretanke. Dosta old school opreme je i malo izgubilo bitku s vremenom pa je u lošem stanju. Ovaj park je jedan od najstarijih parkova u Zagrebu i ističe se mal od drugh ne samo zbog svoje starosti nego i zbog mogućnosti treninga s dodatnim opterećenjem jer se u parku nalazi mnoštvo improviziranih utega u obliku automobilskih guma pa sve do čistih betonskih i drvenih blokova. Veliki plus ovog parka je i gusto drveće koje radi hlad većinu dana na prostoru parka pogotovo u jetnom razdoblju kao i mogućnost dopune vode na obližnjim fontama oko jezera.";
 
   jarunMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -274,7 +274,7 @@ function myMap() {
   });
 
   const voltinoInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Voltino smješten je u Zagrebu, preciznije u kvartu Voltino po kojem je i dobio ime. Park je odlično postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening. Veliki plus je i mogućnost dopune vode u obližnjim župnim prostorijama. Jedina mala zamjerka je tokom ljetnog perioda nedostatak hlada na prostoru parka i blizina obližnjoj crkvi sv. Leopolda Mandića pa nije baš uvijek primjereno puštati glasnu muziku, ako traje misno slavlje. ";
 
   voltinoMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -302,7 +302,7 @@ function myMap() {
   });
 
   const ljubljanicaInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Ljubljanica smješten je u Zagrebu, preciznije u kvartu Ljubljanica po kojem je i dobio ime. Park je solidno postavljen, debljina i visina šipki također dobra i sadrži sve potrebne sprave za kvalitetan trening. Jedine zamjerke su da tokom ljetnog perioda nema hlada na prostoru parka i oba dvije šipke za zgibove se malo naginju na jednu stranu tj. nisu ravne.";
 
   ljubljanicaMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -359,7 +359,7 @@ function myMap() {
   });
 
   const savicaInfo =
-    "Street Workout park Savica smješten je u Zagrebu, preciznije u kvartu Savica po kojem je i dobio ime. Park je dosta loše postavljen jer ima mali izbor šipki za zgibove. Horizontalne ljestve tj. &#34Monkey bar&#34 ima predebele šipke i samo s jedne strane mogućnost izvedbe zgibova jer su s druge strane švedske ljestve. Ostale dvije šipke za zgibove imaju dobar hvat no dosta su čudnih visina pa nisu bas korisne pogotovo za neke vježbe kao što su ruski zgibovi. Park se nalazi na uređenom savskom nasipu pa je dobar za usputni trening uz neki cardio ili obrnuto. Također par metara od parka se nalazi i crpka za vodu.Jedina mala zamjerka je tokom ljetnog perioda nedostatak hlada na prostoru parka.";
+    "Street Workout park Savica smješten je u Zagrebu, preciznije u kvartu Savica po kojem je i dobio ime. Park je dosta loše postavljen jer ima mali izbor šipki za zgibove. Horizontalne ljestve tj. &#34Monkey bar&#34 ima predebele šipke i samo s jedne strane mogućnost izvedbe zgibova jer su s druge strane švedske ljestve. Ostale dvije šipke za zgibove imaju dobar hvat no dosta su čudnih visina pa nisu bas korisne pogotovo za neke vježbe kao što su ruski zgibovi. Park se nalazi na uređenom savskom nasipu pa je dobar za usputni trening uz neki cardio ili obrnuto. Dodatan plus je i mogućnost dopune vode na obližnoj crpki. Jedina mala zamjerka je tokom ljetnog perioda nedostatak hlada na prostoru parka.";
 
   savicaMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -387,7 +387,7 @@ function myMap() {
   });
 
   const jarun2Info =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Jarun 2 smješten je u Zagrebu, preciznije na jezeru Jarun po kojem je i dobio ime. Na cijelom jezeru nalaze se dva parka i oba parka su odlično postavljena, među boljima u Zagrebu. Park je zanimljiv jer ima mix starih old school šipki i novih. Old school šipke su malo predebele, no novi dio parka je taman što se tiče debljine i visine šipki i sadrži sve potrebne sprave za kvalitetan trening no ovaj park se također ističe i po velikom izboru različitih šipki i ostalih sprava što ga čini idealnim izborom kada se organizira bilo kakav grupni trening. Veliki plus ovog parka je mogućnost dopune vode na obližnjim fontama oko jezera.";
 
   jarun2Marker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -415,7 +415,7 @@ function myMap() {
   });
 
   const rudesInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Rudeš smješten je u Zagrebu, preciznije u kvartu Rudeš po kojem je i dobio ime. Park je solidno postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening. Dodatan plus ovog parka je njegova pozicija jer je okružen zgradama sa svih strana pa nije toliko vidljiv za slučajne prlaznike. Jedina mala zamjerka je tokom ljetnog perioda nedostatak hlada na prostoru parka i blizina Osnovne škole Rudeš i dječjeg vrtića Grigor Vitez.";
 
   rudesMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -443,7 +443,7 @@ function myMap() {
   });
 
   const sveticeInfo =
-    "Street Workout park Svetice smješten je u Zagrebu, preciznije u kvartu Svetice po kojem je i dobio ime. Park je odlično postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening no ovaj park se također ističe i po velikom izboru različitih šipki i ostalih sprava što ga čini idealnim izborom kada se organizira bilo kakav grupni trening. Park se nalazi u sklopu jedne vrste sportsko rekreacijskog centra gdje još djeluju dva atletska kluba Svetice i Dinamo Zrinjevac, malo dalje je smješten i kompleks bazena Svetice, ali glavna stvar je stadion Maksimir. Ovaj park zajedno s još dva parka Trnover i Britanac spada u najbolje parkove Zagreba, a usudili bi se reći i Hrvatske. Sva tri parka su planski izgrađena u dogovoru s lokalnom zajednicom i zbog toga se dosta ističu od šablonski postavljenih parkova koji prevladavaju u ostatku Zagreba. Jedina mala zamjerka je tokom ljetnog perioda nedostatak hlada na prostoru parka i dosta mali razmak između sprava s obzirom koliko još mjesta ima na raspolaganju.";
+    "Street Workout park Svetice smješten je u Zagrebu, preciznije u kvartu Svetice po kojem je i dobio ime. Park je odlično postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening no ovaj park se također ističe i po velikom izboru različitih šipki i ostalih sprava što ga čini idealnim izborom kada se organizira bilo kakav grupni trening. Park se nalazi u sklopu jedne vrste sportsko rekreacijskog centra gdje još djeluju dva atletska kluba Svetice i Dinamo Zrinjevac, malo dalje je smješten i kompleks bazena Svetice, ali glavna stvar je stadion Maksimir. Dodatan plus je i mogućnost dopune vode i odlaska na obližnji WC. Ovaj park zajedno s još dva parka Trnover i Britanac spada u najbolje parkove Zagreba, a usudili bi se reći i Hrvatske. Sva tri parka su planski izgrađena u dogovoru s lokalnom zajednicom i zbog toga se dosta ističu od šablonski postavljenih parkova koji prevladavaju u ostatku Zagreba. Jedina mala zamjerka je tokom ljetnog perioda nedostatak hlada na prostoru parka i dosta mali razmak između sprava s obzirom koliko još mjesta ima na raspolaganju.";
 
   sveticeMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -471,7 +471,7 @@ function myMap() {
   });
 
   const preckoInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Prečko smješten je u Zagrebu, preciznije u kvartu Prečko po kojem je i dobio ime. Park je odlično postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening no dost je veliki razmak između sprava što je mali minus jer je dosta prostora ne iskorišteno. Jedina mala zamjerka je tokom ljetnog perioda nedostatak hlada na prostoru parka i blizina dječjeg vrtića Prečko.";
 
   preckoMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -499,7 +499,7 @@ function myMap() {
   });
 
   const ciglenicaInfo =
-    "Street Workout park Ciglenica smješten je u Zagrebu, preciznije u kvartu Trešnjevka po kojem je i dobio ime. Park je odlično postavljen jedan od boljih u Zagrebu, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening. Jedina mala zamjerka je tokom ljetnog perioda nedostatak hlada na prostoru parka.";
+    "Street Workout park Ciglenica smješten je u Zagrebu, preciznije u kvartu Trešnjevka. Pored parka se nalazi staro vodocrpilište koje je svo u ciglama pa je park po tome i dobio ime. Park je odlično postavljen jedan od boljih u Zagrebu, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening. Dodatan plus je i mogućnost dopune vode u obližnjem parku za pse. Jedina mala zamjerka je tokom ljetnog perioda nedostatak hlada na prostoru parka.";
 
   ciglenicaMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -639,7 +639,7 @@ function myMap() {
   });
 
   const spanskoInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Špansko smješten je u Zagrebu, preciznije u kvartu Špansko po kojem je i dobio ime. Park je odlično postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening. Dodatan plus je i mogućnost dopune vode pored obližnjim terena nogometnog kluba Špansko. Park se nalazi u sklopu jedne vrste sportsko rekreacijskog centra gdje još djeluju teniski klub Špansko i nogometni klub Špansko.  Jedina zamjerke su da tokom ljetnog perioda nema hlada na prostoru parka i blizina Osnovne škole Tituša Brezovačkog i dječjeg vrtića Špansko.";
 
   spanskoMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -667,7 +667,7 @@ function myMap() {
   });
 
   const gajniceInfo =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+    "Street Workout park Gajnice smješten je u Zagrebu, preciznije u kvartu Gajnice po kojem je i dobio ime. Park je solidno postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening. Jedina mala zamjerka je tokom ljetnog perioda nedostatak hlada na prostoru parka.";
 
   gajniceMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
