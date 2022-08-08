@@ -266,6 +266,7 @@ header .menu-list {
   width: 220px;
   border-radius: 50%;
   position: relative;
+  overflow: hidden;
   margin: 0px auto;
 }
 .avatar-image {
@@ -277,17 +278,17 @@ header .menu-list {
 /* effects styles !!!YOU NEED THEM */
 /* don&#39;
 t forget to add your own colors and parameters */
-.portfolio-effect {
+/* .portfolio-effect {
   display: flex;
   justify-content: space-between;
-}
-.portfolio-item {
+} */
+/* .portfolio-item {
   position: relative;
   overflow: hidden;
   width: 300px;
   height: 300px;
-}
-.portfolio-item img {
+} */
+/* .portfolio-item img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -298,24 +299,25 @@ t forget to add your own colors and parameters */
   max-width: 200%;
   max-height: 200%;
   transform: translate(-50%, -50%);
-}
+} */
 .portfolio-item__info {
   position: absolute;
   top: 7px;
-  left: 7px;
+  /* left: 7px; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: calc(100% - 2 * 7px);
-  height: calc(100% - 2 * 7px);
-  background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .portfolio-item__header {
   position: relative;
   margin: 0 0 20px 0;
   padding: 15px 0;
-  font-size: 22px;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -327,7 +329,7 @@ t forget to add your own colors and parameters */
   height: 2px;
   width: 100%;
   content: "";
-  background-color: #8d909b;
+  background-color: rgb(255, 0, 0);
 }
 .portfolio-item__links {
   display: flex;
@@ -351,14 +353,14 @@ t forget to add your own colors and parameters */
   justify-content: center;
   width: 100%;
   height: 100%;
-  color: #101010;
+  color: rgb(255, 255, 255);
   text-decoration: none;
-  border: 1px solid #101010;
+  border: 1px solid rgb(255, 0, 0);
   border-radius: 50%;
 }
 .portfolio-item__link:hover {
-  color: #fff;
-  background-color: #101010;
+  color: rgb(255, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
 }
 /* EFFECT #3 STYLES */
 .portfolio-item--eff3 .portfolio-item__info {
@@ -388,7 +390,7 @@ t forget to add your own colors and parameters */
 }
 .portfolio-item--eff3:hover .portfolio-item__info {
   transition-property: transform;
-  transition-duration: 0.3s;
+  transition-duration: 0.5s;
   transition-timing-function: linear;
   transition-delay: 0s;
   transform: scale(1, 1);
