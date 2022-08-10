@@ -273,7 +273,6 @@ header .menu-list {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 50%;
 }
 /* effects styles !!!YOU NEED THEM */
 /* don&#39;
@@ -362,7 +361,7 @@ t forget to add your own colors and parameters */
   color: rgb(255, 0, 0);
   border: 1px solid rgb(255, 255, 255);
 }
-/* EFFECT #3 STYLES */
+/* EFFECTS */
 .portfolio-item--eff3 .portfolio-item__info {
   transition-property: transform;
   transition-duration: 0.3s;
