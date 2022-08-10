@@ -380,13 +380,9 @@
               </div>
 
               <div class="col-lg-3 col-md-6 col-12 mb-3">
-                <!-- <div class="avatar-info"> -->
-                <div class="portfolio-effect">
-                  <div
-                    class="portfolio-item portfolio-effect__item portfolio-item--eff3 avatar"
-                  >
-                    <div class="portfolio-item__image avatar-image" width="826"
-                    height="551"">
+                <div class="avatar">
+                  <div class="portfolio-effect__item portfolio-item--eff3">
+                    <div class="avatar-image">
                     <img src="images/nikola-1.png" class="avatar-image" />
                   </div>
 
@@ -433,7 +429,7 @@
                   </div>
                 </div>
               </div>
-              <!-- <div class="avatar-bio">
+              <!-- <div id="avatar-bio" class="avatar-bio">
                     <span>Ukratko o sebi:</span> Lorem ipsum, dolor sit amet
                     consectetur adipisicing elit. Commodi, odio! Reiciendis
                     laudantium repudiandae eaque fugit architecto quibusdam
@@ -444,7 +440,6 @@
                     <span>Omiljeni citat:</span> "Budi promjena koju želiš
                     gledati u životu"
                   </div> -->
-              <!-- </div> -->
             </div>
 
             <div class="col-lg-3 col-md-6 col-12 justify-content-center mb-3">
@@ -623,13 +618,11 @@
             <div class="ftext mb-2">IZBORNIK</div>
             <ul class="list-unstyled fmenu">
               <li><a href="index.html">Početna</a></li>
-              <li><a href="about.html"> O nama</a></li>
+              <li><a href="about.html">O nama</a></li>
               <li><a href="shop.html">Shop</a></li>
               <li><a href="gallery.html">Galerija</a></li>
               <li><a href="park-search.html">Pronađi park</a></li>
-              <li>
-                <a href="index.html#faq">Najčešća pitanja</a>
-              </li>
+              <li><a href="index.html#faq">Najčešća pitanja</a></li>
               <li><a href="contact.html">Kontakt</a></li>
             </ul>
           </div>
@@ -638,19 +631,28 @@
             <p class="small text-white">
               Prati najnovije informacije o našem radu i svim našim događajima!
             </p>
-            <form action="#">
+            <form
+              action="https://formsubmit.co/streetgainz1@gmail.com"
+              method="POST"
+            >
+              <input
+                type="hidden"
+                name="_next"
+                value="https://platypus712.github.io/streetgainz.net/thankyou.html"
+              />
+              <input type="hidden" name="_subject" value="Novi pretplatnik" />
               <div class="input-group mb-3">
                 <input
                   class="form-control"
-                  type="text"
-                  placeholder="Unesi email..."
-                  aria-label="Recipient's username"
-                  aria-describedby="button-addon2"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Unesite email oblika name@example.com"
                 />
                 <button
                   class="btn btn-primary"
                   id="button-addon2"
-                  type="button"
+                  type="submit"
                 >
                   <i class="fas fa-paper-plane"></i>
                 </button>
