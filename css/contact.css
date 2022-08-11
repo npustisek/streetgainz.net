@@ -211,7 +211,7 @@ input:focus,
 textarea:focus {
   border-bottom: 2px solid #ff0000;
 }
-p {
+.form p {
   content: attr(type);
   display: block;
   margin: 28px 0 0;

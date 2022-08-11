@@ -213,7 +213,6 @@ header .menu-list {
   color: rgb(255, 0, 0);
   text-decoration: none;
 }
-
 /* FOOTER */
 footer {
   background: rgba(7, 7, 7, 0.904);
@@ -283,6 +282,9 @@ footer .form-control {
 }
 footer .btn-primary {
   height: 38px;
+}
+footer input {
+  font-family: "Akshar", sans-serif;
 }
 footer .small {
   font-size: 1rem;

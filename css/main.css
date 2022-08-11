@@ -434,7 +434,6 @@ textarea.form-control {
   outline: 0;
   box-shadow: none;
 }
-
 /* FOOTER */
 footer {
   background: rgba(7, 7, 7, 0.904);
@@ -452,6 +451,16 @@ footer a {
 .fmenu a:hover,
 .social a:hover {
   color: red;
+}
+.form-control {
+  border: 1px solid red;
+  background-color: rgba(56, 53, 53, 0.589);
+}
+.form-control:focus {
+  border: 1px solid red;
+  background-color: rgba(56, 53, 53, 0.589);
+  outline: 0;
+  box-shadow: none;
 }
 .btn-primary {
   background-color: rgba(56, 53, 53, 0.589);

@@ -248,11 +248,6 @@ footer a {
   outline: 0;
   box-shadow: none;
 }
-.input-group input {
-  caret-color: #ff0000;
-  color: white !important;
-  font-family: "Akshar", sans-serif;
-}
 .btn-primary {
   background-color: rgba(56, 53, 53, 0.589);
   border: 1px solid red;
@@ -294,6 +289,9 @@ footer .form-control {
 }
 footer .btn-primary {
   height: 38px;
+}
+footer input {
+  font-family: "Akshar", sans-serif;
 }
 footer .small {
   font-size: 1rem;

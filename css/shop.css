@@ -233,6 +233,9 @@ footer .form-control {
 footer .btn-primary {
   height: 38px;
 }
+footer input {
+  font-family: "Akshar", sans-serif;
+}
 footer .small {
   font-size: 1rem;
   font-family: "Akshar", sans-serif;
