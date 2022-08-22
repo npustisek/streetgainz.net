@@ -415,7 +415,7 @@ function myMap() {
   });
 
   const rudesInfo =
-    "Street Workout park Rudeš smješten je u Zagrebu, preciznije u kvartu Rudeš. Park je solidno postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening. Dodatan plus ovog parka je njegova pozicija jer je okružen zgradama sa svih strana pa nije toliko vidljiv za slučajne prlaznike. Jedine zamjerke su da tokom ljetnog perioda nema hlada na prostoru parka i blizina Osnovne škole Rudeš i dječjeg vrtića Grigor Vitez.";
+    "Street Workout park Rudeš smješten je u Zagrebu, preciznije u kvartu Rudeš. Park je solidno postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening. Dodatan plus ovog parka je njegova pozicija jer je okružen zgradama sa svih strana pa nije toliko vidljiv za slučajne prolaznike. Jedine zamjerke su da tokom ljetnog perioda nema hlada na prostoru parka i blizina Osnovne škole Rudeš i dječjeg vrtića Grigor Vitez.";
 
   rudesMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
