@@ -376,7 +376,7 @@ header .menu-list {
   font-family: "Bebas Neue", cursive;
   font-size: 1.5rem;
 }
-.avatar .avatar-bio .about-scroll{
+.avatar .avatar-bio .about-scroll {
   height: 50vh;
   overflow-y: scroll;
 }
@@ -399,11 +399,6 @@ header .menu-list {
 }
 .about-sw .row:hover {
   box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
-}
-.about-sw-img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
 }
 .about-sw .title {
   text-align: center;
