@@ -94,6 +94,8 @@ function myMap() {
   const spansko = { lat: 45.800536496435996, lng: 15.898664952412943 };
   const gajnice = { lat: 45.81736288334762, lng: 15.876114131361767 };
   const klaka = { lat: 45.83679250143254, lng: 16.0541721524014 };
+  const folka = { lat: 45.79503799869429, lng: 16.005015775340617 };
+  const subiceva = { lat: 45.809210813224205, lng: 15.993764739016488 };
 
   const map = new google.maps.Map(document.getElementById("googleMap"), {
     zoom: 12,
@@ -695,7 +697,7 @@ function myMap() {
   });
 
   const klakaInfo =
-    "Street Workout park Klaka smješten je u Zagrebu, preciznije kvart Klaka. Park je dobro postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening no sadrži i nekolicinu nepotrebnih sprava pa stoga mali minus no unatoč tomu jedan je od boljih parkova u Zagrebu. Park se također nalazi u sklopu sportsko-rekreacijskog centra Klaka koji ima puno toga za ponuditi od atletske staze do različith terena i podloga. Jedina zamjerka j da tokom ljetnog perioda nema hlada na prostoru parka";
+    "Street Workout park Klaka smješten je u Zagrebu, preciznije u kvartu Klaka. Park je dobro postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening no sadrži i nekolicinu nepotrebnih sprava pa stoga mali minus no unatoč tomu jedan je od boljih parkova u Zagrebu. Park se također nalazi u sklopu sportsko-rekreacijskog centra Klaka koji ima puno toga za ponuditi od atletske staze do različith terena i podloga. Jedina zamjerka j da tokom ljetnog perioda nema hlada na prostoru parka";
 
   klakaMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -713,6 +715,62 @@ function myMap() {
     document.getElementById("park-link").style.textDecorationStyle = "none";
     document.getElementById("park-rating").innerHTML =
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>';
+    document.getElementById("park-name").scrollIntoView();
+  });
+
+  const folkaMarker = new google.maps.Marker({
+    position: folka,
+    map: map,
+    title: "Street Workout park - Folka",
+  });
+
+  const folkaInfo =
+    "Street Workout park Folka smješten je u Zagrebu, preciznije u kvartu Folnegovićevo naselje. Park je solidno postavljen, debljina i visina šipki taman i sadrži sve potrebne sprave za kvalitetan trening no sadrži i nekolicinu nepotrebnih sprava pa stoga mali minus. Jedine zamjerke su da tokom ljetnog perioda nema hlada na prostoru parka i blizina Osnovne škole pl. Matačića.";
+
+  folkaMarker.addListener("click", () => {
+    document.getElementById("park-name").innerHTML =
+      "Street Workout park - Folka";
+    document.getElementById("park-image").src = "images/folka.webp";
+    document.getElementById("park-image").style.border = "2px solid red";
+    document.getElementById("park-image").style.marginBottom = "20px";
+    document.getElementById("subtitle").innerHTML = "StreetGainZ opis parka";
+    document.getElementById("park-description").innerHTML = folkaInfo;
+    document.getElementById("eq-subtitle").innerHTML = "Popis sprava u parku: ";
+    document.getElementById("park-equipment").innerHTML =
+      "Set od tri visoke horizontalne šipke za zgibove različitih visina <br>Bicikl <br>Set paralelnih šipki za propadanja različitih visina <br>Set od četiri rotirajuća kruga za različite vježbe <br>Set od dvije klupice za trbušnjake <br>Sprava za njihanje";
+    document.getElementById("park-link").innerHTML =
+      "Klikni <a href='https://goo.gl/maps/bMzre1mRyaEysm9F8' target=_blank>ovdje</a> i pogledaj slike parka!";
+    document.getElementById("park-link").style.textDecorationStyle = "none";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>';
+    document.getElementById("park-name").scrollIntoView();
+  });
+
+  const subicevaMarker = new google.maps.Marker({
+    position: subiceva,
+    map: map,
+    title: "Street Workout park - Šubićeva",
+  });
+
+  const subicevaInfo =
+    "Street Workout park Šubićeva smješten je u Zagrebu, preciznije u kvartu Donji grad u blizini Šubićeve ulice. Park je solidno postavljen, debljina i visina šipki taman i sadrži sve potrebne sprave za kvalitetan trening. Veliki plus ovog parka prema ostalima je što je veliku većinu dana prostor parka u hladu zbog gustog drveća pa je ugodno za trenirati posebice u ljetnom periodu. Također, park se nalazi u prostoru između zgrada pa je skriven od pogleda prolaznika pa je rijetko gužva i par metara od parka se nalaze betonski tereni za nogomet i košarku. Jedina zamjerka je mali izbor šipki za zgibove (samo dvije na &#34Monkey baru&#34) i prisutnost par nepotrebnih sprava";
+
+  subicevaMarker.addListener("click", () => {
+    document.getElementById("park-name").innerHTML =
+      "Street Workout park - Šubićeva";
+    document.getElementById("park-image").src = "images/subiceva.webp";
+    document.getElementById("park-image").style.border = "2px solid red";
+    document.getElementById("park-image").style.marginBottom = "20px";
+    document.getElementById("subtitle").innerHTML = "StreetGainZ opis parka";
+    document.getElementById("park-description").innerHTML = subicevaInfo;
+    document.getElementById("eq-subtitle").innerHTML = "Popis sprava u parku: ";
+    document.getElementById("park-equipment").innerHTML =
+      "Horizontalne ljestve (&#34Monkey bar&#34) <br>Sprava za njihanje <br>Set paralelnih šipki za propadanja različitih visina <br>Jedna varijanta bicikla";
+    document.getElementById("park-link").innerHTML =
+      "Klikni <a href='https://goo.gl/maps/i5Hs5gbAD9URLk1t8' target=_blank>ovdje</a> i pogledaj slike parka!";
+    document.getElementById("park-link").style.textDecorationStyle = "none";
+    document.getElementById("park-rating").innerHTML =
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>';
     document.getElementById("park-name").scrollIntoView();
   });
 }
