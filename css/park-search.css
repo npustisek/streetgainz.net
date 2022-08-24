@@ -9,6 +9,7 @@
 html {
   overflow-y: scroll;
   scroll-behavior: smooth;
+  scroll-padding-top: 100px;
 }
 body {
   background: url(../images/bg-vodoravna.webp) no-repeat center center fixed;
@@ -88,6 +89,9 @@ header .menu-list {
 }
 .dropdown:hover .dropdown-content {
   display: block;
+}
+dl, ol, ul {
+  margin-bottom: 0;
 }
 /*BACK TO TOP BUTTON*/
 #myBtn {

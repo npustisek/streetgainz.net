@@ -9,6 +9,7 @@
 html {
   overflow-y: scroll;
   scroll-behavior: smooth;
+  scroll-padding-top: 100px;
 }
 body {
   background: url(../images/bg-vodoravna.webp) no-repeat center center fixed;
@@ -280,6 +281,13 @@ header .menu-list {
   margin-top: 25px;
   margin-bottom: 30px;
 }
+@media (max-width: 1200px) {
+  .avatar {
+    height: auto;
+    width: auto;
+    border-radius: 0;
+  }
+}
 .avatar-image {
   width: 100%;
   height: 100%;
@@ -299,6 +307,14 @@ header .menu-list {
   justify-content: center;
   align-content: center;
   flex-direction: column;
+}
+@media (max-width: 1200px) {
+  .avatar .bio {
+    opacity: 1;
+    position: static;
+    transform: unset;
+    padding: 20px;
+  }
 }
 .avatar:hover .bio {
   opacity: 1;
@@ -321,6 +337,9 @@ header .menu-list {
   display: flex;
   justify-content: center;
   list-style: none;
+}
+dl, ol, ul {
+  margin-bottom: 0;
 }
 .avatar .bio .socials a {
   color: rgb(255, 255, 255);
@@ -424,7 +443,7 @@ header .menu-list {
 }
 .sw-video iframe {
   width: 100%;
-  height: 500px;
+  aspect-ratio: 16/9;
 }
 /* FOOTER */
 footer {

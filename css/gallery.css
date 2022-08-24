@@ -8,6 +8,7 @@
 }
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 100px;
 }
 body::before {
   content: "";
@@ -94,6 +95,9 @@ header .menu-list {
 }
 .dropdown:hover .dropdown-content {
   display: block;
+}
+dl, ol, ul {
+  margin-bottom: 0;
 }
 /*BACK TO TOP BUTTON*/
 #myBtn {
