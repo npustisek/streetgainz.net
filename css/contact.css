@@ -90,6 +90,14 @@ header .menu-list {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+@media (min-width: 1201px) {
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropbtn{
+    pointer-events: none;
+  }
+}
 dl, ol, ul {
   margin-bottom: 0;
 }
