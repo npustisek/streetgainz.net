@@ -251,22 +251,6 @@ header .menu-list {
 .about p a:hover {
   color: rgb(255, 0, 0);
 }
-/* MEMBERS IN & OUT */
-.list-members {
-  line-height: 2;
-}
-.list-members .in {
-  color: rgb(19, 219, 19);
-}
-.list-members .in a:hover {
-  color: rgb(19, 219, 19);
-}
-.list-members .out {
-  color: rgb(236, 12, 12);
-}
-.list-members .out a:hover {
-  color: rgb(236, 12, 12);
-}
 /* MEMBERS & AVATARS */
 .members-div {
   flex-wrap: wrap;
@@ -372,7 +356,7 @@ dl, ol, ul {
   top: 15%;
   left: 50%;
   transform: translateX(-50%);
-  width: 80%;
+  width: 95%;
   height: auto;
   background-color: rgba(0, 0, 0, 0.863);
   border: 5px solid rgb(255, 0, 0);
@@ -406,6 +390,8 @@ dl, ol, ul {
 .avatar .avatar-bio .about-scroll {
   height: 50vh;
   overflow-y: scroll;
+  border-bottom: 2px solid rgb(255, 0, 0);
+  border-top: 2px solid rgb(255, 0, 0);
 }
 .avatar .avatar-bio p {
   text-align: left;
@@ -663,6 +649,21 @@ p.small.text-white::before {
   .about p {
     font-size: 1rem;
     margin: 10px 0 !important;
+  }
+  .members-title{
+    font-size: 1.4rem;
+  }
+  .avatar .bio .name{
+    font-size: 1.3rem;
+  }
+  .avatar .bio .socials a{
+    font-size: 1.2rem;
+  }
+  .avatar .info-icon{
+    font-size: 1.2rem;
+  }
+  .avatar .avatar-bio p{
+    font-size: 1.1rem;
   }
   .about-sw .title {
     font-size: 1.3rem;
