@@ -87,9 +87,6 @@ header .menu-list {
 .dropdown-content a:hover {
   color: red;
 }
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 @media (min-width: 1201px) {
   .dropdown:hover .dropdown-content {
     display: block;
