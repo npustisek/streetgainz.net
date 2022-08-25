@@ -109,7 +109,7 @@ function myMap() {
   });
 
   const knezijaInfo =
-    "Street Workout park Knežija smješten je u Zagrebu, preciznije u kvartu Knežija. Park je jako loše postavljen jer osim &#34Monkey bar&#34 i jedne samostalne šipke nema potrebnih sprava za kvalitetan trening pogotovo što se tiče push dijela jer nema šipki za propadanja niti sklekove. Veliki plus ovog parka prema ostalima je što je veliku većinu dana prostor parka u hladu zbog gustog drveća pa je ugodno za trenirati posebice u ljetnom periodu.";
+    "Street Workout park Knežija smješten je u Zagrebu, preciznije u kvartu Knežija. Park je jako loše postavljen jer osim &#34Monkey bara&#34 i jedne samostalne šipke nema potrebnih sprava za kvalitetan trening pogotovo što se tiče push dijela jer nema šipki za propadanja niti sklekove. Veliki plus ovog parka prema ostalima je što je veliku većinu dana prostor parka u hladu zbog gustog drveća pa je ugodno za trenirati posebice u ljetnom periodu.";
 
   knezijaMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -192,7 +192,7 @@ function myMap() {
   });
 
   const remizaInfo =
-    "Street Workout park Remiza smješten je u Zagrebu, preciznije u kvartu Vurovčica.  Kvart je dosta mali i s obzirom da većinu toga prostora zahvaća Remiza ZET-a (&#34Okretište zagrebačkog električnog tramvaja&#34) tokom vremena se među ljudima ustalilo ime „Remiza“. Park je odlično postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening. Park je zanimljiv jer je dosta niži u odnosu na razinu ulice, pa nije toliko vidljiv slučajnim prolaznicima. Ovisno o periodu dana na velikom dijelu parka je hlad što je veliki plus tokom ljetnih mjeseci jer je ugodno za trenirati. Dodatan plus je i mogućnost dopune vode u podrumu obližnje zgrade. Jedina zamjerka je ta da se u sklopu parka nalazi i parkić za djecu.";
+    "Street Workout park Remiza smješten je u Zagrebu, preciznije u kvartu Vurovčica. Kvart je dosta mali i s obzirom da većinu toga prostora zahvaća Remiza ZET-a (&#34Okretište zagrebačkog električnog tramvaja&#34) tokom vremena se među ljudima ustalilo ime „Remiza“. Park je odlično postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening. Park je zanimljiv jer je dosta niži u odnosu na razinu ulice, pa nije toliko vidljiv slučajnim prolaznicima. Ovisno o periodu dana na velikom dijelu parka je hlad što je veliki plus tokom ljetnih mjeseci jer je ugodno za trenirati. Dodatan plus je i mogućnost dopune vode u podrumu obližnje zgrade. Jedina zamjerka je ta da se u sklopu parka nalazi i parkić za djecu.";
 
   remizaMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -276,7 +276,7 @@ function myMap() {
   });
 
   const voltinoInfo =
-    "Street Workout park Voltino smješten je u Zagrebu, preciznije u kvartu Voltino. Park je odlično postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening. Dodatan plus je mogućnost dopune vode u obližnjim župnim prostorijama. Jedine zamjerke su da tokom ljetnog perioda nema hlada na prostoru parka i blizina obližnjoj crkvi sv. Leopolda Mandića pa nije baš uvijek primjereno puštati glasnu muziku posebice za vrijeme trajanja misnog slavlja. ";
+    "Street Workout park Voltino smješten je u Zagrebu, preciznije u kvartu Voltino. Park je odlično postavljen, debljina i visina šipki također taman i sadrži sve potrebne sprave za kvalitetan trening. Dodatan plus je mogućnost dopune vode u obližnjim župnim prostorijama. Jedine zamjerke su da tokom ljetnog perioda nema hlada na prostoru parka i blizina obližnjoj crkvi sv. Leopolda Mandića pa nije baš uvijek primjereno puštati glasnu muziku posebice za vrijeme trajanja misnog slavlja.";
 
   voltinoMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
@@ -332,7 +332,7 @@ function myMap() {
   });
 
   const tresnjevackiplacInfo =
-    "Street Workout park Trešnjevački plac smješten je u Zagrebu, preciznije u kvartu Trešnjevka. Park je solidno postavljen, debljina i visina šipki je taman i sadrži većinu potrebnih sprava za kvalitetan trening. Park se nalazi odmah pored Osnovne škole Julija Klovića i u sklopu je doma za starije osobe Trešnjevka. Veliki plus ovog parka prema ostalima je što je veliku većinu dana prostor parka u hladu zbog gustog drveća pa je ugodno za trenirati posebice u ljetnom periodu. Neke zamjerke su da je u parku na nekim dijelovima teren malo neravan tj. nije ravan pa je nezgodno raditi handstand i slične stvari te u parku nedostaje &#34Monkey bar&#34 pa izvođenje nekih vrsta zgibova poput onih s neutralnim hvatom nije moguće. Također, kako je park napravljen pored doma za starije osobe nije prikladno puštati previše glasnu muziku";
+    "Street Workout park Trešnjevački plac smješten je u Zagrebu, preciznije u kvartu Trešnjevka. Park je solidno postavljen, debljina i visina šipki je taman i sadrži većinu potrebnih sprava za kvalitetan trening. Park se nalazi odmah pored Osnovne škole Julija Klovića i u sklopu je doma za starije osobe Trešnjevka. Veliki plus ovog parka prema ostalima je što je veliku većinu dana prostor parka u hladu zbog gustog drveća pa je ugodno za trenirati posebice u ljetnom periodu. Neke zamjerke su da je u parku na nekim dijelovima teren malo neravan pa je nezgodno raditi handstand i slične stvari te u parku nedostaje &#34Monkey bar&#34 pa izvođenje nekih vrsta zgibova poput onih s neutralnim hvatom nije moguće. Također, kako je park napravljen pored doma za starije osobe nije prikladno puštati previše glasnu muziku.";
 
   tresnjevackiplacMarker.addListener("click", () => {
     document.getElementById("park-name").innerHTML =
