@@ -433,7 +433,7 @@ dl, ol, ul {
   margin-top: 50px;
 }
 .sw-video iframe {
-  width: 100%;
+  width: 80%;
   aspect-ratio: 16/9;
 }
 /* FOOTER */
@@ -662,9 +662,11 @@ p.small.text-white::before {
   .avatar .avatar-bio p{
     font-size: 1.1rem;
   }
-  .about-sw .title {
+  .about-sw .title, .video-title {
     font-size: 1.3rem;
-    margin-top: 5px;
+  }
+  .video-title{
+    margin-top: 15px;
   }
   .about-sw p {
     font-size: 1rem;
