@@ -6,6 +6,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 13px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 0, 0);
+}
 html {
   overflow-y: scroll;
   scroll-behavior: smooth;
@@ -91,7 +101,7 @@ header .menu-list {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  .dropbtn{
+  .dropbtn {
     pointer-events: none;
   }
 }
@@ -327,7 +337,9 @@ header .menu-list {
   justify-content: center;
   list-style: none;
 }
-dl, ol, ul {
+dl,
+ol,
+ul {
   margin-bottom: 0;
 }
 .avatar .bio .socials a {
@@ -647,25 +659,26 @@ p.small.text-white::before {
     font-size: 1rem;
     margin: 10px 0 !important;
   }
-  .members-title{
+  .members-title {
     font-size: 1.4rem;
   }
-  .avatar .bio .name{
+  .avatar .bio .name {
     font-size: 1.3rem;
   }
-  .avatar .bio .socials a{
+  .avatar .bio .socials a {
     font-size: 1.2rem;
   }
-  .avatar .info-icon{
+  .avatar .info-icon {
     font-size: 1.2rem;
   }
-  .avatar .avatar-bio p{
+  .avatar .avatar-bio p {
     font-size: 1.1rem;
   }
-  .about-sw .title, .video-title {
+  .about-sw .title,
+  .video-title {
     font-size: 1.3rem;
   }
-  .video-title{
+  .video-title {
     margin-top: 15px;
   }
   .about-sw p {
