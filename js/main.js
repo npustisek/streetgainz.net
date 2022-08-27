@@ -44,7 +44,7 @@ mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.addEventListener("scroll", function () {
-  console.log(window.pageYOffset);
+  // console.log(window.pageYOffset);
   if (window.pageYOffset > 20) {
     navbar.classList.add("sticky");
   } else {
@@ -67,6 +67,24 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+//AVATARS
+const avatars = document.querySelectorAll("[data-id]")
+console.log(avatars)
+
+Array.from(avatars).forEach(avatar => {
+  const id = avatar.dataset.id;
+  const bio = document.querySelector("#avatar-"+id);
+  const close = bio.querySelector(".close");
+  console.log(id, bio, close);
+  avatar.addEventListener("click", function() {
+    bio.classList.add("open")
+    document.documentElement.classList.add("no-scroll")
+  })
+  close.addEventListener("click", function() {
+    bio.classList.remove("open")
+    document.documentElement.classList.remove("no-scroll")
+  })
+})
 //MAP
 // Initialize and add the map
 function myMap() {

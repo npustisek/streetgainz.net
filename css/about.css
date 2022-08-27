@@ -358,26 +358,28 @@ ul {
 .avatar .info-icon:hover {
   color: rgb(255, 0, 0);
 }
-.avatar .bio-popup {
+.bio-popup {
   visibility: hidden;
   position: fixed;
   opacity: 0;
   top: 15%;
   left: 50%;
   transform: translateX(-50%);
-  width: 95%;
+  width: 80%;
   height: auto;
+  max-height: 80vh;
   background-color: rgba(0, 0, 0, 0.863);
   border: 5px solid rgb(255, 0, 0);
   z-index: 10;
   padding: 30px;
   transition: 500ms linear;
+  overflow-y: scroll;
 }
-.avatar .bio-popup.open {
+.bio-popup.open {
   visibility: visible;
   opacity: 1;
 }
-.avatar .close {
+.bio-popup .close {
   position: absolute;
   top: 10px;
   right: 20px;
@@ -387,30 +389,31 @@ ul {
   background: transparent;
   cursor: pointer;
 }
-.avatar .close:hover {
+.bio-popup .close:hover {
   color: rgb(255, 0, 0);
 }
-.avatar .avatar-name {
+.bio-popup .avatar-name {
   text-align: center;
   color: rgb(255, 255, 255);
   font-family: "Bebas Neue", cursive;
   font-size: 1.5rem;
 }
-.avatar .avatar-bio .about-scroll {
-  height: 50vh;
-  overflow-y: scroll;
+.bio-popup .avatar-bio .about-scroll {
   border-bottom: 2px solid rgb(255, 0, 0);
   border-top: 2px solid rgb(255, 0, 0);
 }
-.avatar .avatar-bio p {
+.bio-popup .avatar-bio p {
   text-align: left;
   color: rgb(255, 255, 255);
   font-family: "Akshar", sans-serif;
   font-size: 1.2rem;
 }
-.avatar .avatar-bio span {
+.bio-popup .avatar-bio span {
   color: rgb(255, 0, 0);
   font-weight: bold;
+}
+.no-scroll{
+  overflow: hidden;
 }
 /* PROSTOR ZA O SW-U */
 .about-sw .row {
@@ -671,7 +674,7 @@ p.small.text-white::before {
   .avatar .info-icon {
     font-size: 1.2rem;
   }
-  .avatar .avatar-bio p {
+  .avatar-bio p {
     font-size: 1.1rem;
   }
   .about-sw .title,
