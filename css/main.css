@@ -398,7 +398,6 @@ dl, ol, ul {
 .accordion-body a {
   text-decoration: none;
   color: white;
-  font-weight: bold;
 }
 .accordion-body a:hover {
   color: red;
