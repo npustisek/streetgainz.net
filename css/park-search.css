@@ -459,6 +459,9 @@ p.small.text-white::before {
   #park-image {
     display: none;
   }
+  .form {
+    box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
+  }
   footer img {
     width: 55%;
     object-fit: cover;
@@ -508,6 +511,10 @@ p.small.text-white::before {
   }
   .park-link {
     font-size: 1rem;
+  }
+  .form p {
+    font-size: 0.8rem;
+    margin: 18px 0 0;
   }
   footer .fmenu {
     font-size: 0.8rem;
