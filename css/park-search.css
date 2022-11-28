@@ -101,11 +101,13 @@ header .menu-list {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  .dropbtn{
+  .dropbtn {
     pointer-events: none;
   }
 }
-dl, ol, ul {
+dl,
+ol,
+ul {
   margin-bottom: 0;
 }
 /*BACK TO TOP BUTTON*/
@@ -232,6 +234,80 @@ dl, ol, ul {
   color: rgb(255, 0, 0);
   text-decoration: none;
 }
+/* FORM */
+.form {
+  background: #000000d3;
+  border-radius: 8px;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  font-family: "Akshar", sans-serif;
+  position: relative;
+  transition: 500ms linear;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-bottom: 50px;
+}
+.form:hover {
+  box-shadow: 1px -1px 40px 2px rgb(255, 0, 0);
+}
+.ftitle {
+  color: #ffffff;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.2rem;
+  border-bottom: 3px solid #ff0000;
+}
+.ftitle span {
+  font-family: "Akshar", sans-serif;
+  font-size: 1.4rem;
+  color: rgb(255, 0, 0);
+  align-self: center;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Akshar", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #ffffff;
+  caret-color: #ff0000;
+  color: white !important;
+}
+input:focus,
+textarea:focus {
+  border-bottom: 2px solid #ff0000;
+}
+.form p {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 1.1rem;
+  color: #ff0000;
+}
+.fbtn {
+  padding: 8px 22px;
+  width: fit-content;
+  margin: 8px 0 0;
+  font-family: "Akshar", sans-serif;
+  border: 2px solid rgb(156, 10, 10);
+  background: 0;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover {
+  background-color: rgb(209, 10, 10);
+  color: rgb(255, 255, 255);
+}
+/* KRAJ FORME */
 /* FOOTER */
 footer {
   background: rgba(7, 7, 7, 0.904);
