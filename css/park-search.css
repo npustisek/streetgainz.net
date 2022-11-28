@@ -512,6 +512,12 @@ p.small.text-white::before {
   .park-link {
     font-size: 1rem;
   }
+  .ftitle {
+    font-size: 1.3rem;
+  }
+  .ftitle span {
+    font-size: 0.9rem;
+  }
   .form p {
     font-size: 0.8rem;
     margin: 18px 0 0;
