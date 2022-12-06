@@ -14,6 +14,7 @@
       content="streetworkout, calisthenics, streetgainz, workout"
     />
     <title>StreetGainZ | Tražilica parkova</title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -324,7 +325,28 @@
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
+    <!-- MAP JS -->
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoJTXMKE-oqnr7I3hOjxlbsMB0WryOGdc&callback=myMap"
+    ></script>
+
+    <script>
+      function myMap() {
+        var map, center;
+        center = { lat: 45.80433861364107, lng: 15.995081167936178 };
+        map = new google.maps.Map(document.getElementById("googleMap"), {
+          zoom: 12,
+          center: center,
+        });
+        window.map = map;
+        window.google = google;
+      }
+    </script>
+
     <!-- MAIN JS -->
+    <script src="js/park.js"></script>
     <script src="js/main.js"></script>
 
     <!-- JS ZA BOOTSTRAP-->
@@ -335,13 +357,6 @@
       ;
       crossorigin="anonymous"
       ;
-    ></script>
-
-    <!-- MAP JS -->
-    <script
-      async
-      defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoJTXMKE-oqnr7I3hOjxlbsMB0WryOGdc&callback=myMap"
     ></script>
   </body>
 </html>
