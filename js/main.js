@@ -85,6 +85,3 @@ Array.from(avatars).forEach((avatar) => {
     document.documentElement.classList.remove("no-scroll");
   });
 });
-
-//MAP
-// Initialize and add the map
