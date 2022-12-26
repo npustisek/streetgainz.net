@@ -101,11 +101,13 @@ header .menu-list {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  .dropbtn{
+  .dropbtn {
     pointer-events: none;
   }
 }
-dl, ol, ul {
+dl,
+ol,
+ul {
   margin-bottom: 0;
 }
 /*BACK TO TOP BUTTON*/
