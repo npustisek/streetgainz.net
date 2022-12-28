@@ -101,12 +101,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-5 col-10 justify-content-center">
             <div data-aos="zoom-in-up">
-              <form
-                action="https://formsubmit.co/streetgainz1@gmail.com"
-                method="POST"
-                class="form"
-                id="contact"
-              >
+              <form class="form" id="contactForm">
                 <div class="ftitle text-center justify-content-between d-flex">
                   KONTAKTIRAJ NAS!
                   <span
@@ -114,14 +109,9 @@
                     streetgainz1@gmail.com</span
                   >
                 </div>
-                <input
-                  type="hidden"
-                  name="_next"
-                  value="https://platypus712.github.io/streetgainz.net/thankyou.html"
-                />
-                <input type="hidden" name="_subject" value="Nova poruka!" />
                 <p>Ime:</p>
                 <input
+                  class="user-contact-firstname"
                   type="text"
                   name="name"
                   id="name"
@@ -130,6 +120,7 @@
                 />
                 <p>Prezime:</p>
                 <input
+                  class="user-contact-lastname"
                   type="text"
                   name="lastname"
                   id="prezime"
@@ -138,6 +129,7 @@
                 />
                 <p>Email:</p>
                 <input
+                  class="user-contact-email"
                   type="email"
                   name="email"
                   id="email"
@@ -147,6 +139,7 @@
                 />
                 <p>Prostor za tekst:</p>
                 <textarea
+                  class="user-contact-message"
                   id="textbox"
                   name="message"
                   cols="5"
@@ -155,7 +148,7 @@
                   value=""
                   required
                 ></textarea>
-                <button class="fbtn">Pošalji</button>
+                <button class="fbtn" type="submit">Pošalji</button>
               </form>
             </div>
           </div>
@@ -190,19 +183,10 @@
             <p class="small text-white">
               Prati najnovije informacije o našem radu i svim našim događajima!
             </p>
-            <form
-              action="https://formsubmit.co/streetgainz1@gmail.com"
-              method="POST"
-            >
-              <input
-                type="hidden"
-                name="_next"
-                value="https://platypus712.github.io/streetgainz.net/thankyou.html"
-              />
-              <input type="hidden" name="_subject" value="Novi pretplatnik" />
+            <form id="newsletterForm">
               <div class="input-group mb-3">
                 <input
-                  class="form-control"
+                  class="form-control email-newsletter"
                   type="email"
                   name="email"
                   id="email"
@@ -293,6 +277,9 @@
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- FIREBASE JS -->
+    <script type="module" src="js/firebase.js"></script>
 
     <!-- MAIN JS -->
     <script src="js/main.js"></script>

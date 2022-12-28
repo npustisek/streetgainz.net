@@ -119,19 +119,10 @@
             <p class="small text-white">
               Prati najnovije informacije o našem radu i svim našim događajima!
             </p>
-            <form
-              action="https://formsubmit.co/streetgainz1@gmail.com"
-              method="POST"
-            >
-              <input
-                type="hidden"
-                name="_next"
-                value="https://platypus712.github.io/streetgainz.net/thankyou.html"
-              />
-              <input type="hidden" name="_subject" value="Novi pretplatnik" />
+            <form id="newsletterForm">
               <div class="input-group mb-3">
                 <input
-                  class="form-control"
+                  class="form-control email-newsletter"
                   type="email"
                   name="email"
                   id="email"
@@ -210,6 +201,9 @@
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- FIREBASE JS -->
+    <script type="module" src="js/firebase.js"></script>
 
     <!-- MAIN JS -->
     <script src="js/main.js"></script>

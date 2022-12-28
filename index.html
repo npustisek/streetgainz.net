@@ -540,43 +540,36 @@
       </div>
       <!-- KRAJ FAQ SEKCIJE -->
 
-      <form action="https://formsubmit.co/streetgainz1@gmail.com" method="POST">
-        <div class="form index-form container mt-5">
-          <!-- POČETAK INDEX FORM SEKCIJE -->
-          <div data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
-            <div class="row justify-content-center">
-              <div data-aos="fade-down" data-aos-anchor-placement="top-bottom">
-                <div class="col-11 title">
-                  Imaš pitanje za nas ili želiš suradnju?
-                </div>
-                <div class="col-12 subtitle mb-3">
-                  Kontaktiraj nas putem našeg maila
-                  <span>streetgainz1@gmail.com</span> ili putem ovog obrasca u
-                  prilogu!
-                </div>
+      <div class="index-form container mt-5">
+        <!-- POČETAK INDEX FORM SEKCIJE -->
+        <div data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
+          <div class="row justify-content-center">
+            <div data-aos="fade-down" data-aos-anchor-placement="top-bottom">
+              <div class="col-11 title">
+                Imaš pitanje za nas ili želiš suradnju?
               </div>
-              <input
-                type="hidden"
-                name="_next"
-                value="https://platypus712.github.io/streetgainz.net/thankyou.html"
-              />
-              <input type="hidden" name="_subject" value="Nova suradnja!" />
-              <div class="mb-3 col-sm-6">
+              <div class="col-12 subtitle mb-3">
+                Kontaktiraj nas putem našeg maila
+                <span>streetgainz1@gmail.com</span> ili putem ovog obrasca u
+                prilogu!
+              </div>
+            </div>
+            <form id="collaborationForm">
+              <div class="mb-3 col-6 text-center">
                 <input
                   type="text"
                   name="name"
                   id="name"
-                  class="form-control"
+                  class="form-control name-collaboration"
                   placeholder="Unesite Vaše ime ili ime organizacije"
                   required
                 />
               </div>
-              <div class="mb-3 col-sm-6">
+              <div class="mb-3 col-6">
                 <input
                   type="email"
                   name="email"
-                  id="email"
-                  class="form-control"
+                  class="form-control email-collaboration"
                   placeholder="Unesite email oblika name@example.com"
                   required
                   checked
@@ -586,7 +579,7 @@
                 <textarea
                   id="textbox"
                   name="message"
-                  class="form-control"
+                  class="form-control message-collaboration"
                   cols="15"
                   rows="8"
                   placeholder="Prostor za vašu poruku..."
@@ -602,10 +595,10 @@
                   Pošalji!
                 </button>
               </div>
-            </div>
+            </form>
           </div>
         </div>
-      </form>
+      </div>
       <!-- KRAJ INDEX FORM SEKCIJE -->
     </main>
 
@@ -635,19 +628,12 @@
             <p class="small text-white">
               Prati najnovije informacije o našem radu i svim našim događajima!
             </p>
-            <form action="https://formsubmit.co/davor@lozic.me" method="POST">
-              <input
-                type="hidden"
-                name="_next"
-                value="https://streetgainz.net/thankyou.html"
-              />
-              <input type="hidden" name="_subject" value="Novi pretplatnik" />
+            <form id="newsletterForm">
               <div class="input-group mb-3">
                 <input
-                  class="form-control"
+                  class="form-control email-newsletter"
                   type="email"
                   name="email"
-                  id="email"
                   placeholder="Unesite email oblika name@example.com"
                 />
                 <button
@@ -735,6 +721,9 @@
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- FIREBASE JS -->
+    <script type="module" src="js/firebase.js"></script>
 
     <!-- MAIN JS -->
     <script src="js/main.js"></script>

@@ -134,12 +134,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-5 col-10 justify-content-center">
             <div data-aos="zoom-in-up">
-              <form
-                action="https://formsubmit.co/streetgainz1@gmail.com"
-                method="POST"
-                class="form"
-                id="contact"
-              >
+              <form class="form" id="parkMap">
                 <div class="ftitle text-center justify-content-between d-flex">
                   POŠALJI PARK!
                   <span
@@ -147,14 +142,9 @@
                     streetgainz1@gmail.com</span
                   >
                 </div>
-                <input
-                  type="hidden"
-                  name="_next"
-                  value="https://platypus712.github.io/streetgainz.net/thankyou.html"
-                />
-                <input type="hidden" name="_subject" value="Novi park!" />
                 <p>Ime:</p>
                 <input
+                  class="user-park-firstname"
                   type="text"
                   name="name"
                   id="name"
@@ -163,6 +153,7 @@
                 />
                 <p>Prezime:</p>
                 <input
+                  class="user-park-lastname"
                   type="text"
                   name="lastname"
                   id="prezime"
@@ -171,6 +162,7 @@
                 />
                 <p>Email:</p>
                 <input
+                  class="user-park-email"
                   type="email"
                   name="email"
                   id="email"
@@ -180,6 +172,7 @@
                 />
                 <p>Naziv parka:</p>
                 <input
+                  class="user-park-name"
                   type="text"
                   name="park-name"
                   id="park-name"
@@ -188,6 +181,7 @@
                 />
                 <p>Opis parka:</p>
                 <textarea
+                  class="user-park-bio"
                   id="park-bio"
                   name="park-bio"
                   cols="5"
@@ -196,7 +190,7 @@
                   value=""
                   required
                 ></textarea>
-                <button class="fbtn">Pošalji</button>
+                <button class="fbtn" type="submit">Pošalji</button>
               </form>
             </div>
           </div>
@@ -231,19 +225,10 @@
             <p class="small text-white">
               Prati najnovije informacije o našem radu i svim našim događajima!
             </p>
-            <form
-              action="https://formsubmit.co/streetgainz1@gmail.com"
-              method="POST"
-            >
-              <input
-                type="hidden"
-                name="_next"
-                value="https://platypus712.github.io/streetgainz.net/thankyou.html"
-              />
-              <input type="hidden" name="_subject" value="Novi pretplatnik" />
+            <form id="newsletterForm">
               <div class="input-group mb-3">
                 <input
-                  class="form-control"
+                  class="form-control email-newsletter"
                   type="email"
                   name="email"
                   id="email"
@@ -347,6 +332,10 @@
 
     <!-- MAIN JS -->
     <script src="js/park.js"></script>
+
+    <!-- FIREBASE JS -->
+    <script type="module" src="js/firebase.js"></script>
+
     <script src="js/main.js"></script>
 
     <!-- JS ZA BOOTSTRAP-->
