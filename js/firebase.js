@@ -45,7 +45,8 @@ function submitFormNewsletter(e) {
   //save email
   saveNewsletter(email);
 
-  e.target.querySelector(".email-newsletter").value = "";
+  e.target.querySelector(".email-newsletter").value =
+    "Vaš e-mail je uspješno poslan!";
 }
 
 //save emails to firebase
@@ -73,7 +74,8 @@ function submitFormCollaboration(e) {
   //save collaboration
   saveCollaboration(name, email, message);
 
-  e.target.querySelector(".name-collaboration").value = "";
+  e.target.querySelector(".name-collaboration").value =
+    "Vaš podaci su uspješno poslani!";
   e.target.querySelector(".email-collaboration").value = "";
   e.target.querySelector(".message-collaboration").value = "";
 }
@@ -109,7 +111,8 @@ function submitFormParkMap(e) {
   //save park
   saveParkMap(firstname, lastname, email, parkName, parkBio);
 
-  e.target.querySelector(".user-park-firstname").value = "";
+  e.target.querySelector(".user-park-firstname").value =
+    "Vaš podaci su uspješno poslani!";
   e.target.querySelector(".user-park-lastname").value = "";
   e.target.querySelector(".user-park-email").value = "";
   e.target.querySelector(".user-park-name").value = "";
@@ -148,7 +151,8 @@ function submitContactForm(e) {
   //save contact
   saveContact(firstname, lastname, email, message);
 
-  e.target.querySelector(".user-contact-firstname").value = "";
+  e.target.querySelector(".user-contact-firstname").value =
+    "Vaš podaci su uspješno poslani!";
   e.target.querySelector(".user-contact-lastname").value = "";
   e.target.querySelector(".user-contact-email").value = "";
   e.target.querySelector(".user-contact-message").value = "";
