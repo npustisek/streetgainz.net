@@ -45,8 +45,8 @@ function submitFormNewsletter(e) {
   //save email
   saveNewsletter(email);
 
-  document.getElementById("email-newsletter").value =
-    "Vaš e-mail je uspješno poslan!!";
+  e.target.querySelector(".email-newsletter").value =
+    "Vaš e-mail je uspješno poslan!";
 }
 
 //save emails to firebase
