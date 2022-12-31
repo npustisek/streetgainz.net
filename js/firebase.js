@@ -46,7 +46,7 @@ function submitFormNewsletter(e) {
   saveNewsletter(email);
 
   e.target.querySelector(".email-newsletter").value =
-    "Vaš e-mail je uspješno poslan!";
+    "Vaš e-mail je uspješno poslan!!";
 }
 
 //save emails to firebase
