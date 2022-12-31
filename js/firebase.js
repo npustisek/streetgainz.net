@@ -45,7 +45,7 @@ function submitFormNewsletter(e) {
   //save email
   saveNewsletter(email);
 
-  e.target.querySelector(".email-newsletter").value =
+  document.getElementById("email-newsletter").value =
     "Vaš e-mail je uspješno poslan!!";
 }
 
