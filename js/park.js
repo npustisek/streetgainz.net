@@ -721,6 +721,25 @@ const parks = {
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
+
+  kraljicin_zdenac: {
+    lat: 45.86186211295318,
+    lng: 15.948454323049926,
+    parkName: "Street Workout park - Kraljičin zdenac",
+    parkImage: "images/kraljicin_zdenac.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Kraljičin zdenac smješten je u Zagrebu, preciznije u kvartu Šestine u sklopu jedne od mnogih planinarskih ruta na Sljemenu. Ako se uzme u obzir gdje se nalazi park, mogu slobodno reći da je solidno postavljen. Iako se u parku nalazi samo jedna visoka horizontalna šipka te jedan set paralelnih šipki za propadanja ne nudi se široki izbor, no ta kombinacija upravo čini odličan spoj osnovnih sprava s kojima se može odraditi kvalitetan trening. Prednosti ovog parka su izoliranost od glavne ceste te stambenih zgrada što omogućava puštanje glasne muzike te dobar omjer push/pull sprava. Mane ovog parka su nedostatak hlada tijekom ljetnih mjeseci, nedostatak crpke za vodu, neadekvatna podloga te manjak prostora za izvođenje freestyle pokreta. <br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "Jedna visoka horizontalna šipka za zgibove <br>Set paralelnih šipki za propadanja <br>Trupci za održavanje ravnoteže",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/MpGtpbyTJ65nvvd58' target=_blank>ovdje</a> i pogledaj slike parka!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
+  },
 };
 
 setTimeout(function () {
