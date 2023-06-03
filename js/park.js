@@ -53,7 +53,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/rkYZFMf3x1BFV39aA' target=_blank>ovdje</a> i saznaj kako doći do parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   srednjaci: {
@@ -122,7 +122,7 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Jarun smješten je u Zagrebu, preciznije na jezeru Jarun. Na jezeru se osim ovoga nalazi i još jedan park koji je kao i ovaj dosta dobro postavljen i spadaju među bolje parkove Zagreba.Kada bi ih usporedili teško bi se odlučio pobjednik jer svaki park ima i svoje mane, ali i prednosti koje poništavaju jedna drugu tako da bih rekao da su isti po kvaliteti. Na ovoj lokaciji se tehnički nalaze tri mala parka gledajući njihovu starost. Najstariji je mali park preko puta ceste u lijepom hladu od obližnjih drveća. Park je solidno postavljen i ima nekako minimalistički pristup jer se u početku sastojao samo od dvije šipke za zgibove, jednog seta niskih paralelnih šipki i jednih malo modificiranih horizontalnih ljestvi (&#34Monkey bars&#34). Kasnije je park dobio određeno proširenje, no što se tiče našeg sporta nijedna od tih novih sprava nije nam od neke koristi. Drugi park na redu je upravo park na samoj lokaciji pribadače koji po svojoj starosti nije puno noviji od prethodnog što je vidljivo i po samim šipkama i ostaloj opremi. Ovaj park ima iste elemente kao i prvi park, samo su ovdje malo drugačije oblikovani jer su šipke za zgibove većih i viših dimnezija, dok su Horizontalne ljestve (&#34Monkey bars&#34) dosta manje, uže i kraće nego standardne. Ovaj park iako spada među starije parkove u Zagrebu ima jednu vrlo korisnu stvar koja ga ističe od ostatka parkova diljem Zagreb u obliku improviziranih utega. U ovom parku nalazi se nekoliko &#34homemade&#34 utega koji su ljudi donijeli/napravili u obliku improviziraih automobilskih guma punjenih betonom do čistih betonskih blokova što čini ovaj park odličnim izborom da trening nogu. Treći park i po starosti najnoviji nalazi se u samom kutu polja za vježbanje te nudi nekoliko šipki za zgibove, dva seta niskih paralelnih šipki za propadanje i dodatak švedskih ljestvi za određene statičke elemente (humanflag)." +
+      "Street Workout park Jarun smješten je u Zagrebu, preciznije na jezeru Jarun. Na jezeru se osim ovoga nalazi i još jedan park koji je kao i ovaj dosta dobro postavljen i spadaju među bolje parkove Zagreba. Kada bi ih usporedili teško bi se odlučio pobjednik jer svaki park ima i svoje mane, ali i prednosti koje poništavaju jedna drugu tako da bih rekao da su isti po kvaliteti. Na ovoj lokaciji se tehnički nalaze tri mala parka gledajući njihovu starost. Najstariji je mali park preko puta ceste u lijepom hladu od obližnjih drveća. Park je solidno postavljen i ima nekako minimalistički pristup jer se u početku sastojao samo od dvije šipke za zgibove, jednog seta niskih paralelnih šipki i jednih malo modificiranih horizontalnih ljestvi (&#34Monkey bars&#34). Kasnije je park dobio određeno proširenje, no što se tiče našeg sporta nijedna od tih novih sprava nije nam od neke koristi. Drugi park na redu je upravo park na samoj lokaciji pribadače koji po svojoj starosti nije puno noviji od prethodnog što je vidljivo i po samim šipkama i ostaloj opremi. Ovaj park ima iste elemente kao i prvi park, samo su ovdje malo drugačije oblikovani jer su šipke za zgibove većih i viših dimnezija, dok su Horizontalne ljestve (&#34Monkey bars&#34) dosta manje, uže i kraće nego standardne. Ovaj park iako spada među starije parkove u Zagrebu ima jednu vrlo korisnu stvar koja ga ističe od ostatka parkova diljem Zagreb u obliku improviziranih utega. U ovom parku nalazi se nekoliko &#34homemade&#34 utega koji su ljudi donijeli/napravili u obliku improviziraih automobilskih guma punjenih betonom do čistih betonskih blokova što čini ovaj park odličnim izborom da trening nogu. Treći park i po starosti najnoviji nalazi se u samom kutu polja za vježbanje te nudi nekoliko šipki za zgibove, dva seta niskih paralelnih šipki za propadanje i dodatak švedskih ljestvi za određene statičke elemente (humanflag)." +
       "Prednosti ovih parkova su hlad tokom ljetnih mjeseci (iznimka je samo najnoviji dio parka koji je tokom cijelog dana izložen suncu), mogućnost dopune vode na obližnjoj crpki, izoliranost od bilo kakvih stambenih građevina što je odlično za puštanje glasne muzike i naravno mogućnost korištenja utega. Mane ovog parka su debljina samih šipki (u starijim dijelovima parka šipke su predebele, dok u novom dijelu su pak pretanke), nedostatak adekvatnih šipki za freestyle pokrete (ovisno o parku), nedostatak ulične rasvjete što otežava trening po noći i podloga u sva tri parka nije bas idealna pogotovo u novom dijelu gdje se grubi šljunak.  <br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
@@ -149,7 +149,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/ATCuJMVBKK6HJmwH7' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   voltino: {
@@ -187,7 +187,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/xQpTk7UG7sAwx2vv6' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   tresnjevacki_plac: {
@@ -244,7 +244,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/YEGKXDzSYFpwtcjT6' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i>',
   },
 
   rudes: {
@@ -263,7 +263,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/dRE2ctPwnPD3UpYs8' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
   },
 
   svetice: {
@@ -320,7 +320,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/pV6aAdrAH99uWkbv7' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i>',
   },
 
   siget: {
@@ -339,7 +339,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/ZsRNo65vd3HQSucm7' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroker"></i> <i class="fa-regular fa-star"></i>',
   },
 
   trnsko: {
@@ -434,7 +434,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/kDBbQ3zn75fgTW3R9' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i>',
   },
 
   klaka: {
@@ -453,7 +453,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/RDpHY6TfSa15KeSa9' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i>',
   },
 
   folka: {
@@ -472,7 +472,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/bMzre1mRyaEysm9F8' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
   },
 
   subiceva: {
@@ -491,7 +491,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/i5Hs5gbAD9URLk1t8' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   tunel_sljeme: {
@@ -548,7 +548,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/dz4u2VM9FXeU3mGL9' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
   },
 
   enschede: {
@@ -586,7 +586,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/iYL738KW3wxk3TT58' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i>',
   },
 
   university_of_twente: {
@@ -662,7 +662,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/k12jCyFdmptHrxxRA' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
   },
 
   bocarski_dom: {
@@ -681,7 +681,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/MALkThFo4zSnVEFh7' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   bundek: {
@@ -719,7 +719,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/jzbUkXZy8xABW6wW6' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   kraljicin_zdenac: {
@@ -737,6 +737,101 @@ const parks = {
       "Jedna visoka horizontalna šipka za zgibove <br>Set paralelnih šipki za propadanja <br>Trupci za održavanje ravnoteže",
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/MpGtpbyTJ65nvvd58' target=_blank>ovdje</a> i pogledaj slike parka!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  laniste: {
+    lat: 45.77484096270988,
+    lng: 15.94716879282225,
+    parkName: "Street Workout park - Lanište",
+    parkImage: "images/laniste.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Lanište smješten je u Zagrebu, preciznije u kvartu Lanište u sklopu velikog nogometnog igrališta, no zbog radova na zagrebačkom rotoru igralište je ostavljeno u dosta lošem stanju. Iako je park prvobitno čisto solidno bio postavljen, trenutno je u dosta lošem stanju. Glavni razlog je sami materijal od kojeg su napravljene sprave, a to je drvo koje se kroz zub vremena dosta potrošilo. To je također, kolko ja znam, jedini park u Zagrebu i bližoj okolici napravljen većinski od drveta. Za zgibove u parku su na usluzi jedne kraće horizontalne ljestve (&#34Monkey bars&#34) te dva seta od dvije horizontalne šipke različitih visina za vježbanje negativnog dijela pokreta te možda nekih naprednih statičkih elemenata (front lever, itd..). Jedini set paralelnih šipki za propadanja u parku prilikom mog zadnjeg posjeta je i dalje bio neravan zbog propdanja jedne strane sprave u zemlju te nije jednak razmak između dvije šipke cijelom dužinom sprave. Kombinacija te dvije stvari automatski čini spravu neupotrebljivim što je veliki minus jer se ne može odraditi kvalitetan trening. Od dodatnih stvari zanimljive za izdvojiti su dvije švedske ljestve između kojih se nalazi zid za penjanje te dvije klupice za trbušnjake koje mogu poslužiti kod učenja raznih statičkih elemenata (humanflag, dragon flag). Prednosti ovog parka su izoliranost od glavne ceste te stambenih zgrada što omogućava puštanje glasne muzike te mekana travnata podloga. Mane ovog parka su nedostatak hlada tijekom ljetnih mjeseci, nedostatak crpke za vodu, nedostatak prostora za izvođenje freestyle pokreta, nedostatak ulične rasvjete što otežava trening po noći, materijal samih šipki te nesrazmjer push/pull sprava. <br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Set paralelnih šipki za propadanja <br>Dva seta od dvije horizontalne šipke različitih visina <br>Dvije klupice za trbušnjake <br>Dvije švedske ljestve",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/5iwWHHkpYrQfpG7j6' target=_blank>ovdje</a> i pogledaj slike parka!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  remetinec: {
+    lat: 45.76848799094635,
+    lng: 15.948916213443447,
+    parkName: "Street Workout park - Remetinec",
+    parkImage: "images/remetinec.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Remetinec smješten je u Zagrebu, preciznije u kvartu Remetinec u blizini zatvora Remetinec. Park je odlično postavljen, među boljim parkovima Zagreba. Horizontalne ljestve (&#34Monkey bars&#34), tri visoke horizontalne šipke i dvije niže šipke pružaju izvođenje različitih varijacija zgibova po svačijem ukusu  te raznih freestyle pokreta. S druge strane jedan set visokih i niskih paralelnih šipki za propadanje omogućuju također šarolik izbor opcija za svakoga. Ovaj park je upravo najbolji primjer kako se na malom prostoru može napraviti i više nego odličan park sa svim potrebnim elementima. Od dodatnih stvari u parku zanimljivo je izdvojiti klupicu za trbušnjake koja može poslužiti kod izvođenja nekih statičkih elemenata (dragonflag). Prednosti ovog parka su izoliranost od glavne ceste te stambenih zgrada što omogućava puštanje glasne muzike, prisutnost rasvjete koja pomaže kod treninga po noći, prisutnost hlada tijekom ljetnih mjeseci, odličan omjer push/pull sprava te mogućnost izvođenja freestyle pokreta. Jedina mana ovog parka je nedostatak crpke za vodu. <br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "<br>Set paralelnih šipki za propadanja različitih visina <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih <br>Horizontalne ljestve (&#34Monkey bars&#34) <br>Visoke paralelne šipke za propadanja <br>Klupica za trbušnjake <br>Set od tri visoke horizontalne šipke za zgibove različitih visina",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/N2eChP8LdVSRqirh8' target=_blank>ovdje</a> i pogledaj slike parka!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  sveta_klara: {
+    lat: 45.76093970739496,
+    lng: 15.965528657269719,
+    parkName: "Street Workout park - Sveta Klara",
+    parkImage: "images/sveta_klara.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Sveta Klara smješten je u Zagrebu, preciznije u kvartu Klara u blizini gradskih vrtova sv. Klara. Park je čisto solidno postavljen. Horizontalne ljestve (&#34Monkey bars&#34) pružaju odlično mjesto za izvođenje raznih vrsta zgibova, dok su dvije niže horizontalne šipke odlično mjesto za vježbanje negativnih progresija i slčnih vježbi, kao i naprednijih statičkih elemenata. Jedan set visokih i niskih paralelnih šipki za propadanje omogućuju šarolik izbor opcija za svakoga. Prednosti ovog parka su izoliranost od glavne ceste te stambenih zgrada što omogućava puštanje glasne muzike, solidan omjer push/pull sprava, mogućnost izvođenja freestyle pokreta te mogućnost nadopune vode na obližnjoj crpki koja se koristi za potrebe korisnika gradskog vrta. Mane ovog parka su nedostatak rasvjete koja otežava trening po noći te nedostatak hlada što nije ugodno tijekom ljetnih mjeseci. <br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Set paralelnih šipki za propadanja različitih visina <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih <br>Visoke paralelne šipke za propadanja <br>Bicikl",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/JgzRCCWKvy6rZypw8' target=_blank>ovdje</a> i pogledaj slike parka!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  stara_tresnjevka: {
+    lat: 45.79831473427109,
+    lng: 15.949958236605415,
+    parkName: "Street Workout park - Park Stara Trešnjevka",
+    parkImage: "images/stara_tresnjevka.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Park Stara Trešnjevka smješten je u Zagrebu, preciznije u kvartu Trešnjevka u sklopu parka Stara Trešnjevka. Park je nekako oskudno postavljen, posebice ako se uzme u obzir koliko je još slobodnog prostora ostalo neiskorišteno. Što se tiče zgibova u parku se nalazi samo jedna samostalna visoka horizontalna šipka i jedna malo niža koja je u sklopu druge sprave tako da nije neki izbor veliki. Zajedno s tom šipkom u kompletu se nalaze i kratke švedske ljestve i jedan set malih paralelnih šipki za propadanja te također nema drugih opcija za birati. Prednosti ovog parka su izoliranost od glavne ceste te stambenih zgrada što omogućava puštanje glasne muzike, solidan omjer push/pull sprava, mogućnost izvođenja freestyle pokreta te prisutnost ulične rasvjete što pomaže kod treninga po noći. Mane ovog parka su nedostatak crpke za vodu te nedostatak hlada što nije ugodno tijekom ljetnih mjeseci. <br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "Horizontalna šipka za zgibove <br>Sprava za veslanje <br>Set rotirajućih krugova <br>Sprava za njihanje <br>Dvije stolice jedna nasuprot druge koje rekreiraju određenu varijantu (&#34leg press&#34) vježbe <br>Set od jedne šipke za zgibove, kratkih švedskih ljestvi i kratkih paralelnih šipki za propadanje ",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/BCW99Hjk76TGhzrm6' target=_blank>ovdje</a> i pogledaj slike parka!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  savski_gaj: {
+    lat: 45.77600790588718,
+    lng: 15.954424681941205,
+    parkName: "Street Workout park - Savski gaj",
+    parkImage: "images/savski_gaj.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Savski gaj smješten je u Zagrebu, preciznije u kvartu Savski gaj. Park je dosta dobro postavljen. Tri visoke horizontalne šipke te dvije niže pružaju dovoljno prostora za izvođenje zgibova te izvođenje freestyle pokreta. Jedan set visokih paralelnih šipki za propadanje zajedno sa jednim setom nižih  odlična su kombinacija jer svako može za sebe pronaći idealnu visinu. Prednosti ovog parka su prisutnost rasvjete što olakšava trening po noći, solidan omjer push/pull sprava izoliranost te mogućnost izvođenja freestyle pokreta. Mane ovog parka su nedostatak crpke za vodu, blizina stambenih zgrada pa nije baš preporučljivo puštati glasnu muziku te nedostatak hlada što nije ugodno tijekom ljetnih mjeseci. <br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "Tri visoke horizontalna šipka za zgibove <br>Set paralelnih šipki za propadanja različitih visina <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih <br>Visoke paralelne šipke za propadanja <br>Sprava za njihanje ",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/USMJrTUC97ZG6Byu8' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
