@@ -776,7 +776,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/N2eChP8LdVSRqirh8' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i>',
   },
 
   sveta_klara: {
@@ -795,7 +795,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/JgzRCCWKvy6rZypw8' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   stara_tresnjevka: {
@@ -833,7 +833,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/USMJrTUC97ZG6Byu8' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
   },
 };
 
