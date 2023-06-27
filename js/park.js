@@ -835,6 +835,139 @@ const parks = {
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
   },
+
+  petrovaradinska: {
+    lat: 45.79076106706315,
+    lng: 15.905750871582157,
+    parkName: "Street Workout park - Petrovaradinska",
+    parkImage: "images/petrovaradinska.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Petrovaradinska smješten je u Zagrebu, preciznije u kvartu Prečko. Park je jako loše postavljen. U parku ne postoji nijedna sprava na kojoj se mogu izvoditi bilo kakve vrste zgibova ili sličnih &#34pull&#34 pokreta. Jedan set visokih paralelnih šipki za propadanja donekle su jedina dobra i korisna stvar. Ostatak parka nije za pohvaliti, no za izdvojiti se mogu klupice za trbušnjake i klupica s ručkama koje mogu poslužiti kod vježbnaja određenih statičkih elemenata (handstand, dragon flag, planche...). Sve u svemu park se čini dosta &#34random&#34 osmšljen i postavljen te se dobiva osjećaj kao da su stavili sprave koje su im ostale viška u skladištu... Jedina prednost koju mogu izvući bi bila mogućnost puštanja glasne muzike jer park nije u strogoj blizini stambenih zgrada. Mane ovog parka su nedostatak crpke za vodu, nedostatak hlada što nije ugodno tijekom ljetnih mjeseci, ogroman nesrazmjer push/pull sprava, nedostatak ulične rasvjete što otežava trening po oći te nedostatak prostora za izvođenje određenih freestyle pokreta. <br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "Visoke paralelne šipke za propadanja <br>Set klupica za trbušnjake <br>Klupa s ručkama <br>Sprava za njihanje <br>Set za ljude u invalidskim kolicima koji se sastoji od dvije vježbe vrtnje i improviziranih ringova za zgibove <br>Set od dva rotirajuća kruga za različite vježbe <br>Sprava za skijanje ",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/Waz9vGbfzi6GZfdD7' target=_blank>ovdje</a> i pogledaj slike parka!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  baska: {
+    lat: 44.96694311499472,
+    lng: 14.74823671681502,
+    parkName: "Street Workout park - Baška",
+    parkImage: "images/baska.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Baška smješten je na otoku Krku, preciznije u naselju Baška. Park je odlično postavljen, jedan od boljih na cijelom otoku. Park nudi 7+ šipki za zgibove različitih visina i debljina od koji su neke samostalne, dok su neke u sklopu s drugim spravama što je odlično kod nekih supersetova kada je pauza minimalna. Park također ima čak tri horizontalne ljestve (&#34Monkey bars&#34) od kojih su samo jedne malo izmijenjene kako bi više bile prilagođene djeci. Za propadanja nije baš toliki izbor, no tri paralelne šipke srednje visine pružaju dovoljno prostora. Postoji još set ili dva dosta niskih te za prosječnu odraslu osobu neupotrebljivih šipki, no nalazi se u takozvanom &#34kids&#34 dijelu parka tako da je to vjerovatno razlog. Park je također ističe dosta po svojim dodatnim sadržajem u obliku dvije vreće za udaranje, dva konopca za povećanje kondicije te različitih sprava za izvođenje freestyle pokreta (švedske ljestve, niske paralelne šipke, kocka niskih horizontalnih šipki, klupice za trbušnjake....). Prednosti ovog parka su dobar omjer push/pull sprava, izoliranost od stambenih zgrada što omogućuje slušanje glasne muzike te prostor za izvođenje freestyle pokreta. Mane ovog parka su nedostatak crpke za vodu, nedostatak hlada što nije ugodno tijekom ljetnih mjeseci (posebice na moru) te nedostatak ulične rasvjete. Park nije 100% završen te je moguće da se do kraja radova i neke od ovih značajki ipak provedu u djelo. <br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "Srednje visoke paralelne šipke za propadanja <br>Tri horizontalne ljestve (&#34Monkey bars&#34) <br>7+ horizontalnih šipki za zgibove <br>Dvije vreće za udaranje <br>Klupice za trbušnjake <br>Švedske ljestve <br>Dva konopca <br>Set tri niske horizontalne šipke <br>Kocka 5+ niskih horizontalnih šipki ",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/DZ1KrMnBbJ1w42FZA' target=_blank>ovdje</a> i pogledaj slike parka!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  kamp_glavotok: {
+    lat: 45.09330034148315,
+    lng: 14.439064322536082,
+    parkName: "Street Workout park - Kamp Glavotok",
+    parkImage: "images/kamp_glavotok.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Kamp Glavotok smješten je na otoku Krku, preciznije unutar istoimenog kampa Glavotok. Park je dosta loše postavljen. Glavni problem ovog parka je nedostatak bilo kakve sprave koja bi omogućila izvođenje propadanja ili sličnih &#34push&#34 pokreta. Za zgibove je situacija bolja jer se u parku nalaze jedne horizontalne ljestve (&#34Monkey bars&#34) i set od tri visoke horizontalne šipke. Ostatak park nije baš od neke koristi za naš sport. Prednosti ovog parka su hlad tokom ljetnih mjeseci te udaljenost bilo kakvih stambenih objekata što omogućuje puštanje glasne muzike. Mane ovog parka su nedostatak crpke za vodu, veliki nesrazmjer push/pull sprava, neadekvatna podloga koja otežava izvođenje freestyle pokreta te nedostatak ulične rasvjete. <br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Set od tri visoke horizontalne šipke <br>Bicikl ",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/brMd2r7RCnJCM2Qx7' target=_blank>ovdje</a> i pogledaj slike parka!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  krk: {
+    lat: 45.024683929607974,
+    lng: 14.583371299695065,
+    parkName: "Street Workout park - Krk",
+    parkImage: "images/krk.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Krk smješten je na otoku Krku, preciznije u istoimenom gradu Krku. Park je odlično postavljen te ima titulu najboljeg i najljepšeg parka u cijeloj Hrvatskoj, ako ne i šire okolice. Park nudi 10+ horizontalnih šipki za zgibove različitih visina i debljna koje odgovaraju svačijem ukusu. Za propadanja se nudi set visokih šipki te jedan set od tri srednje visokih paralelnih šipki koje također pružaju i više nego dovoljno prostora i opcija. Od dodatnih stvari park nudi cijelu jednu sekciju posvećenu vježbanju &#34parkour&#34 pokreta, set karika, uže za penjanje, švedske ljestve te klupicu za trbušnjake. Po mojem mišljenju najbolju stvar po kojoj se ovaj park ističe od svih ostalih na takvoj razini jest pristup teretani na otvorenom skoro pa cijelu godinu. Prednosti ovog parka su hlad tokom ljetnih mjeseci, udaljenost bilo kakvih stambenih objekata što omogućuje puštanje glasne muzike, mogućnost izvođenja freestyle pokreta, odličan omjer push/pull sprava te prisutnost ulične rasvjete što olakšava trening po noći. Jedina mana ovog parka je nedostatak crpke za vodu tokom cijele godine jer se obližnji WC zatvara izvan turističke sezone, a za vrijeme iste se naplaćuje. <br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "Horizontalne ljestve (&#34Monkey bars&#34) <br>10+ horizontalnih šipki <br>Visoke šipke za propadanja <br>Srednje visoke šipke za propadanja <br>Karike <br>Klupica za trbušnjake <br>Švedske ljestve <br>Uže za penjanje ",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/C9xCu1Uc2bMcxS8N9' target=_blank>ovdje</a> i pogledaj slike parka!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  kamp_zablace: {
+    lat: 44.96554548382319,
+    lng: 14.748352998261927,
+    parkName: "Street Workout park - Kamp Zablaće",
+    parkImage: "images/kamp_zablace.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Kamp Zablaće smješten je na otoku Krku, preciznije unutar kampa Zablaće u naselju Baška. Park je solidno postavljen. Park je površinski jako mali te su sve sprave povezane u jedan komplet. Za zgibove su na raspolaganju dvije visoke horizontalne šipke te jedna malo zaboljena modifikacija za pogađanje različitih skupina mišića. Šipke za propadanja bi mogle biti malo više, no to je samo subjektivna preferencija. Zadnja stvar u ovom kompletu su niske paralelne šipke koje su odlične i za sklekove, ali i za neke naprednije statičke pokrete (planhce, handstand...). Prednosti ovog parka su hlad tokom ljetnih mjeseci, mogućnost izvođenja freestyle pokreta, dobar omjer push/pull sprava te prisutnost ulične rasvjete što olakšava trening po noći. Mane ovog parka su nedostatak crpke za vodu te blizina kamp kućica i šatora pa nije baš preporučljivo puštanje glasne muzike. <br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "Dvije visoke horizontalne šipke <br>Srednje visoke šipke za propadanja <br>Niske paralelne šipke ",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/knaw3QwRsVpQ2FiP6' target=_blank>ovdje</a> i pogledaj slike parka!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  komrcar: {
+    lat: 44.75972478317588,
+    lng: 14.758267837897685,
+    parkName: "Street Workout park - Komrčar",
+    parkImage: "images/komrcar.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Komrčar smješten je na otoku Rabu, preciznije unutar park šume Komrčar u istoimenom gradu Rabu. Park je dosta dobro postavljen. Za zgibove se nudi preko pet horizontalnih šipki različitih visina i debljina. Jedan set dosta visokih paralelnih šipki za propadanja i nisu najbolja opcija, no bolje da su takvi nego da ih uopće nema. Od dodatnih stvari korisno za izdvojiti su švedske ljestve te šipke za sklekove koje se još mogu koristiti i za vježbanje raznih statičkih elemenata (handstand, planche, human flag...). Prednosti ovog parka su hlad tokom ljetnih mjeseci, dobar omjer push/pull sprava te udaljenost od bilo kakvih stambenih objekata što omogućuje puštanje glasne muzike Mane ovog parka su nedostatak crpke za vodu, nedostatak prostora za izvođenje freestyle pokreta te nedostatak ulične rasvjete što otežava trening po noći. <br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "5+ horizontalnih šipki <br>Set visokih šipke za propadanja <br>Švedske ljestve <br>Šipke za sklekove <br>Set stolica za simulaciju &#34pull&#34 pokreta <br>Set od dva rotirajuća kruga za različite vježbe  ",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/yfw5ZCuzhxQN1KEbA' target=_blank>ovdje</a> i pogledaj slike parka!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  jastrebarsko: {
+    lat: 45.669538490257395,
+    lng: 15.64297888002017,
+    parkName: "Street Workout park - Jastrebarsko",
+    parkImage: "images/jastrebarsko.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Jastrebarsko smješten je u gradu Jastrebarsko, preciznije u blizini Erdödijev parka. Park je dosta dobro postavljen. Horizontalne ljestve (&#34Monkey bars&#34) i dvije malo niže šipke pružaju izvođenje različitih varijacija zgibova po svačijem ukusu. Set visokih paralelnih šipki za propadanje nisu baš uvijek najbolje rješenje jer nekim ljudima zna biti problem penjanje na iste. Od dodatnih stvari u parku izdvojio bih klupicu s ručkama, švedske ljestve te klupicu za trbušnjake koje također mogu poslužiti i za vježbanje raznih statičkih elemenata (human flag, handstand, planche...). Prednosti ovog parka su dobar omjer push/pull sprava, udaljenost od stambenih objekata što omogućuje puštanje glasne muzike, mogućnost izvođenja freestyle pokreta te prisutnost ulične rasvjete što olakšava trening po noći. Mane ovog parka su nedostatak hlada što nije ugodno tijekom ljetnih mjeseci te nedostatak crpke za vodu, odnosno crpka postoji, no nažalost prilikom mojeg posjeta bila je strgana. <br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Klupica za trbušnjake <br>Švedske ljestve <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih <br>Set stolica za simulaciju &#34pull&#34 pokreta <br>Visoke paralelne šipke za propadanja <br>Sprava za penjanje <br>Klupica s ručkama <br>Sprava za veslanje  ",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/RSY657ucbhD6CzH27' target=_blank>ovdje</a> i pogledaj slike parka!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
 };
 
 setTimeout(function () {
