@@ -852,7 +852,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/Waz9vGbfzi6GZfdD7' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   baska: {
@@ -871,7 +871,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/DZ1KrMnBbJ1w42FZA' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i>',
   },
 
   kamp_glavotok: {
@@ -890,7 +890,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/brMd2r7RCnJCM2Qx7' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   krk: {
@@ -909,7 +909,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/C9xCu1Uc2bMcxS8N9' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>',
   },
 
   kamp_zablace: {
@@ -928,7 +928,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/knaw3QwRsVpQ2FiP6' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   komrcar: {
@@ -947,7 +947,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/yfw5ZCuzhxQN1KEbA' target=_blank>ovdje</a> i pogledaj slike parka!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   jastrebarsko: {
