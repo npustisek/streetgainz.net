@@ -46,12 +46,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Knežija smješten je u Zagrebu, preciznije u kvartu Knežija. Park je dosta loše postavljen. Horizontalne ljestve (&#34Monkey bars&#34) i jedna samostalna šipka pružaju dosta dobar izbor što se tiče zgibova, no ovaj park ima veliki minus u obliku nedostatka bilo kakvih sprava za propadanja i slične push vježbe osim možda klupica koje mogu poslužiti za određene varijacije skekova. Dodatne sprave u parku nije potrebno posebno isticati jer nisu korisne u našem sportu. Prednosti ovog parka su ulična rasvjeta koja olakšava trening po noći i hlad tokom ljetnih mjeseci. Mane ovog parka su blizina stambene zgrade zbog čega nije baš poželjno puštati glasnu muziku, nedostatak crpke za vodu, veliki nesrazmjer push/pull sprava i nedostatak prostora za izvođenje freesytle pokreta. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Knežija smješten je u Zagrebu, preciznije u kvartu Knežija. Park bi smjestio u skupinu loših parkova ponajviše zbog nedostatka bilo kakve sprave za izvođenje propadanja, koja znamo da spadaju u najosnovnije pokrete našeg sporta. Kod zgibova je bolja situacija jer se nudi jedan &#34monkey bars&#34 te jedna malo niža samostalna šipka koja je odlična za početnike koji žele vježbati na neutralnom dijelu pokreta. U parku se nalaze još dvije klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> ulična rasvjeta; hlad; podloga<br><strong>-</strong> blizina stambenih zgrada; crpka za vodu, prostor za freestyle pokrete<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bar&#34) <br>Sprava za veslanje <br>Bicikl u kombinaciji sa šipkom za zgibove i rotirajućim krugom",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 samostalna šipka manjih dimenzija ",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/rkYZFMf3x1BFV39aA' target=_blank>ovdje</a> i saznaj kako doći do parka!",
+      "Klikni <a href='https://goo.gl/maps/rkYZFMf3x1BFV39aA' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -65,12 +65,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Srednjaci smješten je u Zagrebu, preciznije u kvartu Srednjaci. Park je dosta dobro postavljen. Horizontalne ljestve (&#34Monkey bars&#34), tri visoke horizontalne šipke i dvije malo niže šipke pružaju izvođenje različitih varijacija zgibova po svačijem ukusu. U parku se što se tiče propadanja nalazi samo jedan set visokih paralelnih šipki što nije idealno jer nekima može stvarati problem prilikom penjanja na iste. Od dodatnih stvari zanimljivo je izdvojiti klupicu za trbušnjake, samostalne švedske ljestve te šipke za sklekove jer su korisni kod učenja raznih statičkih elemenata (handstand, dragon/human flag). Prednosti ovog parka su izoliranost od bilo kakvih stambenih građevina što je odlično za puštanje glasne muzike, mogućnost izvođenja freestyle pokreta, dobar omjer push/pull sprava te prisutnost ulične rasvjete što olakšsava trening po noći. Mane ovog parka su nedostatak crpke za vodu te nedostatak hlada tokom ljetnih mjeseci.  <br><em>Napisao: Nikola Pustišek</em>  <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Srednjaci smješten je u Zagrebu, preciznije u kvartu Srednjaci. Park bi smjestio negdje u zlatnu sredinu jer je dosta dobro postavljen, no ima mjesta za napredak. Preko pet šipki različitih visina i debljina za zgibove u kombinaciji sa jednim &#34monkey bars&#34 odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki što ponekim ljudima zna biti problem jer se ne mogu popeti na njih. Dodatne stvari u parku kao što je klupica za trbušnjake, samostalne švedske ljestve te par šipki za sklekove mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalaze još i tri klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> izoliranost; prostor za freestyle pokrete; ulična rasvjeta; podloga<br><strong>-</strong> crpka za vodu; hlad<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Visoke paralelne šipke za propadanja <br>Klupica za trbušnjake <br>Švedske ljestve <br>Set od tri visoke horizontalne šipke za zgibove različitih visina <br>Šipke za sklekove <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 visoke paralelne šipke za propadanja <br>#3 klupica za trbušnjake <br>#4 švedske ljestve <br>#5 set od tri šipke za zgibove različitih visina <br> #6 šipke za sklekove <br>#7 set od dvije šipke za zgibove različitih visina ",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/dL7N1ZzrCCbyoXmR8' target=_blank>ovdje</a> i saznaj kako doći do parka!",
+      "Klikni <a href='https://goo.gl/maps/dL7N1ZzrCCbyoXmR8' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -84,12 +84,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Gredice smješten je u Zagrebu, preciznije u kvartu Gredice. Park je jako loše postavljen. Horizontalne ljestve (&#34Monkey bars&#34) i jedna niska šipka pružaju odličan izbor za zgibove po svačijoj volji, no ovaj park ima veliki minus u obliku nedostatka sprava za propadanje ili slične push vježbe osim možda klupice koja može poslužiti za varijacije sklekova. Od dodatnih stvari nema se što izdvojiti jer nisu korisne u našem sportu. Prednosti ovog parka su izoliranost od buke glavne ceste i udaljenost od obližnjih zgrada što je korisno kod puštanja glasne muzike te djelomičan hlad na jednom dijelu parka tokom ljetnih mjeseci. Mane ovog parka su nedostatak crpke za vodu, nedostatak ulične rasvjete što otežava trening po noći, veliki nesrazmjer između push/pull sprava te nedostatak šipke za izvođenje freestyle pokreta jer samostalna šipke koja se nalazi u parku nije baš sigurna zbog debelih izbočenih rubova same sprave te spojenog bicikla s jedne strane i rotirajućeg kruga s druge strane. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Gredice smješten je u Zagrebu, preciznije u kvartu Gredice. Park bi smjestio u skupinu loših parkova ponajviše zbog nedostatka bilo kakve sprave za izvođenje propadanja, koja znamo da spadaju u najosnovnije pokrete našeg sporta. Kod zgibova je bolja situacija jer se nudi jedan &#34monkey bars&#34 te jedna malo niža samostalna šipka koja je odlična za početnike koji žele vježbati na neutralnom dijelu pokreta. U parku se nalaze još i dvije klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> izoliranost; podloga<br><strong>-</strong> crpka za vodu; ulična rasvjeta; prostor za freestyle pokrete; hlad<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Sprava za penjanje <br>Sprava za veslanje <br>Bicikl u kombinaciji sa šipkom za zgibove i rotirajućim krugom",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 samostalna šipka manjih dimenzija",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/HrZLmVUbE3EKmDb7A' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/HrZLmVUbE3EKmDb7A' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -103,12 +103,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Remiza smješten je u Zagrebu, preciznije u kvartu Trešnjevka. Park je solidno postavljen. Horizontalne ljestve (&#34Monkey bars&#34), tri visoke horizontalne šipke i dvije malo niže šipke pružaju izvođenje različitih varijacija zgibova po svačijem ukusu. Jedna sprava od dva seta paralelnih šipki za propadanja različitih visina odličan su izbor jer omogućuju da svatko izaber opciju koja mu bolje odgovara. Od dodatnih stvari izdvojio bih klupicu za trbušnjake koja se može koristiti i kod izvođenja određenih statičkih elemenata (dragon flag). Prednosti ovog parka su mogućnost izvedbe freestyle pokreta, hlad tokom ljetnih mjeseci, mogućnost dopune vode u podrumu obližnje zgrade te dobar omjer push/pull sprava. Mane ovog parka su nedostatak ulične rasvjete što otežava trening po noći, blizina dječjeg parkića kao i blizina stambenoj zgradi zbog čega nije baš poželjno glasno puštanje muzike. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Remiza smješten je u Zagrebu, preciznije u kvartu Trešnjevka. Park bi smjestio negdje u zlatnu sredinu jer je dosta dobro postavljen, no ima mjesta za napredak. Preko pet šipki različitih visina i debljina za zgibove u kombinaciji sa jednim &#34monkey bars&#34 odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Za propadanja se u parku nalazi samo jedan set od dva para srednjih paralelnih šipki što je bolja opcija od visokih jer ovdje nema problema prilikom penjanja na njih. Dodatne stvari u parku kao što je klupica za trbušnjake može se iskoristiti za učenje statičkih elemenata te dvije klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> prostor za freestyle pokrete; hlad;crpka za vodu; podloga<br><strong>-</strong>  ulična rasvjeta; blizina stambenih zgrada<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Set paralelnih šipki za propadanja različitih visina <br>Klupica za trbušnjake <br>Set od tri visoke horizontalne šipke za zgibove različitih visina <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 paralelne šipke za propadanja različitih visina <br>#3 klupica za trbušnjake <br>#4 set od tri šipke za zgibove različitih visina <br>#5 set od dvije šipke za zgibove različitih visina",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/6PnKpWyq9YtRmHej8' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/6PnKpWyq9YtRmHej8' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -122,13 +122,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Jarun smješten je u Zagrebu, preciznije na jezeru Jarun. Na jezeru se osim ovoga nalazi i još jedan park koji je kao i ovaj dosta dobro postavljen i spadaju među bolje parkove Zagreba. Kada bi ih usporedili teško bi se odlučio pobjednik jer svaki park ima i svoje mane, ali i prednosti koje poništavaju jedna drugu tako da bih rekao da su isti po kvaliteti. Na ovoj lokaciji se tehnički nalaze tri mala parka gledajući njihovu starost. Najstariji je mali park preko puta ceste u lijepom hladu od obližnjih drveća. Park je solidno postavljen i ima nekako minimalistički pristup jer se u početku sastojao samo od dvije šipke za zgibove, jednog seta niskih paralelnih šipki i jednih malo modificiranih horizontalnih ljestvi (&#34Monkey bars&#34). Kasnije je park dobio određeno proširenje, no što se tiče našeg sporta nijedna od tih novih sprava nije nam od neke koristi. Drugi park na redu je upravo park na samoj lokaciji pribadače koji po svojoj starosti nije puno noviji od prethodnog što je vidljivo i po samim šipkama i ostaloj opremi. Ovaj park ima iste elemente kao i prvi park, samo su ovdje malo drugačije oblikovani jer su šipke za zgibove većih i viših dimnezija, dok su Horizontalne ljestve (&#34Monkey bars&#34) dosta manje, uže i kraće nego standardne. Ovaj park iako spada među starije parkove u Zagrebu ima jednu vrlo korisnu stvar koja ga ističe od ostatka parkova diljem Zagreb u obliku improviziranih utega. U ovom parku nalazi se nekoliko &#34homemade&#34 utega koji su ljudi donijeli/napravili u obliku improviziraih automobilskih guma punjenih betonom do čistih betonskih blokova što čini ovaj park odličnim izborom da trening nogu. Treći park i po starosti najnoviji nalazi se u samom kutu polja za vježbanje te nudi nekoliko šipki za zgibove, dva seta niskih paralelnih šipki za propadanje i dodatak švedskih ljestvi za određene statičke elemente (humanflag)." +
-      "Prednosti ovih parkova su hlad tokom ljetnih mjeseci (iznimka je samo najnoviji dio parka koji je tokom cijelog dana izložen suncu), mogućnost dopune vode na obližnjoj crpki, izoliranost od bilo kakvih stambenih građevina što je odlično za puštanje glasne muzike i naravno mogućnost korištenja utega. Mane ovog parka su debljina samih šipki (u starijim dijelovima parka šipke su predebele, dok u novom dijelu su pak pretanke), nedostatak adekvatnih šipki za freestyle pokrete (ovisno o parku), nedostatak ulične rasvjete što otežava trening po noći i podloga u sva tri parka nije bas idealna pogotovo u novom dijelu gdje se grubi šljunak.  <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Jarun smješten je u Zagrebu, preciznije na jezeru Jarun. Ovo je jedan od dva parka na jezeru te bi ga smjestio negdje u zlatnu sredinu jer je dosta dobro postavljen, no ima mjesta za napredak. Na jezeru se osim ovoga nalazi i još jedan park koji je bolji te spada među top parkove Zagreba. Ovaj park je imao nekoliko nadogradnji kroz vrijeme tako da se mogu pronaći stvarno svakakve vrste šipki (niske, visoke, debele, tanke) pa sve do šipki napravljenih od drveta. Ubrajajući sve vidljive šipke na lokaciji se može naći preko sedam šipki različitih visina i debljina za zgibove koje su u kombinaciji sa jednim &#34monkey bars&#34 odlična stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Za propadanja se može prebrojati tri para paralelnih šipki od kojih su dva para po meni prenisko postavljena te je šipka predebela, dok su šipke na trećem paru s druge strane pretanke te je malo neugodno kada se rade duži setovi. Ovaj park je zanimljiv i po tome što jedini u Hrvatskoj ima ručno izrađene improvizirane utege dostupne 24/7 što je odlična stvar za ljude koji žele malo otežati svoje treninge.<br><strong>+</strong> hlad; crpka za vodu; izoliranost; ulična rasvjeta<br><strong>-</strong>  prostor za freestyle pokrete; podloga<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bar&#34) s dodatkom švedskih ljestvi sa svake strane <br>Srednje visoke paralelne šipke za propadanja <br>Švedske ljestve <br>Set visokih horizontalnih šipki različitih visina <br> <br>Veliki izbor improviziranih utega u obliku betonskih blokova i automobilskih guma (prazne i pune)",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 paralelne šipke za propadanja različitih visina <br>#3 švedske ljestve <br>#4 7+ šipki različitih visina <br>#5 improvizirani utezi",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/1suKL9hkAr3CqnN38' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/1suKL9hkAr3CqnN38' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i>',
   },
@@ -142,12 +141,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Fallerovo smješten je u Zagrebu, preciznije u kvartu Trešnjevka, u sklopu Fallerovog šetališta. Park je dosta loše postavljen. Horizontalne ljestve (&#34Monkey bars&#34) pružaju mogućnost izvođenja različitih zgibova dok tri visoke šipke omogućuju osim zgibova i izvođenje freestyle elemenata. Veliki minus kojeg ovaj park ima je nedostatak bilo kakve sprave koja se može upotijrebiti za kvalitetan push trening, u ovom smislu misli se na propadanja. Među dodatnim stvarima u parku nema nekih korisnih sprava vezanih uz naš sport. Prednosti ovog parka su izoliranost od buke glavne ulice i mogućnost puštanja glasne muzike zbog udaljenosti obližjih zgrada. Mane ovog parka su nedostatak crpke za vodu, nedostatak ulične rasvjete koja otežava trening po noći, nedostatak hlada tokom ljetnih mjeseci te ogromni nesrazmjer push/pull sprava. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Fallerovo smješten je u Zagrebu, preciznije u kvartu Trešnjevka, u sklopu Fallerovog šetališta. Park bi smjestio u skupinu loših parkova ponajviše zbog nedostatka bilo kakve sprave za izvođenje propadanja, koja znamo da spadaju u najosnovnije pokrete našeg sporta. Kod zgibova je bolja situacija jer se nudi jedan &#34monkey bars&#34 dok tri povezane šipke različitih visina omogućuju osim zgibova i izvođenje freestyle elemenata.<br><strong>+</strong> izoliranost; podloga; prostor za freestyle pokrete<br><strong>-</strong> hlad; crpka za vodu; ulična rasvjeta<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Set od tri visoke horizontalne šipke za zgibove različitih visina <br>Mali fitness komplet koji se sastoji od stolice, rotirajućeg kruga i jedne vrste njihala <br>Bicikl <br>Set od dvije stolice različitih funkcija; pull/push pokreti <br>Dvije stolice jedna nasuprot druge koje rekreiraju određenu varijantu (&#34leg press&#34) vježbe <br>Horizontalne ljestve (&#34Monkey bars&#34) <br>Sprava za ljuljanje <br>Set od dvije sprave za ljuljanje okrenute jedna nasuprot drugoj <br>Sprava za veslanje",
+      "#1 set od tri šipke za zgibove različitih visina <br>#2 horizontalne ljestve &#34monkey bars&#34",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/ATCuJMVBKK6HJmwH7' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/ATCuJMVBKK6HJmwH7' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -161,12 +160,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Voltino smješten je u Zagrebu, preciznije u kvartu Voltino. Park je odlično postavljen, jedan od boljih parkova Zagreba. Horizontalne ljestve (&#34Monkey bars&#34), tri visoke horizontalne šipke i dvije malo niže šipke pružaju izvođenje različitih varijacija zgibova po svačijem ukusu. S druge strane jedan set visokih i niskih paralelnih šipki za propadanje omogućuju također šarolik izbor opcija za svakoga. Od dodatnih stvari u parku zanimljive za izdvojiti su šipke za skekove te klupica za trbušnjake jer su odlično mjesto za izvođenje određenih statičkih elemenata (handstand, dragon flag). Prednosti ovog parka su hlad tokom ljetnih mjeseci, mogućnost dopune vode na obližnjoj crpki, izoliranost od bilo kakvih stambenih građevina što je odlično za puštanje glasne muzike, mogućnost izvođenja freestyle pokreta te dobar omjer push/pull sprava. Mana ovog parka je nedostatak ulične rasvjete što otežava trening po noći.  <br><em>Napisao: Nikola Pustišek</em> <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Voltino smješten je u Zagrebu, preciznije u kvartu Voltino. Park bi smjestio negdje u zlatnu sredinu jer je dosta dobro postavljen, no ima mjesta za napredak. Preko pet šipki različitih visina i debljina za zgibove u kombinaciji sa jednim &#34monkey bars&#34 odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Za propadanja se u parku nalaze tri para paralelnih šipki od kojih su dva niski, a jedni visoki pa tako svi mogu odabrati onu opciju koja im više odgovara. Dodatne stvari u parku kao što je klupica za trbušnjake i šipke za sklekove mogu se iskoristiti za učenje statičkih elemenata te tri klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> hlad; izoliranost; crpka za vodu; podloga; prostor za freestyle pokrete<br><strong>-</strong> ulična rasvjeta<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Visoke paralelne šipke za propadanja <br>Klupica za trbušnjake <br>Set od tri visoke horizontalne šipke za zgibove različitih visina <br>Šipke za sklekove <br>Set paralelnih šipki za propadanja različitih visina <br>Sprava za veslanje <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih <br>Bicikl u kombinaciji sa šipkom za zgibove i rotirajućim krugom",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 set od tri šipke za zgibove različitih visina <br>#3 šipke za sklekove <br>#4 paralelne šipke za propadanja različitih visina <br>#5 klupica za trbušnjake <br>#6 visoke paralelne šipke za propadanja <br>#7 set od dvije šipke za zgibove različitih visina <br>#8 samostalna šipka manjih dimenzija ",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/97UCaF1Ej6HjNphSA' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/97UCaF1Ej6HjNphSA' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -180,12 +179,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Ljubljanica smješten je u Zagrebu, preciznije u kvartu Ljubljanica. Park je solidno postavljen. Dvije samostalne šipke osim zgibova pružaju mogućnost izvođenja i freestyle pokreta, dok dvije šipke manjih visina pružaju odlično mjesto za početnike gdje se mogu više fokusirati na negativni dio pokreta. Sprava od dva seta paralelnih šipki za propadanja zajedno s jednom samostalnom pružaju izbor najbolje opcije po svačijem ukusu. Od dodatnih stvari u parku zanimljivo je izdvojiti male švedske ljestve u kombinaciji s paralelnim šipkama koje pružaju mogućnost izvođenja određenih statičkih elemenata (human flag/dragon flag). Prednosti ovog parka su dobar omjer push/pull sprava kao i mogućnost izvođenja freestyle pokreta. Mane ovog parka su nedostatak crpke za vodu, nedostatak ulične rasvjete što otežava trening po noći i mala zakrivljenost terena što se osjeti prilikom izvođenja nekih statičkih elemenata (handstand/planche). <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Ljubljanica smješten je u Zagrebu, preciznije u kvartu Ljubljanica. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Park nema &#34monkey bars&#34, ali zato nudi četiri šipke za zgibove različitih visina koje su i više nego dosta. Jedina manja zamjerka, bar meni osobno, je ta da dvije od četiri šipke nisu ravne odnosno cijela šipka se zajedno sa temeljom nagnula prema naprijed te je nekako čudan osjećaj prilikom izvođenja vježbi (posebice kod freestyle pokreta). Za propadanja se u parku nalazi samo jedan set od dva para srednjih paralelnih šipki što je bolja opcija od visokih jer ovdje nema problema prilikom penjanja na njih. Dodatne stvari u parku kao što su male švedske ljestve mogu se iskoristiti za učenje statičkih elemenata te čak pet klupica koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> prostor za freestyle pokrete; podloga;<br><strong>-</strong> ulična rasvjeta; hlad; crpka za vodu; blizina stambenih zgrada<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Set kotača za vrtnju <br>Set paralelnih šipki za propadanja različitih visina <br>Bicikl <br>Sprava za skijanje <br>Sprava za penjanje <br>Švedske ljestve u kombinaciji s dijelom za propadanja <br>Dvije samostalne visoke horizontalne šipke za zgibove <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih",
+      "#1 set od dvije šipke za zgibove različitih visina <br>#2 dvije samostalne šipke manjih dimenzija <br>#3 švedske ljestve <br>#4 paralelne šipke za propadanja različitih visina",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/xQpTk7UG7sAwx2vv6' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/xQpTk7UG7sAwx2vv6' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -199,12 +198,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Trešnjevački plac smješten je u Zagrebu, preciznije u kvartu Trešnjevka. Park je solidno postavljen. Tri visoke šipke za zgibove pružaju dovoljno opcija za svačiji ukus, a također nude i opciju izvođenja freestyle pokreta. U parku se što se tiče propadanja nalazi samo jedan set visokih paralelnih šipki što nije idealno jer nekima može stvarati problem prilikom penjanja na iste. Od dodatnih stvari u parku zanimljive za izdvojiti su tri male horizontalne šipke odlične za početnike (australski zgibovi), ali i malo naprednije vježbače za izvođenje određenih statičkih elemenata (front/back lever) i klupica za trbušnjake (dragon flag). Prednosti ovog parka su djelomična izoliranost od glavne ulice i stambenih zgrada, no park se nalazi u sklopu staračkog doma stoga nije baš skroz preporučljivo puštati glasnu muziku jer se često korisnici staračkog doma znaju šetati oko samog parka, mogućnost izvođenja freestyle pokreta, dobar omjer push/pull sprava te prisutnost ulične rasvjete koja olakšava trening po noći. Mana ovog parka je nedostatak crpke za vodu. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Trešnjevački plac smješten je u Zagrebu, preciznije u kvartu Trešnjevka. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Tri visoke šipke za zgibove jedina su opcija, no zbog različitih visina pružaju dovoljno opcija za svaku vrstu treninga. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki što ponekim ljudima zna biti problem jer se ne mogu popeti na njih. Dodatne stvari u parku kao što je klupica za trbušnjake te set od tri povezane niže šipke mogu se iskoristiti za učenje statičkih elemenata te čak četiri klupica koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> prostor za freestyle pokrete; podloga; ulična rasvjeta<br><strong>-</strong>  hlad; crpka za vodu; blizina stambenih zgrada<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Visoke paralelne šipke za propadanja <br>Klupica za trbušnjake <br>Set od tri visoke horizontalne šipke za zgibove različitih visina <br>Set od tri niske horizontalne šipke različitih visina <br>Set od dva rotirajuća kruga za različite vježbe <br>Sprava za skijanje <br>Set za ljude u invalidskim kolicima koji se sastoji od dvije vježbe vrtnje i improviziranih ringova za zgibove",
+      "#1 set od tri šipke za zgibove različitih visina <br>#2 visoke paralelne šipke za propadanja <br>#3 klupica za trbušnjake <br>#4 set od tri povezane niže šipke",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/iHbaNbx6Nonfzgks5' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/iHbaNbx6Nonfzgks5' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -218,12 +217,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Savica smješten je u Zagrebu, preciznije u kvartu Savica na Savskom nasipu. Park je solidno postavljen. Park je djelmično spoj novog i starog dijela. U starom dijelu nalaze se horizontalne ljestve (&#34Monkey bar&#34) koje imaju malo deblji hvat te s jedne strane umjesto jedne šipke imaju napravljene švedske ljestve. U novom dijelu nalaze se nešto novije dvije šipke nižih dimenzija koje su odlične za početnike za vježbanje negativnog dijela pokreta. Set visokih paralelnih šipki za propadanje nisu baš uvijek najbolje rješenje jer nekim ljudima zna biti problem penjanje na iste. Od dodatnih stvari u parku izdvojio bih klupicu s ručkama te set zakrivljenih šipki koje mogu poslužiti kod izvođenja određenih statičkih elemenata (handstand, planche...). Prednosti ovog parka su izoliranost od glavne ceste i obližnjih zgrada što omogućuje puštanje glasne muzike, mogućnost dopune vode na obližnjoj crpki, solidan omjer push/pull sprava te prisutnost ulične rasvjete što olakšava trening po noći. Mane ovog parka su nedostatak hlada tokom ljetnih mjeseci te nedostaka šipke za izvođenje freestyle pokreta kao i odgovarajuće podloge. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Savica smješten je u Zagrebu, preciznije u kvartu Savica na Savskom nasipu. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Park ima &#34monkey bars&#34, no zgibove je moguće raditi samo s jedne strane jer su s druge strane od vrha do poda postavljene švedske ljestve. Osim na njemu, zgibove je moguće raditi i na dvije odvojene malo niže šipke što je odlična stvar za početnike. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki što ponekim ljudima zna biti problem jer se ne mogu popeti na njih. Dodatne stvari u parku kao što je klupica sa ručkama, klupica za trbušnjake te par šipki za sklekove mogu se iskoristiti za učenje raznih statičkih elemenata. Nedavno je ekipa koja često tamo trenira unaprijedila park sa ručno izrađenim utezima, pa se tako ovaj park kao i onaj na Jarunu ističe malo od svih ostalih.<br><strong>+</strong> izoliranost; crpka za vodu; ulična rasvjeta<br><strong>-</strong>  hlad; prostor za freestyle pokrete; podloga<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Visoke paralelne šipke za propadanja <br>Klupica za trbušnjake <br>Šipke za sklekove <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih <br>Klupa s ručkama",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 set od dvije šipke za zgibove različitih visina <br>#3 šipke za sklekove <br>#4 klupica sa ručkama <br>#5 visoke paralelne šipke za propadanja",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/XshNN5s8oKUVMTu66' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/XshNN5s8oKUVMTu66' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -237,12 +236,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Jarun 2 smješten je u Zagrebu, preciznije na jezeru Jarun. Kao i njegov prethodnik Jarun 1 i ovaj park je odlično postavljen te je jedan od boljih parkova Zagreba. Kao i kod prvog parka i ovaj se može podijeliti u dvije zone: stari i novi dio. U parku najviše prevladavaju horizontalne ljestve (&#34Monkey bars&#34) jer ih ima sveukupno čak četiri, dva u svakom dijelu parka. Novi dio parka također još nudi nekoliko različitih šipki za zgibove različitih visina kao i set od tri niske šipke korisne za početnike (australski zgibovi) ili određene statičke elemente (front/back lever). Sredinu samog parka čini jedan dugački set starih paralelnih šipki za propadanja. Od dodatnih stvari u parku zanimljive za izdvojiti su švedske ljestve u novom dijelu parka koje mogu poslužiti kod izvođenja određenih statičkih elemenata (humanflag) i dva seta balvana u starom dijelu parka koji su korisni za neke trbušnjake i slične vježbe. Prednosti ovog parka su izoliranost od stambenih grada što omogućava glasno puštanje muzike, djelomičan hlad na većini parka tokom ljetnih mjeseci i blizina crpke za vodu.Mane ovog parka su mali nesrazmjer push/pull sprava, podloga samog parka koja nije baš preporučljiva prilikom izvođenja freestyle pokreta i nedostatak ulične rasvjete što otežava trening po noći.  <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Jarun 2 smješten je u Zagrebu, preciznije na jezeru Jarun. Ovo je jedan od dva parka na jezeru te bi ga smjestio negdje u zlatnu sredinu jer je dosta dobro postavljen, no ima mjesta za napredak. Na jezeru se osim ovoga nalazi i još jedan park, no taj je malo lošiji. Ovaj park se ističe dosta po broju &#34monkey bars&#34 jer ih u cijelom parku ima čak tri komada, a uz njih se još mogu pronaći četiri šipke za zgibove različitih visina, kao i tri manje za vježbanje raznih progresija. Za propadanja nije baš takav šarolik izbor te je dostupan samo jedan par paralelnih šipki koji je po mojem mišljenju i prenisko postavljen te su šipke predebele. Dodatne stvari u parku kao što su švedske ljestve mogu se iskoristiti za učenje raznih statičkih elemenata.<br><strong>+</strong> izoliranost; crpka za vodu; hlad<br><strong>-</strong>  prostor za freestyle pokrete; podloga; ulična rasvjeta<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Četiri horizontalne ljestve (&#34Monkey bars&#34) <br>Srednje visoke paralelne šipke za propadanja <br>Drveni trupci za trbušnjake <br>Švedske ljestve <br>Niz horizontalnih šipki za zgibove različitih visina <br>Set od tri niske horizontalne šipke različitih visina",
+      "#1 četiri horizontalne ljestve &#34monkey bars&#34 <br>#2 švedske ljestve <br>#3 srednje visoke paralelne šipke za propadanja <br>#4 set od tri povezane niže šipke <br>#5 4+ šipki različitih visina",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/YEGKXDzSYFpwtcjT6' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/YEGKXDzSYFpwtcjT6' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i>',
   },
@@ -256,12 +255,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Rudeš smješten je u Zagrebu, preciznije u kvartu Rudeš. Park je dosta dobro postavljen. Horizontalne ljestve (&#34Monkey bars&#34), tri visoke horizontalne šipke i dvije malo niže šipke pružaju izvođenje različitih varijacija zgibova po svačijem ukusu. Jedan set visokih paralelnih šipki za propadanje nisu uvijek najbolje rješenje jer nekim ljudima zna biti problem popesti se na iste. Od dodatnih stvari izdvojio bih samostalne švedske ljestve i klupicu za trbušnjake jer su obje sprave korisne kod učenja određenih statičkih elemenata (human flag, handstand, dragon flag). Prednosti ovog parka su mogućnost izvođenja freestyle pokreta, hlad tokom ljetnih mjeseci, solidan omjer push/pull sprava, prisutnost ulične rasvjete što pomaže kod treninga po noći te izoliranost od glavne ceste i obližnjih zgrada što omogućuje puštanje glasne muzike. Mana ovog parka je nedostatak crpke za vodu. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Rudeš smješten je u Zagrebu, preciznije u kvartu Rudeš. Park bi smjestio negdje u zlatnu sredinu jer je dosta dobro postavljen, no ima mjesta za napredak. Preko pet šipki različitih visina i debljina za zgibove u kombinaciji sa jednim &#34monkey bars&#34 odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki što ponekim ljudima zna biti problem jer se ne mogu popeti na njih. Dodatne stvari u parku kao što su švedske ljestve i klupica za trbušnjake mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalaze još i tri klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> prostor za freestyle pokrete; izoliranost; hlad; ulična rasvjeta; podloga;<br><strong>-</strong> crpka za vodu; blizina stambenih zgrada<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Set od tri visoke horizontalne šipke za zgibove različitih visina <br>Horizontalne ljestve (&#34Monkey bar&#34) <br>Visoke paralelne šipke za propadanja <br>Bicikl <br>Švedske ljestve <br>Klupica za trbušnjake <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 set od tri šipke za zgibove različitih visina <br>#3 visoke paralelne šipke za propadanja <br>#4 švedske ljestve <br>#5 klupica za trbušnjake <br>#6 set od dvije šipke za zgibove različitih visina",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/dRE2ctPwnPD3UpYs8' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/dRE2ctPwnPD3UpYs8' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -275,12 +274,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Svetice smješten je u Zagrebu, preciznije u kvartu Svetice. Park je odlično postavljen i jedan je od rijetkih parkova koji su baš planski i temeljito izgrađeni u dogovooru sa samim vježbačima te s razlogom spada ne samo u najbolje parkove Zagreba već i cijele Hrvatske. U ovom parku se najčešće organiziraju grupni treninzi jer nudi stvarno bezbroj šipki za svaku vježbu stoga je odličan izbor za velik broj ljudi na istom mjestu. Preciznije park nudi preko devet samostalnih šipki za zgibove, jedne horizontalne ljestve (&#34Monkey bars&#34) te tri seta od tri paralelne šipke za propadanja različitih visina i širina. Od dodatnih stvari park nudi čak tri seta manjih paralelnih šipki, dva seta malo nižih horizontalnih šipki, dvije klupice za trbušnjake te jedan zanimljiv detalj u obliku stupa s konopcem za penjanje što čini ovaj park stvarno savršenim mjestom za trening. Prednosti ovog parka su izoliranost od obližnjih stambenih zgrada što pruža mogućnost puštanja glasne muzike, mogućnost dopune vode na obližnjoj crpki, odličan omjer push/pull sprava te ponajviše mogućnost izvođenja ogromnog broja freestyle pokreta (statičkih/dinamičkih). Mane ovog parka su nedostatak hlada tokom ljetnih mjeseci te nedostatak ulične rasvjete što otežava trening po noći. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Svetice smješten je u Zagrebu, preciznije u kvartu Svetice. Park je odlično postavljen te spada među top parkove Zagreba jer je jedan od rijetkih parkova koji su baš planski i temeljito izgrađeni u dogovoru sa samim vježbačima. U parku se osim &#34monkey bars&#34 nalazi i preko deset šipki za zgibove različitih duljina, debljina i visina, pa se zbog toga ovdje najčešće i organiziraju grupni treninzi, radionice i slične stvari jer stvarno velik broj ljudi može istovremeno vježbati na istom mjestu. Dva seta po tri paralelne šipke te jedan set po dvije zajedno tvore osam šipki za propadanja što je odličan omjer u odnosu na broj šipki za zgibove. Dodatne stvari u parku kao što su švedske ljestve, klupice za trbušnjake, tri niske povezane šipke, tri para niskih paralelnih šipki te dvije niže horizontalne šipke mogu se iskoristiti za učenje raznih statičkih elemenata.<br><strong>+</strong> prostor za freestyle pokrete; izoliranost; crpka za vodu; ulična rasvjeta; podloga;<br><strong>-</strong>  hlad<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Dvije visoke i jedne srednje visoke paralelne šipke za propadanja <br>Klupica za trbušnjake <br>Švedske ljestve <br>Veliki niz od preko 8 visokih horizontalnih šipki za zgibove različitih visina <br>Dva seta niskih horizontalnih šipki različitih visina <br>Jedna samostalna srednje visoka šipka za zgibove s dodatkom konopca visokog otprilike 5m <br>Tri kompleta malih vodoravnih šipki na podu",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 10+ šipki različitih visina <br>#3 8+ paralelnih šipki različitih visina <br>#4 švedske ljestve <br>#5 klupica za trbušnjake <br>#6 set od tri povezane niže šipke <br>#7 set od dvije povezane niže šipke <br>#8 niske paralete",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/CNgAxe692gDCrJy46' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/CNgAxe692gDCrJy46' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>',
   },
@@ -294,12 +293,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Prečko smješten je u Zagrebu, preciznije u kvartu Prečko. Park je solidno postavljen. Horizontalne ljestve (&#34Monkey bars&#34), tri visoke horizontalne šipke i dvije malo niže šipke pružaju izvođenje različitih varijacija zgibova po svačijem ukusu. Park malo zaostaje po pitanju propadanja jer za izvođenje istih postoji samo jedna sprava na kojoj ima prostora samo za jednu osobu što nije baš poželjno i praktično pogotovo kod grupnih treninga ili malo veće gužve u parku. Od dodatnih stvari u parku izdvojio bih malo zakrivljene paralelne šipke, samosalne švedske ljestve i tri nike horizontalne šipke jer su sve sprave korisne i za same početnike (sklekovi/australski zgibovi), ali i za naprednije vježbače kod učenja raznih statičkih pokreta (handstand, planche, front/back lever). Prednosti ovog parka su izoliranost od glavne ceste i obližnjih stambenih zgrada što omogućava glasno slušanje muzike i mogućnost izvođenja freestyle pokreta. Mane ovog parka su nedostatak crpke za vodu, nedostatak ulične rasvjete što otežava trening po noći, nedostatak hlada tokom ljetnih mjeseci te dosta veliki nesrazmjer push/pull sprava.  <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Prečko smješten je u Zagrebu, preciznije u kvartu Prečko. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Preko pet šipki različitih visina i debljina za zgibove u kombinaciji sa jednim &#34monkey bars&#34 odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki, no napravljene su na takav način da istovremeno može samo jedna osoba raditi što nije baš praktično, posebice ako se okupi ekipa i zajedno radite trening. Dodatne stvari u parku kao što je klupica za trbušnjake, samostalne švedske ljestve, par šipki za sklekove te set od tri povezane niže šipke mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalaze još i jedna klupica koja ako ste kreativni može osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> izoliranost; prostor za freestyle pokrete; podloga; ulična rasvjeta<br><strong>-</strong>  hlad; crpka za vodu<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bar&#34) <br>Klupica za trbušnjake <br>Švedske ljestve <br>Set od tri visoke horizontalne šipke za zgibove različitih visina <br>Šipke za sklekove <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih <br>Sprava za propadanje <br>Set niskih horizontalnih šipki različitih visina",
+      "#1 set od tri šipke za zgibove različitih visina <br>#2 set od tri povezane niže šipke <br>#3 švedske ljestve <br>#4 horizontalne ljestve &#34monkey bars&#34 <br>#5 klupica za trbušnjake <br>#6 šipke za sklekove <br>#7 set od dvije šipke za zgibove različitih visina <br>#8 visoke paralelne šipke za propadanja",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/Dbe1sonARSKGSXJ17' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/Dbe1sonARSKGSXJ17' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -313,12 +312,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Ciglenica smješten je u Zagrebu, preciznije u kvartu Trešnjevka u neposrednoj blizini starog vodocrpilišta koje je cijelo obloženo u ciglama po čemu je i park dobio ime. Park ima dosta nepotrebnih sprava, ali unatoč tomu i dalje je jedan od boljih parkova u Zagrebu. Horizontalne ljestve (&#34Monkey bars&#34) odličan su izbor za sve vrste zgibova dok tri visoke samostalne šipke osim za zgibove odlično mogu poslužiti i za freestyle dio. U parku se nalaze samo jedne visoke paralelne šipke za propadanje koje mogu nekima biti problem, no u većini slučajeva u parku se nalaze kameni blokovi koji mogu poslužiti kao stepenice za lakše penjanje. Od dodatnih stvari u parku većina ih je dosta beskorisna što se tiče našeg sporta osim seta klupica za trbušnjake koje se mogu iskoristiti i kao podloga za čučanj skokove te neke staticke elemente (dragon flag). Prednosti ovog parka je mogućnost dopune vode u obližnjem parku za pse te izoliranost parka od obližnjih kuća stoga se muzika može slobodno glasno puštati. Mane ovog parka su nedostatak hlada tijekom ljetnih mjeseci, veliki broj nepotrebnih sprava i nedostatak ulične rasvjete što otežava trening po noći.  <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Ciglenica smješten je u Zagrebu, preciznije u kvartu Trešnjevka nasuprot starog vodocrpilišta koje je sagrađeno od cigle. Park bi smjestio negdje u zlatnu sredinu jer je dosta dobro postavljen, no ima mjesta za napredak. Set od tri povezane šipke različitih visina za zgibove u kombinaciji sa jednim &#34monkey bars&#34 odlična su kombinacija te pružaju dovoljno mjesta za vježbanje i kod veće frekvencije ljudi u parku. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki što ponekim ljudima zna biti problem jer se ne mogu popeti na njih. Dodatne stvari u parku kao što su klupice za trbušnjake mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalaze još i tri klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> izoliranost; prostor za freestyle pokrete; podloga; crpka za vodu; ulična rasvjeta<br><strong>-</strong>  hlad<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Visoke paralelne šipke za propadanja <br>Dvije klupice za trbušnjake <br>Set od tri visoke horizontalne šipke za zgibove različitih visina <br>Sprava za skijanje <br>Set od dva rotirajuća kruga za različite vježbe <br>Sprava za penjanje u kombinaciji sa spravom za njihanje",
+      "#1 dvije klupice za trbušnjake <br>#2 set od tri šipke za zgibove različitih visina <br>#3 horizontalne ljestve &#34monkey bars&#34 <br>#4 visoke paralelne šipke za propadanja",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/pV6aAdrAH99uWkbv7' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/pV6aAdrAH99uWkbv7' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i>',
   },
@@ -332,12 +331,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Siget smješten je u Zagrebu, preciznije u kvartu Siget. Park je solidno postavljen. Ovaj park se malo ističe od drugih jer je napravljen u obliku jedne vrste trim staze gdje se na svakoj stanici nalazi određeni broj sprava za vježbanje. Prva stanica, ujedno i najveća i nama najkorisnija je upravo ovaj mali sw park. Tri šipke pružaju odličan izbor za raditi zgibove, dok spojene šipke za propadanja odmah pored nude brzu promjenuu vježbi. Od dodatnih stvari u parku izdvojio bih set niskih paralelnih šipki, jednu samostalnu nižu horizontalnu šipku te švedske ljestve na malo daljoj stanici jer sve navedeno može odlično poslužiti kod učenja raznih statičkih elemenata (handstand, planche, human flag, front lever...). Na ostatku trim staze mogu se pronaći još par stanica sa nekim varijacijama šipki za propadanja ili zgibove tako da sve u svemu zanimljiv koncept pogotovo za slučajne prolaznike. Prednosti ovog parka su izoliranost od glavne ceste te stambenih zgrada što omogućava puštanje glasne muzike, dobar omjer push/pull sprava, mogućnost hlada tijekom ljetnih mjeseci (ovisi naravno od stanice do stanice) te ulična rasvjeta putem cijele staze. Mane ovog parka su nedostatak crpke za vodu, neadekvatna podloga (ovisi naravno od stanice do stanice), manjak prostora za izvođenje freestyle pokreta i neadekvatna debljina šipki (ovisi naravno od stanice do stanice). <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Siget smješten je u Zagrebu, preciznije u kvartu Siget. Park bi smjestio negdje pri dnu ljestvice, ali ne na samo dno jer iako je dosta loš, ima i gorih od njega. U parku se nalazi set od tri povezane šipke za zgibove različitih visina, od kojih je najviša šipka po mojem mišljenju za prosječnog vježbača previsoka, dok od ostale dvije jedna je normalne visine, dok je druga dosta niža te će više biti od koristi početnicima koji vježbaju negativni dio pokreta. Mala zamjerka je da su sve šipke u parku predebele. Kod propadanja nije bolja situacija jer se nalazi jedan par paralelnih šipki koji su po meni prenisko postavljene te je šipka također predebela. Dodatne stvari u parku kao što su male paralete, niža horizontalna šipka i švedske ljestve mogu se iskoristiti za učenje raznih statičkih elemenata.<br><strong>+</strong> izoliranost; podloga; ulična rasvjeta; hlad<br><strong>-</strong>  prostor za freestyle pokrete; crpka za vodu<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Visoke paralelne šipke za propadanja <br>Klupica za trbušnjake <br>Švedske ljestve u kombinaciji s mrežom za penjanje i malim umjetnim zidom za penjanje <br>Tri horizontalne šipke za zgibove različite visine <br>Niske paralelne šipke na podu <br>Srednje visoke paralelne šipke za propadanja <br>Trupac za održavanje ravnoteže <br>Set od tri niske horizontalne šipke različitih visina",
+      "#1 set od tri šipke za zgibove različitih visina <br>#2 švedske ljestve <br>#3 niske paralete <br>#4 samostalna niska šipka <br>#5 niske paralelne šipke za propadanja",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/ZsRNo65vd3HQSucm7' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/ZsRNo65vd3HQSucm7' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroker"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -351,12 +350,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Trnsko smješten je u Zagrebu, preciznije u kvartu Trnsko. Park je solidno postavljen. Jedan je od rijetkih parkova koji nema u svojem sastavu neku vrstu horizontalnih ljestvi (&#34Monkey bars&#34), no zato nudi preko šest šipki za zgibove različitih visina, koje također mogu poslužiti i kod izvođenja freestyle pokreta. Set od tri paralelne šipke za propadanja malo je prenizak za moj osobni ukus, no za razliku od ostatka parka zbog obližnjeg drveta većinu dana je u hladu. Od dodatnih stvari u parku izdvojio bi jedan zanimljiv dodatak u obliku sprave za jačanje snage u prstima, česta pojava ovakve sprave viđa se u prostorima specijaliziranim za penjanje po stijenama. Prednosti ovog parka su izoliranost od obližnjih stambenih zgrada što omogućuje puštanje glasne muzike, mogućnost izvođenja freestyle pokreta i prisutnost ulične rasvjete što olakšava trening po noći. Mane ovog parka su nedostatak crpke za vodu, nedostatak hlada tokom ljetnih mjeseci te nesrazmjer push/pull sprava. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Trnsko smješten je u Zagrebu, preciznije u kvartu Trnsko. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Preko sedam šipki različitih visina i debljina za zgibove odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Za propadanja se u parku nalaze dva para paralelnih šipki od kojih je jedan po mojem mišljenju postavljen prenisko te je neupotrebljiv što se tiče propadanja, dok je drugi par meni osobno idealne visine. Dodatne stvari u parku kao što su dvije malo modificirane švedske ljestve mogu se iskoristiti za učenje statičkih elemenata te dvije klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> izoliranost: podloga; prostor za freestyle pokrete; ulična rasvjeta<br><strong>-</strong>  hlad; crpka za vodu<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Srednje visoke paralelne šipke za propadanja <br>Set od tri visoke horizontalne šipke za zgibove različitih visina u kombinaciji s kratkim švedskim ljestvama i dodatkom za vježbu snage u prstima <br>Šipke za sklekove <br>Niz srednje visokih horizontalnih šipki za zgibove različitih visina",
+      "#1 7+ šipki različitih visina <br>#2 švedske ljestve <br>#3 paralelne šipke za propadanja različitih visina",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/32YSQk3gXziYMyRP9' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/32YSQk3gXziYMyRP9' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -370,12 +369,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Trnover smješten je u Zagrebu, preciznije u kvartu Trnovčica. Park je odlično postavljen i jedan je od rijetkih parkova koji su baš planski i temeljito izgrađeni u dogovooru sa samim vježbačima te s razlogom spada ne samo u najbolje parkove Zagreba već i cijele Hrvatske. U ovom parku se najčešće organiziraju grupni treninzi jer nudi stvarno bezbroj šipki za svaku vježbu stoga je odličan izbor za velik broj ljudi na istom mjestu. Preciznije park nudi preko devet samostalnih šipki za zgibove, jedne horizontalne ljestve (&#34Monkey bars&#34) te dva seta paralelnih šipki za propadanja različitih visina i širina. Od dodatnih stvari park nudi čak dva seta manjih paralelnih šipki, klupicu za trbušnjake te jedan zanimljiv detalj u obliku kutiju za skakanje što čini ovaj park stvarno savršenim mjestom za trening. Prednosti ovog parka su izoliranost od obližnjih stambenih zgrada što pruža mogućnost puštanja glasne muzike, odličan omjer push/pull sprava, prisutnost ulične rasvjete što olakšava trening po noći te ponajviše mogućnost izvođenja ogromnog broja freestyle pokreta (statičkih/dinamičkih). Mane ovog parka su nedostatak hlada tokom ljetnih mjeseci te nedostatak crpke za vodu. <br><em>Napisao: Nikola Pustišek</em>",
+      "1. Street Workout park Trnover smješten je u Zagrebu, preciznije u kvartu Trnovčica. Park je odlično postavljen te spada među top parkove Zagreba jer je jedan od rijetkih parkova koji su baš planski i temeljito izgrađeni u dogovoru sa samim vježbačima. U parku se osim &#34monkey bars&#34 nalazi i preko sedam šipki za zgibove različitih duljina, debljina i visina, pa se zbog toga ovdje najčešće i organiziraju grupni treninzi, radionice i slične stvari jer stvarno velik broj ljudi može istovremeno vježbati na istom mjestu. Za propadanja su na usluzi dva para paralelnih šipki za propadanja koja čine dovoljno dobar omjer u odnosu na broj šipki za zgibove. Dodatne stvari u parku kao što su klupica za trbušnjake, dva para niskih paraleta, jedan par visokih paraleta, dve kutije za skakanje te jedna samostalna dosta niska horizontalna šipka mogu se iskoristiti za učenje raznih statičkih elemenata.<br><strong>+</strong> izoliranost; podloga; ulična rasvjeta; prostor za freestyle pokrete<br><strong>-</strong>  crpka za vodu; hlad<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Jedan par visokih i srednje visokih paralelnih šipki za propadanja <br>Horizontalne ljestve (&#34Monkey bars&#34) <br>Niz od pet visokih horizontalnih šipki za zgibove različitih visina <br>Set od dvije visoke i dvije srednje visoke horizontalne šipke za zgibove različitih visina <br>Stalak za skakanje <br>Tri para niskih paralelnih šipki na podu <br>Klupica za trbušnjake",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 7+ šipki različitih visina <br>#3 dva para niskih paraleta <br>#4 klupica za trbušnjake <br>#5 set od dvije šipke za zgibove različitih visina <br>#6 dva para visokih paralelnih šipki za propadanja <br>#7 kutije za skakanje <br>#8 visoke paralete",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/yL6GFgmvJJpbpXcw5' target=_blank>ovdje</a> i pogledaj slike parka!!",
+      "Klikni <a href='https://goo.gl/maps/yL6GFgmvJJpbpXcw5' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>',
   },
@@ -389,12 +388,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Britanac smješten je u Zagrebu, preciznije u blizini Britanskog trga. Park je odlično postavljen i jedan je od najboljih parkova u Zagrebu, ali i okolici. U parku se nalazi veliki broj šipki za zgibove različitih visina po svačijoj mjeri koje se također mogu koristiti i za freestyle dio. Dva seta paralelnih šipki za propadanja različitih dimenzije čine odličan balans push/pull sprava te su u sklopu šipki za zgibove što je odlično kod nekih supersetova kada je odmor između vježbi minimalan. Dodatne stvari u obliku švedskih ljestvi, seta od dvije niske različite šipke i malih paralelnih šipki na podu odličan su alat kod freestyle dijela našeg sporta kod učenja različitih statičkih elemenata (front/back lever, humanflag, handstand...). Prednosti ovog parka su izoliranost od buke glavne ulice i slučajnih prolaznika, dobar omjer push/pull sprava i mogućnost hlada tijekom ljetnog razdoblja. Mane ovog parka su nedostatak crpke za vodu i ulične rasvjete stoga je trening po mraku jako otežan te zbog blizine stambenih zgrada sa svih strana parka nije baš poželjno puštati glasno muziku.  <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Britanac smješten je u Zagrebu, preciznije u blizini Britanskog trga. Park bi smjestio negdje u zlatnu sredinu jer je dosta dobro postavljen, no ima mjesta za napredak. Preko pet šipki različitih visina i debljina za zgibove odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Za propadanja su na usluzi dva para paralelnih šipki za propadanja različitih visina tako da odgovaraju svima. Dodatne stvari u parku kao što su švedske ljestve, niske paralete te dvije povezane horizontalne šipke nižih dimenzija mogu se iskoristiti za učenje raznih statičkih elemenata.<br><strong>+</strong> podloga; prostor za freestyle pokrete; hlad<br><strong>-</strong>  crpka za vodu; blizina stambenih zgrada; ulična rasvjeta<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Jedan par visokih i srednje visokih paralelnih šipki za propadanja <br>Dva seta od tri visoke horizontalne šipke za zgibove različitih visina u kombinaciji s švedskim ljestvama <br>Set od dvije niske horizontalne šipke različitih visina <br>Set malih vodoravnih šipki na podu",
+      "#1 švedske ljestve <br>#2 niske paralete <br>#3 5+ šipki različitih visina <br>#4 dva para paralelni šipki za propadanja različitih visina <br>#5 set od dvije povezane niže šipke",
     parkNavigation:
-      "Klikni <a href='https://g.page/street-workout-park-zagreb?share' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://g.page/street-workout-park-zagreb?share' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i>',
   },
@@ -408,12 +407,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Špansko smješten je u Zagrebu, preciznije u kvartu Špansko. Park je dosta dobro postavljen te spada u bolje parkove Zagreba. Horizontalne ljestve (&#34Monkey bars&#34), tri visoke horizontalne šipke i dvije malo niže šipke pružaju izvođenje različitih varijacija zgibova po svačijem ukusu. S druge strane jedan set visokih i niskih paralelnih šipki za propadanje omogućuju također šarolik izbor opcija za svakoga. Od dodatnih stvari u parku zanimljivo je izdvojiti klupicu za trbušnjake koja može poslužiti kod izvođenja određenih statičkih elemenata (dragon flag). Prednosti ovog parka su izoliranost od glavne ceste i obližnjih stambenih zgrada što omogućava puštanje glasne muzike, dobar omjer push/pull sprava, mogućnost dopune vode na obližnjoj crpki za vodu te mogućnost izvođenja freestyle pokreta. Mane ovog parka su nedostatak hlada tokom ljetnih mjeseci te nedostatak ulične rasvjete što otežava trening po noći.   <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Špansko smješten je u Zagrebu, preciznije u kvartu Špansko. Park bi smjestio negdje u zlatnu sredinu jer je dosta dobro postavljen, no ima mjesta za napredak. Preko pet šipki različitih visina i debljina za zgibove u kombinaciji sa jednim &#34monkey bars&#34 odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Za propadanja se u parku nalaze tri para paralelnih šipki od kojih su dva niski, a jedni visoki pa tako svi mogu odabrati onu opciju koja im više odgovara. U parku se nalaze još i četiri klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> izoliranost: podloga; prostor za freestyle pokrete<br><strong>-</strong>  ulična rasvjeta; hlad; crpka za vodu<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Jedan par visokih paralelnih šipki za propadanja <br>Horizontalne ljestve (&#34Monkey bars&#34) <br>Set od tri visoke horizontalne šipke za zgibove različitih visina <br>Set paralelnih šipki za propadanja različitih visina <br> Klupica za trbušnjake <br>Sprava za veslanje <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih <br>Bicikl <br>Set od dvije stolice različitih funkcija; pull/push pokreti <br>Set od dvije sprave za ljuljanje okrenute jedna nasuprot drugoj",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 set od tri šipke za zgibove različitih visina <br>#3 paralelne šipke za propadanja različitih visina <br>#4 visoke paralelne šipke za propadanja <br>#5 visoke paralete <br>#6 set od dvije šipke za zgibove različitih visina",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/d8fDrr4f3VxPWFPA7' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/d8fDrr4f3VxPWFPA7' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -427,12 +426,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Gajnice smješten je u Zagrebu, preciznije u kvartu Gajnice. Park je dosta dobro postavljen te spada u grupu boljih parkova u Zagrebu. Park pruža veliki izbor šipki za zgibove preko horizontalnih ljestvi (&#34Monkey bars&#34), tri visoke šipke koje mogu poslužiti i za freestyle pokrete te dodatne dvije šipke manjih visina koje su korisne kod učenja negativnog dijela pokreta. Prisutnost visokih i niskih paralelnih šipki za propadanja također su odlična stvar da svako po svojem ukusu odabere dražu opciju. Od dodatnih stvari u parku izdvojio bi klupicu s ručkama koje može biti veoma korisna kod učenja određenih statičkih elemenata (hadnstand, planche...) te male švedske ljestve koje su spojene s niskim šipkama za propadanje koje mogu poslužiti malo naprednijim vježbačima u jačanju njihovih elemenata (front lever, human flag) zbog manjeg razmaka između šipki što u velikoj mjeri otežava sami pokret. Prednosti ovog parka su izoliranost od obližnjih zgrada što omogućava puštanje glasne muzike dobar omjer push/pull sprava. Mane ovog parka su nedostatak crpke za vodu, nedostatak hlada tijekom ljetnih mjeseci te nedostatak ulične rasvjete što otežava trening po noći.  <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Gajnice smješten je u Zagrebu, preciznije u kvartu Gajnice. Park bi smjestio negdje u zlatnu sredinu jer je dosta dobro postavljen, no ima mjesta za napredak. Preko pet šipki različitih visina i debljina za zgibove u kombinaciji sa jednim &#34monkey bars&#34 odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki što ponekim ljudima zna biti problem jer se ne mogu popeti na njih te jedan par samostalnih paralelnih šipki koju su malo nezgodno napravljene jer istovremeno na njima može samo jedna osoba raditi što nije baš praktično, posebice ako se okupi ekipa i zajedno radite trening. Dodatne stvari u parku kao što je klupica sa ručkama i švedske ljestve mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalaze još i dvije klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> izoliranost: podloga; prostor za freestyle pokrete<br><strong>-</strong>  crpka za vodu; ulična rasvjeta; hlad<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Jedan par visokih paralelnih šipki za propadanja <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih <br>Horizontalne ljestve (&#34Monkey bars&#34) <br>Set od tri visoke horizontalne šipke za zgibove različitih visina <br>Klupa s ručkama <br>Sprava za propadanje s dodatkom malih švedskih ljestvi",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 visoke paralelne šipke za propadanja <br>#3 set od tri šipke za zgibove različitih visina <br>#4 set od dvije šipke za zgibove različitih visina <br>#5 klupica sa ručkama <br>#6 švedske ljestve",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/kDBbQ3zn75fgTW3R9' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/kDBbQ3zn75fgTW3R9' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i>',
   },
@@ -446,12 +445,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Klaka smješten je u Zagrebu, preciznije u kvartu Klaka. Park je dosta dobro postavljen i može se reći da spada među bolje parkove Zagreba. Što se tiče zgibova stvarno ima pregršt opcija za birati preko jednih horizontalnih ljestvi (&#34Monkey bars&#34), tri visoke šipke koje mogu poslužti i za freestyle pokrete i dvije malo niže koje su odlične za početnike gdje se mogu više fokusirati na negativni dio pokreta. Jedan set visokih i niskih paralelnih šipki za propadanja odlična su kombinacija jer dopuštaju izbor najbolje opcije po svačijem ukusu. U parku se nalazi nekoliko dodatnih stvari koje nisu od neke koristi u našem sportu, no tu bi izdvojio jedne samostalne švedske ljestve i dva seta malo zakrivljenih šipki koje mogu poslužiti kod izvođenja određenih statičkih elemenata (handstand/humanflag). Prednosti ovog parka su izoliranost od stambenih zgrada što omogućuje puštanje glasne muzike, mogućnost izvođenja freestyle pokreta i dobar omjer push/pull sprava. Mane ovog parka su nedostatak hlada tokom ljetnih mjeseci, nedostatak crpke za vodu i nedostatak ulične rasvjete što otežava trening po noći.  <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Klaka smješten je u Zagrebu, preciznije u kvartu Klaka. Park bi smjestio negdje u zlatnu sredinu jer je dosta dobro postavljen, no ima mjesta za napredak. Preko pet šipki različitih visina i debljina za zgibove u kombinaciji sa jednim &#34monkey bars&#34 odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki što ponekim ljudima zna biti problem jer se ne mogu popeti na njih te jedan par samostalnih paralelnih šipki koji je malo nezgodno napravljen jer istovremeno na njima može samo jedna osoba raditi što nije baš praktično, posebice ako se okupi ekipa i zajedno radite trening. Dodatne stvari u parku kao što su švedske ljestve, dva para šipki za sklekove, klupica za trbušnjake te klupica sa ručkama mogu se iskoristiti za učenje statičkih elemenata te čak sedam klupica koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening<br><strong>+</strong> izoliranost: podloga; prostor za freestyle pokrete; ulična rasvjeta<br><strong>-</strong>  hlad; crpka za vodu<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Jedan par visokih paralelnih šipki za propadanja <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih <br>Sprava za skijanje <br>Horizontalne ljestve (&#34Monkey bars&#34) <br>Set od tri visoke horizontalne šipke za zgibove različitih visina <br>Klupa s ručkama <br>Sprava za veslanje <br>Sprava za propadanje <br>Dva seta šipki za sklekove <br>Sprava za njihanje s dodatkom dva rotirajuća kruga za različite vježbe <br>Švedske ljestve",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 set od tri šipke za zgibove različitih visina <br>#3 šipke za sklekove <br>#4 visoke paralelne šipke za propadanja <br>#5 švedske ljestve <br>#6 klupica za trbušnjake <br>#7 set od dvije šipke za zgibove različitih visina",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/RDpHY6TfSa15KeSa9' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/RDpHY6TfSa15KeSa9' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i>',
   },
@@ -465,12 +464,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Folka smješten je u Zagrebu, preciznije u kvartu Folnegovićevo naselje. Park je dobro postavljen, no ima prostora za poboljšanje. Tri visoke samostalne šipke odlične su ne samo za zgibove nego i za freestyle pokrete, dok s druge strane set niskih paralelnih šipki za propadanja odlično odgovaraju većini ljudi. Od dodatnih stvari u parku većina ih je dosta beskorisna što se tiče našeg sporta osim seta klupica za trbušnjake koje se mogu iskoristiti i kao podloga za čučanj skokove te neke staticke elemente (dragon flag). Prednosti ovog parka su izoliranost od buke prometa i obližnjih zgrada što pruža mogućnost puštanja glasne muzike i smanjenuje broj slučajnih prolaznika u parku i dobar omjer push/pull sprava. Mane ovog parka su nejednaka podloga na prostoru cijelog parka, nedostatak crpke za vodu, nedostatak hlada tijekom ljetnih mjeseci te nedostatak ulične rasvjete što otežava trening po noći. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Folka smješten je u Zagrebu, preciznije u kvartu Folnegovićevo naselje u sklopu Osnovne škole Lovre pl. Matačića. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Tri visoke šipke za zgibove jedina su opcija, no zbog različitih visina pružaju dovoljno opcija za svaku vrstu treninga.  Za propadanja se u parku nalazi samo jedan set od dva para srednjih paralelnih šipki što je bolja opcija od visokih jer ovdje nema problema prilikom penjanja na njih. Dodatne stvari u parku kao što su dvije klupice za trbušnjake mogu se iskoristiti za učenje statičkih elemenata.<br><strong>+</strong> izoliranost: podloga; prostor za freestyle pokrete; ulična rasvjeta<br><strong>-</strong>  hlad; crpka za vodu<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Set od tri visoke horizontalne šipke za zgibove različitih visina <br>Bicikl <br>Set paralelnih šipki za propadanja različitih visina <br>Set od četiri rotirajuća kruga za različite vježbe <br>Set od dvije klupice za trbušnjake <br>Sprava za njihanje",
+      "#1 set od tri šipke za zgibove različitih visina <br>#2 dvije klupice za trbušnjake <br>#3 paralelne šipke za propadanja različitih visina",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/bMzre1mRyaEysm9F8' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/KLrg8DNDumneSwFt6' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -484,12 +483,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Šubićeva smješten je u Zagrebu, preciznije u kvartu Donji grad u blizini Šubićeve ulice. Park je solidno postavljen. Horizontalne ljestve (&#34Monkey bars&#34) jedina su opcija za izvođenje zgibova, dok je set paralelnih šipki različitih visina jedina opcija što se tiče propadanja, no dosta korisna jer dopušta izbor najbolje opcije za svakoga posebno. Od dodatnih stvari u parku ništa nije zanimljivo niti korisno za naš sport tako da nema potrebe za izdvajanjem. Prednosti ovog parka su izoliranost od glavne ceste i obližnjih zgrada što dopušta puštanje glasne muzike, prisutnost ulične rasvjete što omogućava trening po noći, hlad tokom ljetnih mjeseci te dobar omjer push/pull sprava. Mane ovog parka su nedostatak crpke za vodu te nedostatak prostora za izvođenje freestyle pokreta. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Šubićeva smješten je u Zagrebu, preciznije u kvartu Donji grad u blizini Šubićeve ulice. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Park je dosta mali pa zato jedina opcija za izvođenje zgibova je jedan &#34monkey bars&#34, a za propadanja jedan set od dva para srednjih paralelnih šipki što je bolja opcija od visokih jer ovdje nema problema prilikom penjanja na njih. U parku se nalazi i klupica koja ako ste kreativni može osim za odlaganje stvari poslužiti i kao dobar alat za trening<br><strong>+</strong> izoliranost: podloga; ulična rasvjeta; hlad<br><strong>-</strong>  crpka za vodu; prostor za freestyle pokrete<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Sprava za njihanje <br>Set paralelnih šipki za propadanja različitih visina <br>Jedna varijanta bicikla",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 paralelne šipke za propadanja različitih visina",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/i5Hs5gbAD9URLk1t8' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/i5Hs5gbAD9URLk1t8' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -503,12 +502,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Tunel Sljeme smješten je u Zagrebu, preciznije u kvartu Gračani odmah nakon izlaska iz poznatog tunela Sljeme u neposrednoj blizini novoizgrađene sljemenske žičare. Park je jako loše postavljen. Osim dvije malo niže horizontalne šipke koje mogu poslužiti za zgibove i klupice s ručkama koja može biti korisna za neke statičke elemente ostatak parka je praktički beskoristan te nema nikakve sprave koja može poslužiti za izvođenje propadanja tako da veliki minus. Jedina prednost ovog parka je njegova izoliranost od glavne ceste i obližnjih stambenih zgrada što omogućuje puštanje glasne muzike. Mane ovog parka su nesrazmjer push/pull sprava, nedostatak hlada tijekom ljetnih mjeseci, nedostatak ulične rasvjete što otežava trening po noći u samom parku, nedostatak crpke za vodu te nedostatak prostora za izvođenje freestyle pokreta. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Tunel Sljeme smješten je u Zagrebu, preciznije u kvartu Gračani odmah nakon izlaska iz poznatog tunela Sljeme u neposrednoj blizini novoizgrađene sljemenske žičare. Park bi smjestio u skupinu loših parkova ponajviše zbog nedostatka bilo kakve sprave za izvođenje propadanja, koja znamo da spadaju u najosnovnije pokrete našeg sporta. Za zgibove nije ništa bolji izbor jer se na lokaciji nalaze samo dvije šipke različitih visina od kojih je samo jedna dovoljna visoka za neometano izvođenje, dok je druga više od koristi početnicima koji žele vježbati negativni dio pokreta. Dodatne stvari u parku kao što je klupica s ručkama može se iskoristiti za učenje statičkih elemenata.<br><strong>+</strong> izoliranost<br><strong>-</strong>  crpka za vodu; prostor za freestyle pokrete; podloga; ulična rasvjeta; hlad<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih <br>Sprava za njihanje <br>Klupa s ručkama <br>Bicikl",
+      "#1 set od dvije šipke za zgibove različitih visina <br>#2 klupica sa ručkama",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/qUa6nsBR29zexnwG8' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/qUa6nsBR29zexnwG8' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -522,31 +521,31 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Zapadni kolodvor smješten je u Zagrebu, preciznije u kvartu Črnomerec u neposrednoj blizini zagrebačkog zapadnog kolodvora. Park je jako loše postavljen. Horizontalne ljestve (&#34Monkey bars&#34) i set od dvije niže šipke pružaju odličan izbor za zgibove po svačijoj volji, posebice niže šipke za početnike, no ovaj park ima veliki minus u obliku nedostatka sprava za propadanje ili slične push vježbe osim možda klupice koja može poslužiti za različite varijacije sklekova. Od dodatnih stvari zanimljivo je izdvojiti samostalne švedske ljestve koje mogu poslužiti za učenje raznih statičkih elemenata (human/dragon flag, handstand). Park baš i nema nekih pozitivnih strana jer po svim kriterijima zaostaje za ostalim parkovima (blizina stambenih zgrada i parkića za djecu, nedostatak hlada, vode, ulične rasvjete, mogućnost izvođenja freestyle te ogroman nesrazmjer push/pull sprava).  <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Zapadni kolodvor smješten je u Zagrebu, preciznije u kvartu Črnomerec u neposrednoj blizini zagrebačkog zapadnog kolodvora. Park bi smjestio u skupinu loših parkova ponajviše zbog nedostatka bilo kakve sprave za izvođenje propadanja, koja znamo da spadaju u najosnovnije pokrete našeg sporta. Kod zgibova je bolja situacija jer se nudi jedan &#34monkey bars&#34 te dvije povezane šipke različitih visina koje mogu poslužiti kao odličan alat za vježbanje na neutralnom dijelu pokreta. Dodatne stvari u parku kao što su švedske ljestve mogu se iskoristiti za učenje statičkih elemenata te pet klupica koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> podloga<br><strong>-</strong>  blizina stambenih zgrada; crpka za vodu; prostor za freestyle pokrete; ulična rasvjeta; hlad<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih <br>Sprava za veslanje <br>Švedske ljestve <br>Bicikl",
+      "#1 švedske ljestve <br>#2 horizontalne ljestve &#34monkey bars&#34 <br>#3 set od dvije šipke za zgibove različitih visina",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/PJvkGgF1XWom3SXf7' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/PJvkGgF1XWom3SXf7' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
-  senoa: {
+  sportska_gimnazija: {
     lat: 45.80135590962534,
     lng: 15.947159825720144,
-    parkName: "Street Workout park - Šenoa",
-    parkImage: "images/senoa.webp",
+    parkName: "Street Workout park - Sportska gimnazija",
+    parkImage: "images/sportska_gimnazija.webp",
     border: "2px solid red",
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Šenoa smješten je u Zagrebu, preciznije u kvartu Trešnjevka u blizini Osnovne škole Augusta Šenoe. Park je solidno postavljen jer sadrži sve potrebne sprave za kvalitetan trening. Horizontalne ljestve (&#34Monkey bars&#34) pružaju izvođenje različitih varijacija zgibova i ostalih vježbi, dok s druge strane jedan set visokih i niskih paralelnih šipki za propadanje omogućuju izbor po svačijem ukusu. Dodatne stvari u obliku švedskih ljestvi i seta od tri niske različite šipke odličan su alat kod freestyle dijela našeg sporta kod učenja različitih statičkih elemenata (front/back lever, humanflag...). Prednosti ovog parka su izoliranost od buke glavne ulice, dobar omjer push/pull sprava, mogućnost hlada tijekom ljetnog razdoblja te ulična rasvjeta u samom parku. Mane ovog parka su blizina dječjeg vrtića zbog čega nije baš poželjno puštati glasnu muziku te nedostatak crpke za vodu. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Sportska gimnazija smješten je u Zagrebu, preciznije u kvartu Trešnjevka u blizini Sportske gimnazije. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Za zgibove je jedina opcija jedan &#34monkey bars&#34 koji nije toliko loša opcija jer se na njemu mogu izvoditi i različite verzije zgibova, što kod samostalne šipke nije slučaj. Za propadanja se u parku nalaze tri para paralelnih šipki od kojih su dva niski, a jedni visoki pa tako svi mogu odabrati onu opciju koja im više odgovara. Dodatne stvari u parku kao što su švedske ljestve i set od tri povezane niže šipke mogu se iskoristiti za učenje statičkih elemenata te dvije klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> podloga; izoliranost; ulična rasvjeta<br><strong>-</strong>  crpka za vodu; prostor za freestyle pokrete; hlad<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Visoke paralelne šipke za propadanja  <br>Set od tri niske horizontalne šipke različitih visina <br>Švedske ljestve <br>Set paralelnih šipki za propadanja različitih visina",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 visoke paralelne šipke za propadanja <br>#3 švedske ljestve <br>#4 paralelne šipke za propadanja različitih visina <br>#5 set od tri povezane niže šipke",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/dz4u2VM9FXeU3mGL9' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/dz4u2VM9FXeU3mGL9' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -560,12 +559,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Enschede smješten je u Enschedeu, u sklopu Volkspark gradskog parka. Park je solidno postavljen te je raspoređen tehnički na tri dijela, tj. sekcije no što se tiče našeg sporta samo je glavni dio koristan. Park nudi kocku od četiri horizontalne šipke različitih visina odličnih ne samo za zgibove, nego i za izvođenje freestyle pokreta. Također, niže šipke pružaju odlično mjesto i za početnike kako bi se fokusirali više na negativni dio pokreta. Jedan set paralelnih šipki za propadanja u sklopu je s jedom samostalom šipkom za zgibove što je odlična stvar za neke supersetove gdje je minimalan odmor između vježbi, no mali je minus što ima mjesta samo za jednu osobu. Od dodatnih stvari zanimljivo je izdvojiti samostalne švedske ljestve te niz velikih kamenih blokova koji mogu poslužiti ne samo kao mjesto za ostaviti stvari, već i kao mjesto za izvođenje zanimljivih varijacija određenih statičkih pokreta (handstand, L/V-sit...). Prednosti ovog parka su izoliranost od glavne ceste i obližnjih zgrada što omogućuje puštanje glasne muzike, mogućnost izvođenje freestyle pokreta te relativno dobar omjer push/pull sprava. Mane ovog parka su nedostatak hlada tokom ljetnih mjeseci, nedostatak crpke za vodu te nedostatak ulične rasvjete što otežava trening po noći.  <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Enschede smješten je u Enschedeu, u sklopu Volkspark gradskog parka. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Pet šipki različitih visina i debljina za zgibove odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Za propadanja se u parku nalazi samo jedan par paralelnih šipki, no napravljene su na takav način da istovremeno može samo jedna osoba raditi što nije baš praktično, posebice ako se okupi ekipa i zajedno radite trening. Dodatne stvari u parku kao što su švedske ljestve mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalaze još i tri velika kamena bloka koji ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> podloga; izoliranost; prostor za freestyle pokrete<br><strong>-</strong>  crpka za vodu; hlad; ulična rasvjeta<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "<br>Set od četiri šipke za zgibove različitih visina <br>Švedske ljestve <br>Set od jedne horizontalne šipke za zgibove i jednog para paralelnih šipki za propadanja <br>Bicikl <br>Sprava za njihanje <br>Dvije polukružno zakrivljene šipke <br>Dvije stolice za rekreiranje push/pull pokreta",
+      "#1 švedske ljestve <br>Švedske ljestve <br>#2 4+ šipki različitih visina <br>#3 visoke paralelne šipke za propadanja",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/b8afy56zJwmKfFEi7' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/b8afy56zJwmKfFEi7' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -579,12 +578,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Gronau smješten je u Gronau, u sklopu Gronau gradskog parka. Park je dosta dobro postavljen, jedan od boljih parkova, posebice u usporedbi s hrvatskim. Dvije horizontalne ljestve (&#34Monkey bars&#34) te preko šest horizontalnih šipki različitih visina pružaju ogroman broj opcija za izvođenje zgibova po svačijem ukusu. Set od tri paralelne šipke za propadanja dobar su izbor jer pružaju dovoljno mjesta da više ljudi može istovremeno raditi. Od dodatnih stvari zanimljivo je izdvojiti švedske ljestve te set od tri niske horizontalne šipke koje mogu odlično poslužiti kod izvođenja različitih statičkih elemenata (handstand, human flag, front/back lever). Pozitivne stvari ovog parka su izoliranost od stambenih zgrada što omogućuje puštanje glasne muzike, dobar omjer push/pull sprava te djelomična mogućnost izvođenja freestyle pokreta jer podloga nije bas &#34friendly&#34. Mane ovog parka su nedostatak hlada tokom ljetnih mjeseci, nedostatak crpke za vodu, nedostatak ulične rasvjete što otežava trening po noći te neadekvatna podloga, pogotovo što se tiče freestyle pokreta. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Gronau smješten je u Gronau, u sklopu Gronau gradskog parka. Park bi smjestio negdje u zlatnu sredinu jer je dosta dobro postavljen, no ima mjesta za napredak. Preko pet šipki različitih visina i debljina za zgibove u kombinaciji sa dva &#34monkey bars&#34 odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Zbog velikog broja šipki za zgibove ovaj park je odličan za organizaciju nekih vrsta grupnih treninga, tako da bilo bi idealno kada bi se postavio još jedan set paralelnih šipki za propadanja jer ovaj trenutni nije dovoljan za takve događaje. Dodatne stvari u parku kao što su švedske ljestve te set od tri povezane niže šipke mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalaze i dvije klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong>  izoliranost<br><strong>-</strong>  crpka za vodu; hlad; ulična rasvjeta; podloga; prostor za freestyle pokrete<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Dvije horizontalne ljestve (&#34Monkey bars&#34) <br>Niz od preko šest šipki za zgibove različitih visina <br>Set od tri paralelne šipke za propadanja <br>Set od tri niske horizontalne šipke <br>Švedske ljestve <br>Bicikl",
+      "#1 dvije horizontalne ljestve &#34monkey bars&#34 <br>#2 5+ šipki različitih visina <br>#3 visoke paralelne šipke za propadanja <br>#4 set od tri povezane niže šipke <br>#5 švedske ljestve",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/iYL738KW3wxk3TT58' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/iYL738KW3wxk3TT58' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i>',
   },
@@ -598,12 +597,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park University of Twente smješten je u sklopu fakulteta Twente, no dostupan je široj publici. Park je odlično postavljen i smatram ga jednim od najboljih parkova koje sam vidio, bilo to uživo ili preko interneta, a vidio sam ih dosta jer sam stalno u potrazi za novim parkovima kako bi proširili našu tražilicu. Park nudi preko šest horizontalnih šipki za zgibove različitih visina, gdje neke od njih čak imaju i na sebi dodatak karika što pruža izvođenje još jedne varijacije zgibova. Što se tiče šipki za propadanja u parku se mogu pronaći jedne samostalne i set od tri šipke što pruža dovoljno mjesta za veći broj ljudi. Ovaj park je također zanimljiv i po tome što osim glavnog sw dijela, ima jednu vrstu takozvanog &#34military course&#34 poligona gdje se mogu pronaći razne prepreke koji nisu od baš neke koristi za naš sport, ali vrlo zanimljivi dodatak. Od dodatnih stvari zanimljivo je izdvojiti i dve horizontalne ljestve (&#34Monkey bars&#34), švedske ljestve, tri niže horizontalne šipke, dve klupice za trbušnjake, spravu s konopcem i manju varijantu vatrogasnog stupa. Pozitivne stvari ovog parka su mogućnost dopune vode na obližnjoj crpki, prisutnost ulične rasvjete što olakšava trening po noći, dobar omjer push/pull sprava, mogućnost izvođenja freestyle pokreta, izoliranost od stambenih zgrada što omogućuje puštanje glasne muzike te vrlo zanimljiv detalj u obliku robotskog asistenta/trenera. Jedina mana ovog parka je što nema hlada tokom ljetnih mjeseci. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park University of Twente smješten je u sklopu fakulteta Twente, no dostupan je široj publici. Park bi smjestio negdje u zlatnu sredinu jer je dosta dobro postavljen, no ima mjesta za napredak. Preko pet šipki različitih visina i debljina za zgibove u kombinaciji sa jednim modificiranim &#34monkey bars&#34 odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Od dva para šipki za propadanja po mojem mišljenju jedan je prenisko postavljen dok je drugi dosta kratak te jedva stanu dvije osobe istovremeno, što dosta uništava cjelokupni doživljaj parka jer su to ujedno i jedine opcije za propadanja. Dodatne stvari u parku kao što su švedske ljestve, šipka za spuštanje, dva para modificiranih ringova te tri niže samostalne šipke mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalaze i klupica koja ako ste kreativni može osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong>  izoliranost; crpka za vodu; ulična rasvjeta; podloga; prostor za freestyle pokrete<br><strong>-</strong>  hlad<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Zakrivljene horizontalne ljestve (&#34Monkey bars&#34) s dodatkom karika <br>Dve klupice za trbušnjake <br>Sprava s konopom <br>Umjetna stijena s mrežom za penjanje <br>Set od šest šipki za zgibove različitih visina s dodatkom karika <br>Set od tri paralelne šipke za propadanja <br>Švedske ljestve <br>Vatrogasni stup <br>Set od tri niske horizontalne šipke <br>Set od dvije paralelne šipke za propadanja <br>Niska mreža za provlačenje",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 Set ringova <br>#3 5+ šipki različitih visina <br>#4 paralelne šipke za propadanja različitih visina <br>#5 švedske ljestve <br>#6 set od tri povezane niže šipke",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/84MtJks3ZMCFLT526' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/84MtJks3ZMCFLT526' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i>',
   },
@@ -617,12 +616,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Botinec smješten je u Zagrebu, preciznije u kvartu Botinec. Park je dosta dobro postavljen. Što se tiče zgibova stvarno ima pregršt opcija za birati preko jednih horizontalnih ljestvi (&#34Monkey bars&#34), tri visoke šipke koje mogu poslužti i za freestyle pokrete i dvije malo niže koje su odlične za početnike gdje se mogu više fokusirati na negativni dio pokreta. Jedan set visokih i niskih paralelnih šipki za propadanja odlična su kombinacija jer dopuštaju izbor najbolje opcije po svačijem ukusu, jer često većini ljudi penjanje na visoke šipke zna predstavljati problem. Od dodatnih stvari zanimljivo je izdvojiti klupicu za trbušnjake, samostalne švedske ljestve te šipke za sklekove jer su korisne kod učenja raznih statičkih elemenata (handstand, dragon/human flag). Prednosti ovog parka su izoliranost od obližnjih stambenih građevina što je odlično za puštanje glasne muzike, mogućnost izvođenja freestyle pokreta, dobar omjer push/pull sprava te djelomičan hlad ovisno o periodu dana na prostoru parka. Mane ovog parka su nedostatak crpke za vodu te nedostatak ulične rasvjete što otežava trening po noći. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Botinec smješten je u Zagrebu, preciznije u kvartu Botinec. Park bi smjestio negdje u zlatnu sredinu jer je dosta dobro postavljen, no ima mjesta za napredak. Preko pet šipki različitih visina i debljina za zgibove u kombinaciji sa jednim &#34monkey bars&#34 odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Za propadanja se u parku nalaze tri para paralelnih šipki od kojih su dva niski, a jedni visoki pa tako svi mogu odabrati onu opciju koja im više odgovara. Dodatne stvari u parku kao što je klupica za trbušnjake, samostalne švedske ljestve te par šipki za sklekove mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalaze još i tri klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong>  izoliranost; podloga; prostor za freestyle pokrete; hlad<br><strong>-</strong>  crpka za vodu; ulična rasvjeta<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Visoke paralelne šipke za propadanja <br>Klupica za trbušnjake <br>Švedske ljestve <br>Set od tri visoke horizontalne šipke za zgibove različitih visina <br>Šipke za sklekove <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih <br>Set paralelnih šipki za propadanja različitih visina",
+      "#1 visoke paralelne šipke za propadanja <br>#2 šipke za sklekove <br>#3 set od dvije šipke za zgibove različitih visina <br>#4 horizontalne ljestve &#34monkey bars&#34 <br>#5 švedske ljestve <br>#6 klupica za trbušnjake <br>#7 paralelne šipke za propadanja različitih visina <br>#8 set od tri šipke za zgibove različitih visina",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/LxpjXqupd84vCjNH8' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/LxpjXqupd84vCjNH8' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -636,12 +635,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Betlehem smješten je u Zagrebu, preciznije u kvartu Botinec u sklopu parka Betlehem. Park je jako loše postavljen. Što se tiče zgibova i određenih freestyle pokreta na izbor su samo dvije horizontalne šipke  različitih visina. Veliki minus ovog parka je nedostatak sprave za izvođenje propadanja ili sličnih push vježbi osim možda klupice koja može poslužiti za određene varijacije sklekova, ali nije to baš neko sretno rješenje. Od dodatnih stvari zanimljivo je izdvojiti samostalne švedske ljestve jer su korisne kod učenja raznih statičkih elemenata (handstand, human flag). Prednosti ovog parka su izoliranost od obližnjih stambenih građevina što je odlično za puštanje glasne muzike, mogućnost izvođenja freestyle pokreta i djelomičan hlad ovisno o periodu dana na prostoru parka. Mane ovog parka su nedostatak crpke za vodu, nedostatak ulične rasvjete što otežava trening po noći te ogromni nesrazmjer push/pull sprava. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Betlehem smješten je u Zagrebu, preciznije u kvartu Botinec u sklopu parka Betlehem. Park bi smjestio u skupinu loših parkova ponajviše zbog nedostatka bilo kakve sprave za izvođenje propadanja, koja znamo da spadaju u najosnovnije pokrete našeg sporta. Tri visoke šipke za zgibove jedina su opcija, no zbog različitih visina pružaju dovoljno opcija za svaku vrstu treninga. Dodatne stvari u parku kao što su samostalne švedske ljestve mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalaze još i tri klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong>  izoliranost; podloga; prostor za freestyle pokrete; hlad<br><strong>-</strong>  crpka za vodu; ulična rasvjeta<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "<br>Švedske ljestve <br>Set od dvije visoke horizontalne šipke za zgibove različitih visina <br>Bicikl <br>Poligon za djecu ",
+      "#1 set od tri šipke za zgibove različitih visina <br>#2 švedske ljestve ",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/cAwexCnfw2bX6YR96' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/cAwexCnfw2bX6YR96' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -655,12 +654,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Velika Gorica smješten je u Velikoj Gorici, preciznije u parku dr. Franje Tuđmana. Park je solidno postavljen jer veliku većinu parka čine beskorisne sprave za naš sport, što je šteta jer je stvarno na odličnoj lokaciji te ima puno prostora za dodatna proširenja. Horizontalne ljestve (&#34Monkey bars&#34) i tri visoke horizontalne šipke pružaju izvođenje različitih varijacija zgibova po svačijem ukusu. Jedan set visokih paralelnih šipki za propadanje nisu uvijek najbolje rješenje jer nekim ljudima zna biti problem popesti se na iste. Od dodatnih stvari izdvojio bih klupicu za trbušnjake i malo zakrivljene šipke za sklekove jer su obje sprave korisne kod učenja određenih statičkih elemenata (human flag, handstand...). Prednosti ovog parka su solidan omjer push/pull sprava, prisutnost ulične rasvjete što pomaže kod treninga po noći, izoliranost od glavne ceste i obližnjih zgrada što omogućuje puštanje glasne muzike te mogućnost nadopune vode na obližnjoj crpki za vodu. Mane ovog parka su nedostatak adekvatne podloge koja bi omogućila sigurnije izvođenje freestyle pokreta te hlad tokom ljetnih mjeseci. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Velika Gorica smješten je u Velikoj Gorici, preciznije u parku dr. Franje Tuđmana. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Set od tri povezane šipke različitih visina za zgibove u kombinaciji sa jednim &#34monkey bars&#34 odlična su kombinacija te pružaju dovoljno mjesta za vježbanje i kod veće frekvencije ljudi u parku. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki što ponekim ljudima zna biti problem jer se ne mogu popeti na njih. Dodatne stvari u parku kao što su dvije klupice za trbušnjake te šipke za sklekove mogu se iskoristiti za učenje raznih statičkih elemenata.<br><strong>+</strong>  izoliranost; crpka za vodu; ulična rasvjeta<br><strong>-</strong>  hlad; podloga; prostor za freestyle pokrete<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Visoke paralelne šipke za propadanja <br>Horizontalne ljestve (&#34Monkey bars&#34) <br>Šipke za sklekove <br>Set od tri visoke horizontalne šipke za zgibove različitih visina <br>Klupica za trbušnjake <br>Set od tri rotirajuća kruga na zemlji <br>Jedna varijacija stojećeg bicikla <br>Sprava za veslanje <br>Sprava za njihanje <br>Set od dvije nasuprotne stolice za odgurivanje nogama <br>Dva seta od dvije stolice različitih funkcija; pull/push pokreti <br>Dva seta sprava za penjanje u kombinaciji sa spravom za njihanje <br>Bicikl",
+      "#1 set od tri šipke za zgibove različitih visina <br>#2 horizontalne ljestve &#34monkey bars&#34 <br>#3 visoke paralelne šipke za propadanja <br>#4 šipke za sklekove <br>#5 klupica za trbušnjake",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/k12jCyFdmptHrxxRA' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/k12jCyFdmptHrxxRA' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -674,12 +673,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Boćarski dom smješten je u Zagrebu, preciznije u kvartu Cvjetno naselje u sklopu sportsko-rekreacijskog kompleksa Boćarski dom. Park je dosta loše postavljen. Tri visoke horizontalne šipke te jedna malo drugačija varijacija horizontalnih ljestvi (&#34Monkey bars&#34) pružaju solidan izbor za izvođenje zgibova, no veliki minus ovog parka je nedostatak bilo kakvih sprava za propadanja ili sličnih push pokreta. Naime, u parku se nalazi jedan set šipki za propadanja, no sama realizacija je dosta loše izvedena. Šipke su predebele te su prenisko postavljene, stoga ih smatram neupotrebljivim kada je riječ o propadanjima. Od dodatnih stvari izdvojio bih klupicu za trbušnjake te čak tri komada švedskih ljestvi koje korisne kod učenja određenih statičkih elemenata (human flag, dragon flag...). Prednosti ovog parka su izoliranost od glavne ceste i obližnjih zgrada što omogućuje puštanje glasne muzike te mogućnost nadopune vode na obližnjoj crpki za vodu. Mane ovog parka su nedostatak adekvatne podloge koja bi omogućila sigurnije izvođenje freestyle pokreta, hlad tokom ljetnih mjeseci, nedostatak ulične rasvjete što otežava trening po noći u samom parku te veliki nesrazmjer push/pull sprava. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Boćarski dom smješten je u Zagrebu, preciznije u kvartu Cvjetno naselje u sklopu sportsko-rekreacijskog kompleksa Boćarski dom. Park bi smjestio u skupinu loših parkova ponajviše zbog nedostatka bilo kakve sprave za izvođenje propadanja, koja znamo da spadaju u najosnovnije pokrete našeg sporta. Dvije šipke za zgibove u kombinaciji sa malo izmijenjenim &#34monkey bars&#34 pružaju solidan izbor opcija. Dodatne stvari u parku kao što su tri švedske ljestve te klupica za trbušnjake mogu se iskoristiti za učenje raznih statičkih elemenata.<br><strong>+</strong>  izoliranost; crpka za vodu; ulična rasvjeta;<br><strong>-</strong>   podloga; prostor za freestyle pokrete; hlad<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Klupica za trbušnjake <br>Tri visoke horizontalne šipke za zgibove različitih visina <br>Tri švedske ljestve",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 švedske ljestve <br>#3 set od dvije šipke za zgibove različitih visina <br>#4 klupica za trbušnjake",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/MALkThFo4zSnVEFh7' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/MALkThFo4zSnVEFh7' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -693,12 +692,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Bundek smješten je u Zagrebu, preciznije u kvartu Zapruđe u sklopu jezera Bundek. Park je solidno postavljen. Ovaj park se malo ističe od drugih jer je napravljen u dosta sličnom stilu kao i Street Workout park - Siget. Naime, park je napravljen u obliku jedne vrste trim staze gdje se na svakoj stanici nalazi određeni broj sprava za vježbanje. Što se tiče zgibova jedina opcija su horizontalne ljestve (&#34Monkey bars&#34) te možda jedna malo niža šipke za vježbanje negativnog dijela pokreta za početnike. Bilo bi odlično da je set šipki za propadanja postavljen na malo većoj visini, tako da ipak solidna ocjena. Od dodatnih stvari u parku izdvojio bih set od tri niže horizontalne šipke, set od dvije srednje visoke horizontalne šipke, švedske ljestve te klupica za trbušnjake jer sve navedeno može odlično poslužiti kod učenja raznih statičkih elemenata (handstand, back lever, human flag, front lever...). Vrlo zanimljiv koncept pogotovo za slučajne prolaznike. Prednosti ovog parka su izoliranost od glavne ceste te stambenih zgrada što omogućava puštanje glasne muzike te solidan omjer push/pull sprava. Mane ovog parka su nedostatak hlada tijekom ljetnih mjeseci, nedostatak crpke za vodu, neadekvatna podloga, manjak prostora za izvođenje freestyle pokreta i neadekvatna debljina šipki. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Bundek smješten je u Zagrebu, preciznije u kvartu Zapruđe u sklopu jezera Bundek. Park bi smjestio negdje pri dnu ljestvice, ali ne na samo dno jer iako je dosta loš, ima i gorih od njega. Jedina opcija za izvođenje zgibova je jedan &#34monkey bars&#34 koji je napravljen od drveta te su automatski takve i šipke, što nije baš česta pojava. Jedan set šipki za propadanja mogao je biti postavljen na malo višoj razini te je po mojem osobnom mišljenju razmak između šipki mogao biti malo manji. Dodatne stvari u parku kao što su švedske ljestve, klupica za trbušnjake te set od dvije i tri povezane niže šipke mogu se iskoristiti za učenje raznih statičkih elemenata.  U parku se nalazi još i klupica koja ako ste kreativni može osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong>  izoliranost; ulična rasvjeta;<br><strong>-</strong>   podloga; prostor za freestyle pokrete; hlad; crpka za vodu;<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Klupica za trbušnjake <br>Švedske ljestve u kombinaciji s mrežom za penjanje i malim umjetnim zidom za penjanje <br>Set od dvije srednje visoke horizontalne šipke za zgibove <br>Srednje visoke paralelne šipke za propadanja <br>Trupac za održavanje ravnoteže <br>Set od tri niske horizontalne šipke različitih visina",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 srednje visoke paralelne šipke za propadanja <br>#3 švedske ljestve <br>#4 set od tri povezane niže šipke <br>#5 set od dvije šipke za zgibove različitih visina <br>#6 klupica za trbušnjake",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/T2VyRNX14nJiwwaG9' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/T2VyRNX14nJiwwaG9' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -712,12 +711,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Kajzerica smješten je u Zagrebu, preciznije u kvartu Kajzerica. Park je solidno postavljen. Jedan je od rijetkih parkova koji nema u svojem sastavu neku vrstu horizontalnih ljestvi (&#34Monkey bars&#34), no zato nudi preko osam šipki za zgibove različitih visina, koje također mogu poslužiti i kod izvođenja freestyle pokreta. Dva seta paralelnih šipki za propadanja nažalost nisu od neke koristi po mojem mišljenju jer je jedan prenisko postavljen, dok je drugi pak preširoko stoga je mogućnost ozljede puno veća. Od dodatnih stvari u parku izdvojio bi jedan zanimljiv dodatak u obliku sprave za jačanje snage u prstima, česta pojava ovakve sprave viđa se u prostorima specijaliziranim za penjanje po stijenama. Prednosti ovog parka su mogućnost izvođenja freestyle pokreta te prisutnost ulične rasvjete što olakšava trening po noći. Mane ovog parka su nedostatak crpke za vodu, nedostatak hlada tokom ljetnih mjeseci, nesrazmjer push/pull sprava te blizina stambenih zgrada zbog čega nije baš poželjno puštati glasnu muziku. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Kajzerica smješten je u Zagrebu, preciznije u kvartu Kajzerica. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Preko sedam šipki različitih visina i debljina za zgibove odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Za propadanja se u parku nalaze dva para paralelnih šipki od kojih je jedan po mojem mišljenju postavljen prenisko te je neupotrebljiv što se tiče propadanja, dok je drugi par meni osobno idealne visine no razmak između šipki je mogao biti manji. Dodatne stvari u parku kao što su dvije malo modificirane švedske ljestve mogu se iskoristiti za učenje statičkih elemenata te dvije klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong>  ulična rasvjeta; podloga; prostor za freestyle pokrete;<br><strong>-</strong>   hlad; crpka za vodu; blizina stambenih zgrada<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Srednje visoke paralelne šipke za propadanja <br>Set od dvije visoke horizontalne šipke za zgibove različitih visina u kombinaciji s kratkim švedskim ljestvama i dodatkom za vježbu snage u prstima <br>Set od tri visoke horizontalne šipke za zgibove različitih visina <br>Set niskih paralelnih šipki za propadanja <br>Niz srednje visokih horizontalnih šipki za zgibove različitih visina",
+      "#1 5+ šipki različitih visina <br>#2 švedske ljestve <br>#3 srednje visoke paralelne šipke za propadanja <br>#4 set od tri šipke za zgibove različitih visina",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/jzbUkXZy8xABW6wW6' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/jzbUkXZy8xABW6wW6' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -731,12 +730,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Kraljičin zdenac smješten je u Zagrebu, preciznije u kvartu Šestine u sklopu jedne od mnogih planinarskih ruta na Sljemenu. Ako se uzme u obzir gdje se nalazi park, mogu slobodno reći da je solidno postavljen. Iako se u parku nalazi samo jedna visoka horizontalna šipka te jedan set paralelnih šipki za propadanja ne nudi se široki izbor, no ta kombinacija upravo čini odličan spoj osnovnih sprava s kojima se može odraditi kvalitetan trening. Prednosti ovog parka su izoliranost od glavne ceste te stambenih zgrada što omogućava puštanje glasne muzike te dobar omjer push/pull sprava. Mane ovog parka su nedostatak hlada tijekom ljetnih mjeseci, nedostatak crpke za vodu, neadekvatna podloga te manjak prostora za izvođenje freestyle pokreta. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Kraljičin zdenac smješten je u Zagrebu, preciznije u kvartu Šestine u sklopu jedne od mnogih planinarskih ruta na Sljemenu. Park bi smjestio negdje pri dnu ljestvice, ali ne na samo dno jer iako je dosta loš, ima i gorih od njega. Park je dosta mali pa zato jedina opcija za izvođenje zgibova je jedna samostalna šipka, a za propadanja jedan set od dvije paralelne šipke koje su meni osobno idealne visine no razmak između šipki je mogao biti manji. U parku se nalaze i tri klupice koja ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong>  izoliranost<br><strong>-</strong>   hlad; crpka za vodu; ulična rasvjeta; podloga; prostor za freestyle pokrete<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Jedna visoka horizontalna šipka za zgibove <br>Set paralelnih šipki za propadanja <br>Trupci za održavanje ravnoteže",
+      "#1 visoke paralelne šipke za propadanja <br>#2 visoka samostalna šipka",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/MpGtpbyTJ65nvvd58' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/MpGtpbyTJ65nvvd58' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -750,12 +749,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Lanište smješten je u Zagrebu, preciznije u kvartu Lanište u sklopu velikog nogometnog igrališta, no zbog radova na zagrebačkom rotoru igralište je ostavljeno u dosta lošem stanju. Iako je park prvobitno čisto solidno bio postavljen, trenutno je u dosta lošem stanju. Glavni razlog je sami materijal od kojeg su napravljene sprave, a to je drvo koje se kroz zub vremena dosta potrošilo. To je također, kolko ja znam, jedini park u Zagrebu i bližoj okolici napravljen većinski od drveta. Za zgibove u parku su na usluzi jedne kraće horizontalne ljestve (&#34Monkey bars&#34) te dva seta od dvije horizontalne šipke različitih visina za vježbanje negativnog dijela pokreta te možda nekih naprednih statičkih elemenata (front lever, itd..). Jedini set paralelnih šipki za propadanja u parku prilikom mog zadnjeg posjeta je i dalje bio neravan zbog propdanja jedne strane sprave u zemlju te nije jednak razmak između dvije šipke cijelom dužinom sprave. Kombinacija te dvije stvari automatski čini spravu neupotrebljivim što je veliki minus jer se ne može odraditi kvalitetan trening. Od dodatnih stvari zanimljive za izdvojiti su dvije švedske ljestve između kojih se nalazi zid za penjanje te dvije klupice za trbušnjake koje mogu poslužiti kod učenja raznih statičkih elemenata (humanflag, dragon flag). Prednosti ovog parka su izoliranost od glavne ceste te stambenih zgrada što omogućava puštanje glasne muzike te mekana travnata podloga. Mane ovog parka su nedostatak hlada tijekom ljetnih mjeseci, nedostatak crpke za vodu, nedostatak prostora za izvođenje freestyle pokreta, nedostatak ulične rasvjete što otežava trening po noći, materijal samih šipki te nesrazmjer push/pull sprava. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Lanište smješten je u Zagrebu, preciznije u kvartu Lanište. Park bi smjestio u skupinu loših parkova ponajviše zbog nedostatka bilo kakve sprave za izvođenje propadanja, koja znamo da spadaju u najosnovnije pokrete našeg sporta. Preko pet šipki različitih visina i debljina za zgibove u kombinaciji sa jednim drvenim &#34monkey bars&#34 zvuče kao odlična kombinacija, no u realnosti je upravo suprotno jer budući da je park izrađen od drveta, većina sprava se kroz vrijeme od posljedica vremenskih uvjeta dosta uništilo i raspalo. Dodatne stvari u parku kao što su dvije švedske ljestve i dvije klupice za trbušnjake mogu se iskoristiti za učenje statičkih elemenata. U parku se nalaze i dvije klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong>  izoliranost; ulična rasvjeta<br><strong>-</strong>   hlad; crpka za vodu; podloga; prostor za freestyle pokrete<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Set paralelnih šipki za propadanja <br>Dva seta od dvije horizontalne šipke različitih visina <br>Dvije klupice za trbušnjake <br>Dvije švedske ljestve",
+      "#1 set od dvije šipke za zgibove različitih visina <br>#2 visoke paralelne šipke za propadanja <br>#3 horizontalne ljestve &#34monkey bars&#34 <br>#4 švedske ljestve <br>#5 klupica za trbušnjake <br>#6 set od tri šipke za zgibove različitih visina",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/5iwWHHkpYrQfpG7j6' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/5iwWHHkpYrQfpG7j6' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -769,12 +768,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Remetinec smješten je u Zagrebu, preciznije u kvartu Remetinec u blizini zatvora Remetinec. Park je odlično postavljen, među boljim parkovima Zagreba. Horizontalne ljestve (&#34Monkey bars&#34), tri visoke horizontalne šipke i dvije niže šipke pružaju izvođenje različitih varijacija zgibova po svačijem ukusu  te raznih freestyle pokreta. S druge strane jedan set visokih i niskih paralelnih šipki za propadanje omogućuju također šarolik izbor opcija za svakoga. Ovaj park je upravo najbolji primjer kako se na malom prostoru može napraviti i više nego odličan park sa svim potrebnim elementima. Od dodatnih stvari u parku zanimljivo je izdvojiti klupicu za trbušnjake koja može poslužiti kod izvođenja nekih statičkih elemenata (dragonflag). Prednosti ovog parka su izoliranost od glavne ceste te stambenih zgrada što omogućava puštanje glasne muzike, prisutnost rasvjete koja pomaže kod treninga po noći, prisutnost hlada tijekom ljetnih mjeseci, odličan omjer push/pull sprava te mogućnost izvođenja freestyle pokreta. Jedina mana ovog parka je nedostatak crpke za vodu. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Remetinec smješten je u Zagrebu, preciznije u kvartu Remetinec u blizini zatvora Remetinec. Park bi smjestio negdje u zlatnu sredinu jer je dosta dobro postavljen, no ima mjesta za napredak. Preko pet šipki različitih visina i debljina za zgibove u kombinaciji sa jednim &#34monkey bars&#34 odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Za propadanja se u parku nalaze tri para paralelnih šipki od kojih su dva niski, a jedni visoki pa tako svi mogu odabrati onu opciju koja im više odgovara. Dodatne stvari u parku kao što je klupica za trbušnjake može se iskoristiti za učenje statičkih elemenata te tri klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong>  ulična rasvjeta; podloga; izoliranost; prostor za freestyle pokrete; hlad<br><strong>-</strong>   crpka za vodu<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "<br>Set paralelnih šipki za propadanja različitih visina <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih <br>Horizontalne ljestve (&#34Monkey bars&#34) <br>Visoke paralelne šipke za propadanja <br>Klupica za trbušnjake <br>Set od tri visoke horizontalne šipke za zgibove različitih visina",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 visoke paralelne šipke za propadanja <br>#3 set od tri šipke za zgibove različitih visina <br>#4 paralelne šipke za propadanja različitih visina <br>#5 set od dvije šipke za zgibove različitih visina <br>#6 klupica za trbušnjake",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/N2eChP8LdVSRqirh8' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/N2eChP8LdVSRqirh8' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i>',
   },
@@ -788,12 +787,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Sveta Klara smješten je u Zagrebu, preciznije u kvartu Klara u blizini gradskih vrtova sv. Klara. Park je čisto solidno postavljen. Horizontalne ljestve (&#34Monkey bars&#34) pružaju odlično mjesto za izvođenje raznih vrsta zgibova, dok su dvije niže horizontalne šipke odlično mjesto za vježbanje negativnih progresija i slčnih vježbi, kao i naprednijih statičkih elemenata. Jedan set visokih i niskih paralelnih šipki za propadanje omogućuju šarolik izbor opcija za svakoga. Prednosti ovog parka su izoliranost od glavne ceste te stambenih zgrada što omogućava puštanje glasne muzike, solidan omjer push/pull sprava, mogućnost izvođenja freestyle pokreta te mogućnost nadopune vode na obližnjoj crpki koja se koristi za potrebe korisnika gradskog vrta. Mane ovog parka su nedostatak rasvjete koja otežava trening po noći te nedostatak hlada što nije ugodno tijekom ljetnih mjeseci. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Sveta Klara smješten je u Zagrebu, preciznije u kvartu Klara u blizini gradskih vrtova sv. Klara. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Za zgibove se nudi jedan &#34monkey bars&#34 te dvije povezane šipke različitih visina koje mogu poslužiti kao odličan alat za vježbanje na neutralnom dijelu pokreta. Za propadanja se u parku nalaze tri para paralelnih šipki od kojih su dva niski, a jedni visoki pa tako svi mogu odabrati onu opciju koja im više odgovara. U parku se nalaze i dvije klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong>  ulična rasvjeta; podloga; izoliranost; crpka za vodu<br><strong>-</strong>   hlad; prostor za freestyle pokrete<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Set paralelnih šipki za propadanja različitih visina <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih <br>Visoke paralelne šipke za propadanja <br>Bicikl",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 set od dvije šipke za zgibove različitih visina <br>#3 visoke paralelne šipke za propadanja <br>#4 paralelne šipke za propadanja različitih visina",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/JgzRCCWKvy6rZypw8' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/JgzRCCWKvy6rZypw8' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -807,12 +806,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Park Stara Trešnjevka smješten je u Zagrebu, preciznije u kvartu Trešnjevka u sklopu parka Stara Trešnjevka. Park je nekako oskudno postavljen, posebice ako se uzme u obzir koliko je još slobodnog prostora ostalo neiskorišteno. Što se tiče zgibova u parku se nalazi samo jedna samostalna visoka horizontalna šipka i jedna malo niža koja je u sklopu druge sprave tako da nije neki izbor veliki. Zajedno s tom šipkom u kompletu se nalaze i kratke švedske ljestve i jedan set malih paralelnih šipki za propadanja te također nema drugih opcija za birati. Prednosti ovog parka su izoliranost od glavne ceste te stambenih zgrada što omogućava puštanje glasne muzike, solidan omjer push/pull sprava, mogućnost izvođenja freestyle pokreta te prisutnost ulične rasvjete što pomaže kod treninga po noći. Mane ovog parka su nedostatak crpke za vodu te nedostatak hlada što nije ugodno tijekom ljetnih mjeseci. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Park Stara Trešnjevka smješten je u Zagrebu, preciznije u kvartu Trešnjevka u sklopu parka Stara Trešnjevka. Park bi smjestio negdje pri dnu ljestvice, ali ne na samo dno jer iako je dosta loš, ima i gorih od njega. Jedina opcija za izvođenje zgibova je jedna samostalna šipka, a za propadanja jedan set od dvije paralelne šipke koje su malo nezgodno napravljene jer istovremeno na njima može samo jedna osoba raditi što nije baš praktično, posebice ako se okupi ekipa i zajedno radite trening. Dodatne stvari u parku kao što su švedske ljestve mogu se iskoristiti za učenje statičkih elemenata. U parku se nalaze i tri klupice koja ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong>  izoliranost; ulična rasvjeta; podloga; prostor za freestyle pokrete<br><strong>-</strong>   hlad; crpka za vodu<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalna šipka za zgibove <br>Sprava za veslanje <br>Set rotirajućih krugova <br>Sprava za njihanje <br>Dvije stolice jedna nasuprot druge koje rekreiraju određenu varijantu (&#34leg press&#34) vježbe <br>Set od jedne šipke za zgibove, kratkih švedskih ljestvi i kratkih paralelnih šipki za propadanje ",
+      "#1 visoka samostalna šipka <br>#2 švedske ljestve <br>#3 niske paralelne šipke za propadanja ",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/BCW99Hjk76TGhzrm6' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/BCW99Hjk76TGhzrm6' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -826,12 +825,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Savski gaj smješten je u Zagrebu, preciznije u kvartu Savski gaj. Park je dosta dobro postavljen. Tri visoke horizontalne šipke te dvije niže pružaju dovoljno prostora za izvođenje zgibova te izvođenje freestyle pokreta. Jedan set visokih paralelnih šipki za propadanje zajedno sa jednim setom nižih  odlična su kombinacija jer svako može za sebe pronaći idealnu visinu. Prednosti ovog parka su prisutnost rasvjete što olakšava trening po noći, solidan omjer push/pull sprava izoliranost te mogućnost izvođenja freestyle pokreta. Mane ovog parka su nedostatak crpke za vodu, blizina stambenih zgrada pa nije baš preporučljivo puštati glasnu muziku te nedostatak hlada što nije ugodno tijekom ljetnih mjeseci. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Savski gaj smješten je u Zagrebu, preciznije u kvartu Savski gaj. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Preko pet šipki različitih visina i debljina za zgibove odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Za propadanja se u parku nalaze tri para paralelnih šipki od kojih su dva niski, a jedni visoki pa tako svi mogu odabrati onu opciju koja im više odgovara. U parku se nalaze i dvije klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong>  ulična rasvjeta; podloga; prostor za freestyle pokrete<br><strong>-</strong>   hlad; crpka za vodu; blizina stambenih zgrada<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Tri visoke horizontalna šipka za zgibove <br>Set paralelnih šipki za propadanja različitih visina <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih <br>Visoke paralelne šipke za propadanja <br>Sprava za njihanje ",
+      "#1 set od tri šipke za zgibove različitih visina <br>#2 set od dvije šipke za zgibove različitih visina <br>#3 visoke paralelne šipke za propadanja <br>#4 paralelne šipke za propadanja različitih visina ",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/USMJrTUC97ZG6Byu8' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/USMJrTUC97ZG6Byu8' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -845,12 +844,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Petrovaradinska smješten je u Zagrebu, preciznije u kvartu Prečko. Park je jako loše postavljen. U parku ne postoji nijedna sprava na kojoj se mogu izvoditi bilo kakve vrste zgibova ili sličnih &#34pull&#34 pokreta. Jedan set visokih paralelnih šipki za propadanja donekle su jedina dobra i korisna stvar. Ostatak parka nije za pohvaliti, no za izdvojiti se mogu klupice za trbušnjake i klupica s ručkama koje mogu poslužiti kod vježbnaja određenih statičkih elemenata (handstand, dragon flag, planche...). Sve u svemu park se čini dosta &#34random&#34 osmšljen i postavljen te se dobiva osjećaj kao da su stavili sprave koje su im ostale viška u skladištu... Jedina prednost koju mogu izvući bi bila mogućnost puštanja glasne muzike jer park nije u strogoj blizini stambenih zgrada. Mane ovog parka su nedostatak crpke za vodu, nedostatak hlada što nije ugodno tijekom ljetnih mjeseci, ogroman nesrazmjer push/pull sprava, nedostatak ulične rasvjete što otežava trening po oći te nedostatak prostora za izvođenje određenih freestyle pokreta. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Petrovaradinska smješten je u Zagrebu, preciznije u kvartu Prečko. Park bi smjestio u skupinu loših parkova ponajviše zbog nedostatka bilo kakve sprave za izvođenje zgibova, koji znamo da spadaju u najosnovnije pokrete našeg sporta. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki što ponekim ljudima zna biti problem jer se ne mogu popeti na njih. Dodatne stvari u parku kao što su dvije klupice za trbušnjake, klupica sa ručkama te set od tri povezane niže šipke mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalaze još i četiri klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong>  ulična rasvjeta; podloga; izoliranost<br><strong>-</strong>   crpka za vodu; prostor za freestyle pokrete; hlad<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Visoke paralelne šipke za propadanja <br>Set klupica za trbušnjake <br>Klupa s ručkama <br>Sprava za njihanje <br>Set za ljude u invalidskim kolicima koji se sastoji od dvije vježbe vrtnje i improviziranih ringova za zgibove <br>Set od dva rotirajuća kruga za različite vježbe <br>Sprava za skijanje ",
+      "#1 visoke paralelne šipke za propadanja <br>#2 dvije klupice za trbušnjake <br>#3 klupica sa ručkama",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/Waz9vGbfzi6GZfdD7' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/Waz9vGbfzi6GZfdD7' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -864,12 +863,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Baška smješten je na otoku Krku, preciznije u naselju Baška. Park je odlično postavljen, jedan od boljih na cijelom otoku. Park nudi 7+ šipki za zgibove različitih visina i debljina od koji su neke samostalne, dok su neke u sklopu s drugim spravama što je odlično kod nekih supersetova kada je pauza minimalna. Park također ima čak tri horizontalne ljestve (&#34Monkey bars&#34) od kojih su samo jedne malo izmijenjene kako bi više bile prilagođene djeci. Za propadanja nije baš toliki izbor, no tri paralelne šipke srednje visine pružaju dovoljno prostora. Postoji još set ili dva dosta niskih te za prosječnu odraslu osobu neupotrebljivih šipki, no nalazi se u takozvanom &#34kids&#34 dijelu parka tako da je to vjerovatno razlog. Park je također ističe dosta po svojim dodatnim sadržajem u obliku dvije vreće za udaranje, dva konopca za povećanje kondicije te različitih sprava za izvođenje freestyle pokreta (švedske ljestve, niske paralelne šipke, kocka niskih horizontalnih šipki, klupice za trbušnjake....). Prednosti ovog parka su dobar omjer push/pull sprava, izoliranost od stambenih zgrada što omogućuje slušanje glasne muzike te prostor za izvođenje freestyle pokreta. Mane ovog parka su nedostatak crpke za vodu, nedostatak hlada što nije ugodno tijekom ljetnih mjeseci (posebice na moru) te nedostatak ulične rasvjete. Park nije 100% završen te je moguće da se do kraja radova i neke od ovih značajki ipak provedu u djelo. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Baška smješten je na otoku Krku, preciznije u naselju Baška. Park je odlično postavljen te spada među top parkove Hrvatske jer je jedan od rijetkih parkova koji su baš planski i temeljito izgrađeni u dogovoru sa samim vježbačima. U parku se osim dva &#34monkey bars&#34 nalazi i preko sedam šipki za zgibove različitih duljina, debljina i visina, pa se zbog toga ovdje najčešće i organiziraju grupni treninzi, radionice i slične stvari jer stvarno velik broj ljudi može istovremeno vježbati na istom mjestu. Za propadanja su na usluzi dva para paralelnih šipki za propadanja, od kojih je jedan prenisko postavljen tako da bilo bi idealno kada bi se postavio još jedan set paralelnih šipki za propadanja jer ovaj trenutni nije dovoljan za takve događaje. Dodatne stvari u parku kao što su švedske ljestve, set od tri povezane niže šipke, dvije klupice za trbušnjake, niske paralete te četiri kutije za skakanje mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalaze još i četiri klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong>  podloga; izoliranost; prostor za freestyle pokrete<br><strong>-</strong>   crpka za vodu; hlad; ulična rasvjeta<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Srednje visoke paralelne šipke za propadanja <br>Tri horizontalne ljestve (&#34Monkey bars&#34) <br>7+ horizontalnih šipki za zgibove <br>Dvije vreće za udaranje <br>Klupice za trbušnjake <br>Švedske ljestve <br>Dva konopca <br>Set tri niske horizontalne šipke <br>Kocka 5+ niskih horizontalnih šipki ",
+      "#1 tri horizontalne ljestve &#34monkey bars&#34 <br>#2 7+ šipki različitih visina <br>#3 dvije klupice za trbušnjake <br>#4 švedske ljestve <br>#5 set od tri povezane niže šipke <br>#6 dva para paralelnih šipki za propadanja različitih visina <br>#7 niske paralete <br>#8 kutije za skakanje",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/DZ1KrMnBbJ1w42FZA' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/DZ1KrMnBbJ1w42FZA' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i>',
   },
@@ -883,12 +882,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Kamp Glavotok smješten je na otoku Krku, preciznije unutar istoimenog kampa Glavotok. Park je dosta loše postavljen. Glavni problem ovog parka je nedostatak bilo kakve sprave koja bi omogućila izvođenje propadanja ili sličnih &#34push&#34 pokreta. Za zgibove je situacija bolja jer se u parku nalaze jedne horizontalne ljestve (&#34Monkey bars&#34) i set od tri visoke horizontalne šipke. Ostatak park nije baš od neke koristi za naš sport. Prednosti ovog parka su hlad tokom ljetnih mjeseci te udaljenost bilo kakvih stambenih objekata što omogućuje puštanje glasne muzike. Mane ovog parka su nedostatak crpke za vodu, veliki nesrazmjer push/pull sprava, neadekvatna podloga koja otežava izvođenje freestyle pokreta te nedostatak ulične rasvjete. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Kamp Glavotok smješten je na otoku Krku, preciznije unutar istoimenog kampa Glavotok. Park bi smjestio u skupinu loših parkova ponajviše zbog nedostatka bilo kakve sprave za izvođenje propadanja, koja znamo da spadaju u najosnovnije pokrete našeg sporta. Kod zgibova je bolja situacija jer se nudi jedan &#34monkey bars&#34 te set od tri povezane šipke različitih visina omogućuju izvođenje različitih oblika zgibova. Dodatne stvari u parku kao što su švedske ljestve mogu se iskoristiti za učenje raznih statičkih elemenata.<br><strong>+</strong>  hlad<br><strong>-</strong>   podloga; izoliranost; prostor za freestyle pokrete; crpka za vodu; ulična rasvjeta<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Set od tri visoke horizontalne šipke <br>Bicikl ",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 set od tri šipke za zgibove različitih visina <br>#3 švedske ljestve ",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/brMd2r7RCnJCM2Qx7' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/brMd2r7RCnJCM2Qx7' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -902,12 +901,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Krk smješten je na otoku Krku, preciznije u istoimenom gradu Krku. Park je odlično postavljen te ima titulu najboljeg i najljepšeg parka u cijeloj Hrvatskoj, ako ne i šire okolice. Park nudi 10+ horizontalnih šipki za zgibove različitih visina i debljna koje odgovaraju svačijem ukusu. Za propadanja se nudi set visokih šipki te jedan set od tri srednje visokih paralelnih šipki koje također pružaju i više nego dovoljno prostora i opcija. Od dodatnih stvari park nudi cijelu jednu sekciju posvećenu vježbanju &#34parkour&#34 pokreta, set karika, uže za penjanje, švedske ljestve te klupicu za trbušnjake. Po mojem mišljenju najbolju stvar po kojoj se ovaj park ističe od svih ostalih na takvoj razini jest pristup teretani na otvorenom skoro pa cijelu godinu. Prednosti ovog parka su hlad tokom ljetnih mjeseci, udaljenost bilo kakvih stambenih objekata što omogućuje puštanje glasne muzike, mogućnost izvođenja freestyle pokreta, odličan omjer push/pull sprava te prisutnost ulične rasvjete što olakšava trening po noći. Jedina mana ovog parka je nedostatak crpke za vodu tokom cijele godine jer se obližnji WC zatvara izvan turističke sezone, a za vrijeme iste se naplaćuje. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Krk smješten je na otoku Krku, preciznije u istoimenom gradu Krku. Park je odlično postavljen te ima titulu najboljeg i najljepšeg parka u cijeloj Hrvatskoj, ako ne i šire okolice. Također, jedan je od rijetkih parkova koji su baš planski i temeljito izgrađeni u dogovoru sa samim vježbačima. U parku se osim &#34monkey bars&#34 nalazi i preko deset šipki za zgibove različitih duljina, debljina i visina, pa se zbog toga ovdje najčešće i organiziraju grupni treninzi, radionice i slične stvari jer stvarno velik broj ljudi može istovremeno vježbati na istom mjestu. Jedan set po dvije paralelne šipke te jedan set od tri zajedno tvore pet šipki za propadanja što je odličan omjer u odnosu na broj šipki za zgibove. Dodatne stvari u parku kao što su švedske ljestve, klupica za trbušnjake, šipka za spuštanje, niske paralete, par ringova, kutije za skakanje te set od tri niske povezane šipke mogu se iskoristiti za učenje raznih statičkih elemenata.<br><strong>+</strong>  hlad; podloga; izoliranost; prostor za freestyle pokrete; ulična rasvjeta<br><strong>-</strong>   crpka za vodu<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bars&#34) <br>10+ horizontalnih šipki <br>Visoke šipke za propadanja <br>Srednje visoke šipke za propadanja <br>Karike <br>Klupica za trbušnjake <br>Švedske ljestve <br>Uže za penjanje ",
+      "#1 10+ šipki različitih visina <br>#2 horizontalne ljestve &#34monkey bars&#34 <br>#3 set od tri šipke za zgibove različitih visina <br>#4 niske paralete <br>#5 set ringova <br>#6 tri visoke paralelne šipke za propadanja <br>#7 švedske ljestve <br>#8 klupica za trbušnjake <br>#9 kutije za skakanje <br>#10 set od tri povezane niže šipke ",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/C9xCu1Uc2bMcxS8N9' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/C9xCu1Uc2bMcxS8N9' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>',
   },
@@ -921,12 +920,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Kamp Zablaće smješten je na otoku Krku, preciznije unutar kampa Zablaće u naselju Baška. Park je solidno postavljen. Park je površinski jako mali te su sve sprave povezane u jedan komplet. Za zgibove su na raspolaganju dvije visoke horizontalne šipke te jedna malo zaboljena modifikacija za pogađanje različitih skupina mišića. Šipke za propadanja bi mogle biti malo više, no to je samo subjektivna preferencija. Zadnja stvar u ovom kompletu su niske paralelne šipke koje su odlične i za sklekove, ali i za neke naprednije statičke pokrete (planhce, handstand...). Prednosti ovog parka su hlad tokom ljetnih mjeseci, mogućnost izvođenja freestyle pokreta, dobar omjer push/pull sprava te prisutnost ulične rasvjete što olakšava trening po noći. Mane ovog parka su nedostatak crpke za vodu te blizina kamp kućica i šatora pa nije baš preporučljivo puštanje glasne muzike. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Kamp Zablaće smješten je na otoku Krku, preciznije unutar kampa Zablaće u naselju Baška. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Tri visoke šipke za zgibove jedina su opcija te možda nije baš najbolja solucija jer niže šipke pružaju mogućnost višeg fokusa na negativni dio pokreta, posebice početnicima. Za propadanja se u parku nalazi samo jedan par paralelnih šipki koji je po mojem mišljenju postavljen na idealnoj visini. Dodatne stvari u parku kao što su niske paralete mogu se iskoristiti za učenje statičkih elemenata. U parku se nalaze još i dvije klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong>  hlad; podloga; ulična rasvjeta<br><strong>-</strong>   crpka za vodu; blizina kamp kućica; prostor za freestyle pokrete;<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Dvije visoke horizontalne šipke <br>Srednje visoke šipke za propadanja <br>Niske paralelne šipke ",
+      "#1 set od tri šipke za zgibove različitih visina <br>#2 niske paralete <br>#3 srednje visoke paralelne šipke za propadanja ",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/knaw3QwRsVpQ2FiP6' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/knaw3QwRsVpQ2FiP6' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -940,12 +939,12 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Komrčar smješten je na otoku Rabu, preciznije unutar park šume Komrčar u istoimenom gradu Rabu. Park je dosta dobro postavljen. Za zgibove se nudi preko pet horizontalnih šipki različitih visina i debljina. Jedan set dosta visokih paralelnih šipki za propadanja i nisu najbolja opcija, no bolje da su takvi nego da ih uopće nema. Od dodatnih stvari korisno za izdvojiti su švedske ljestve te šipke za sklekove koje se još mogu koristiti i za vježbanje raznih statičkih elemenata (handstand, planche, human flag...). Prednosti ovog parka su hlad tokom ljetnih mjeseci, dobar omjer push/pull sprava te udaljenost od bilo kakvih stambenih objekata što omogućuje puštanje glasne muzike Mane ovog parka su nedostatak crpke za vodu, nedostatak prostora za izvođenje freestyle pokreta te nedostatak ulične rasvjete što otežava trening po noći. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Komrčar smješten je na otoku Rabu, preciznije unutar park šume Komrčar u istoimenom gradu Rabu. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Preko sedam šipki različitih visina i debljina za zgibove odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Za propadanja su na usluzi dva para paralelnih šipki za propadanja različitih visina tako da odgovaraju svima, no po mojem mišljenju razmak između šipki je mogao biti manji. Dodatne stvari u parku kao što su švedske ljestve te šipke za sklekove mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalaze još i klupica koja ako ste kreativni može osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong>  hlad; izoliranost<br><strong>-</strong>   crpka za vodu; prostor za freestyle pokrete; podloga; ulična rasvjeta<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "5+ horizontalnih šipki <br>Set visokih šipke za propadanja <br>Švedske ljestve <br>Šipke za sklekove <br>Set stolica za simulaciju &#34pull&#34 pokreta <br>Set od dva rotirajuća kruga za različite vježbe  ",
+      "#1 švedske ljestve <br>#2 tri visoke paralelne šipke za propadanja <br>#3 šipke za sklekove <br>#4 set od tri šipke za zgibove različitih visina <br>#5 7+ šipki različitih visina  ",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/yfw5ZCuzhxQN1KEbA' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/yfw5ZCuzhxQN1KEbA' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -959,12 +958,278 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
     parkBio:
-      "Street Workout park Jastrebarsko smješten je u gradu Jastrebarsko, preciznije u blizini Erdödijev parka. Park je dosta dobro postavljen. Horizontalne ljestve (&#34Monkey bars&#34) i dvije malo niže šipke pružaju izvođenje različitih varijacija zgibova po svačijem ukusu. Set visokih paralelnih šipki za propadanje nisu baš uvijek najbolje rješenje jer nekim ljudima zna biti problem penjanje na iste. Od dodatnih stvari u parku izdvojio bih klupicu s ručkama, švedske ljestve te klupicu za trbušnjake koje također mogu poslužiti i za vježbanje raznih statičkih elemenata (human flag, handstand, planche...). Prednosti ovog parka su dobar omjer push/pull sprava, udaljenost od stambenih objekata što omogućuje puštanje glasne muzike, mogućnost izvođenja freestyle pokreta te prisutnost ulične rasvjete što olakšava trening po noći. Mane ovog parka su nedostatak hlada što nije ugodno tijekom ljetnih mjeseci te nedostatak crpke za vodu, odnosno crpka postoji, no nažalost prilikom mojeg posjeta bila je strgana. <br><em>Napisao: Nikola Pustišek</em>",
+      "Street Workout park Jastrebarsko smješten je u gradu Jastrebarsko, preciznije u blizini Erdödijevog parka. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Za zgibove se nudi jedan &#34monkey bars&#34 te dvije povezane šipke različitih visina koje mogu poslužiti kao odličan alat za vježbanje na neutralnom dijelu pokreta. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki što ponekim ljudima zna biti problem jer se ne mogu popeti na njih. Dodatne stvari u parku kao što je klupica za trbušnjake, švedske ljestve te klupica sa ručkama mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalazi još i klupica koja ako ste kreativni može osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> izoliranost; prostor za freestyle pokrete; podloga; ulična rasvjeta<br><strong>-</strong>   crpka za vodu;  hlad<br><em>Napisao: Nikola Pustišek</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
-      "Horizontalne ljestve (&#34Monkey bars&#34) <br>Klupica za trbušnjake <br>Švedske ljestve <br>Set od dvije šipke za zgibove različitih visina s dodatkom neutralnog hvata za zgibove između njih <br>Set stolica za simulaciju &#34pull&#34 pokreta <br>Visoke paralelne šipke za propadanja <br>Sprava za penjanje <br>Klupica s ručkama <br>Sprava za veslanje  ",
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 švedske ljestve <br>#3 set od dvije šipke za zgibove različitih visina <br>#4 visoke paralelne šipke za propadanja <br>#5 klupica za trbušnjake <br>#6 klupica sa ručkama  ",
     parkNavigation:
-      "Klikni <a href='https://goo.gl/maps/RSY657ucbhD6CzH27' target=_blank>ovdje</a> i pogledaj slike parka!",
+      "Klikni <a href='https://goo.gl/maps/RSY657ucbhD6CzH27' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  volksgarten: {
+    lat: 47.07391843798322,
+    lng: 15.427889521504222,
+    parkName: "Street Workout park - Volksgarten",
+    parkImage: "images/volksgarten.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Volksgarten smješten je u gradu Grazu, preciznije u sklopu Volksgarten gradskog parka. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Preko pet šipki različitih visina i debljina za zgibove u kombinaciji sa jednim &#34monkey bars&#34 odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Zbog velikog broja šipki za zgibove ovaj park je odličan za organizaciju nekih vrsta grupnih treninga, tako da bilo bi idealno kada bi se postavio još jedan set paralelnih šipki za propadanja jer ovaj trenutni nije dovoljan za takve događaje. Dodatne stvari u parku kao što su švedske ljestve te set od tri povezane niže šipke mogu se iskoristiti za učenje raznih statičkih elemenata.<br><strong>+</strong> izoliranost; prostor za freestyle pokrete; podloga; ulična rasvjeta<br><strong>-</strong>   crpka za vodu; hlad<br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "#1 5+ šipki različitih visina <br>#2 horizontalne ljestve &#34monkey bars&#34 <br>#3 švedske ljestve <br>#4 srednje visoke paralelne šipke za propadanja <br>#5 set od tri povezane niže šipke ",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/8y6qdYUFtTSFBLDx7' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  utrine: {
+    lat: 45.776898393234895,
+    lng: 15.993033710978038,
+    parkName: "Street Workout park - Utrine",
+    parkImage: "images/utrine.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Utrine smješten je u Zagrebu, preciznije u kvartu Utrine u sklopu SRC Utrine. Park bi smjestio u skupinu loših parkova ponajviše zbog nedostatka bilo kakve sprave za izvođenje zgibova, koji znamo da spadaju u najosnovnije pokrete našeg sporta. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki što ponekim ljudima zna biti problem jer se ne mogu popeti na njih. Dodatne stvari u parku kao što su klupica sa ručkama te set od tri povezane niže šipke mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalaze još i tri klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> izoliranost; podloga; ulična rasvjeta; hlad<br><strong>-</strong>   crpka za vodu; prostor za freestyle pokrete<br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "#1 set od tri povezane niže šipke <br>#2 visoke paralelne šipke za propadanja <br>#3 klupica sa ručkama ",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/ETPv2u1HkAXx8U3x8' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  travno: {
+    lat: 45.77108391721745,
+    lng: 15.992729788626471,
+    parkName: "Street Workout park - Travno",
+    parkImage: "images/travno.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Travno smješten je u Zagrebu, preciznije u kvartu Travno. Park bi smjestio negdje pri dnu ljestvice, ali ne na samo dno jer iako je dosta loš, ima i gorih od njega. Za zgibove su na raspolaganju jedan &#34monkey bars&#34 te jedna niža samostalna šipka koja je odlična za početnike kod vježbanja negativnog dijela pokreta. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki što ponekim ljudima zna biti problem jer se ne mogu popeti na njih. Dodatne stvari u parku kao što su klupica za trbušnjake, set od tri povezane niže šipke, tri švedske ljestve te dvije modificirane visoke paralete mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalaze još i dvije klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> izoliranost<br><strong>-</strong>   crpka za vodu; prostor za freestyle pokrete; podloga; ulična rasvjeta; hlad<br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "#1 dvije horizontalne ljestve &#34monkey bars&#34 <br>#2 samostalna šipka manjih dimenzija <br>#3 visoke paralete <br>#4 tri švedske ljestve <br>#5 visoke paralelne šipke za propadanja <br>#6 klupica za trbušnjake <br>#7 set od tri povezane niže šipke",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/dBq2Fx9nrbs1CFvk7' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  slobostina: {
+    lat: 45.76630196372759,
+    lng: 15.986109641581386,
+    parkName: "Street Workout park - Sloboština",
+    parkImage: "images/slobostina.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Sloboština smješten je u Zagrebu, preciznije u kvartu Sloboština u sklopu Osnovne škole Otok. Četiri šipke različitih visina i debljina za zgibove u kombinaciji sa jednim &#34monkey bars&#34 odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki što ponekim ljudima zna biti problem jer se ne mogu popeti na njih. Dodatne stvari u parku kao što je klupica za trbušnjake te samostalne švedske ljestve mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalazi još i klupica koje ako ste kreativni može osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> izoliranost; prostor za freestyle pokrete; podloga; ulična rasvjeta<br><strong>-</strong>   crpka za vodu; hlad<br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "#1 set od tri šipke za zgibove različitih visina <br>#2 horizontalne ljestve &#34monkey bars&#34 <br>#3 samostalna šipka manjih dimenzija <br>#4 visoke paralelne šipke za propadanja <br>#5 švedske ljestve <br>#6 klupica za trbušnjake ",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/euiJXdfhga93HQtWA' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  dugave: {
+    lat: 45.76452899212449,
+    lng: 15.998958137231124,
+    parkName: "Street Workout park - Dugave",
+    parkImage: "images/dugave.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Dugave smješten je u Zagrebu, preciznije u kvartu Dugave. Park bi smjestio u skupinu loših parkova ponajviše zbog nedostatka bilo kakve sprave za izvođenje propadanja, koja znamo da spadaju u najosnovnije pokrete našeg sporta. Kod zgibova nije ništa bolja situacija jer jedina opcija za izvođenje zgibova je jedan &#34monkey bars&#34. Dodatne stvari u parku kao što je klupica za trbušnjake te samostalne švedske ljestve mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalaze još i tri klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> izoliranost; podloga<br><strong>-</strong>  crpka za vodu; hlad; prostor za freestyle pokrete; ulična rasvjeta<br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "#1 švedske ljestve <br>#2 horizontalne ljestve &#34monkey bars&#34 <br>#3 klupica za trbušnjake",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/Ziu59TPd5PpNjS1A6' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  buzin: {
+    lat: 45.75104403248975,
+    lng: 15.991334964563862,
+    parkName: "Street Workout park - Buzin",
+    parkImage: "images/buzin.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Buzin smješten je u Zagrebu, preciznije u kvartu Buzin. Park bi smjestio negdje pri dnu ljestvice, ali ne na samo dno jer iako je dosta loš, ima i gorih od njega. Za zgibove su na raspolaganju jedan &#34monkey bars&#34 te jedna niža samostalna šipka koja je odlična za početnike kod vježbanja negativnog dijela pokreta. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki što ponekim ljudima zna biti problem jer se ne mogu popeti na njih te je po mojem mišljenju razmak između šipki mogao biti manji. U parku se nalaze još i dvije klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> izoliranost; podloga; hlad; ulična rasvjeta<br><strong>-</strong>  crpka za vodu; prostor za freestyle pokrete<br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 visoke paralelne šipke za propadanja <br>#3 samostalna šipka manjih dimenzija",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/Cd9WFnDqViUs1Gq26' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  sanci: {
+    lat: 45.78710490939435,
+    lng: 16.014715327081806,
+    parkName: "Street Workout park - Šanci",
+    parkImage: "images/sanci.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Šanci smješten je u Zagrebu, preciznije u kvartu Borovje. Park bi smjestio negdje pri dnu ljestvice, ali ne na samo dno jer iako je dosta loš, ima i gorih od njega. Za zgibove je nažalost na raspolaganju samo jedna srednja šipka koja i nije baš najbolja opcija, posebice kod izvođenja ruskih zgibova. Za propadanja se u parku nalazi jedan set od dva para srednjih paralelnih šipki što je bolja opcija od visokih jer ovdje nema problema prilikom penjanja na njih te jedan par samostalnih paralelnih šipki koju su malo nezgodno napravljene jer istovremeno na njima može samo jedna osoba raditi što nije baš praktično, posebice ako se okupi ekipa i zajedno radite trening. Dodatne stvari u parku kao što su švedske ljestve mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalazi još i klupica koje ako ste kreativni može osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> izoliranost; podloga; hlad; ulična rasvjeta<br><strong>-</strong>  crpka za vodu; prostor za freestyle pokrete<br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "#1 švedske ljestve <br>#2 samostalna šipka manjih dimenzija <br>#3 srednje visoke paralelne šipke za propadanja <br>#4 paralelne šipke za propadanja različitih visina <br>#5 dvije klupice za trbušnjake ",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/BBkFRDbR2qpZCXYX6' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  novi_petrusevec: {
+    lat: 45.77867058702234,
+    lng: 16.048364983121676,
+    parkName: "Street Workout park - Novi Petruševec",
+    parkImage: "images/novi_petrusevec.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Novi Petruševec smješten je u Zagrebu, preciznije u kvartu Peščenica. Park bi smjestio u skupinu loših parkova ponajviše zbog nedostatka bilo kakve sprave za izvođenje propadanja, koja znamo da spadaju u najosnovnije pokrete našeg sporta. Za zgibove nije ništa bolja opcija jer na izbor postoje samo dvije šipke različitih visina od kojih je samo jedna dovoljno visoka, dok je druga više od koristi početnicima za vježbanje negativnog dijela pokreta. Dodatne stvari u parku kao što je klupica za trbušnjake može se iskoristiti za učenje raznih statičkih elemenata. U parku se nalaze još i tri klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> izoliranost; podloga<br><strong>-</strong>  crpka za vodu; prostor za freestyle pokrete; hlad; ulična rasvjeta<br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "#1 set od dvije šipke za zgibove različitih visina <br>#2 klupica za trbušnjake ",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/tesg1ggoZYU25U2w8' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  ban_josip_jelacic: {
+    lat: 45.87091277924824,
+    lng: 15.79379161021177,
+    parkName: "Street Workout park - Ban Josip Jelačić",
+    parkImage: "images/ban_josip_jelacic.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Ban Josip Jelačić smješten je u Zaprešiću, preciznije u sklopu Srednje škole Ban Josip Jelačić. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Set od tri povezane šipke različitih visina za zgibove u kombinaciji sa jednim &#34monkey bars&#34 odlična su kombinacija te pružaju dovoljno mjesta za vježbanje i kod veće frekvencije ljudi u parku. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki što ponekim ljudima zna biti problem jer se ne mogu popeti na njih. Dodatne stvari u parku kao što je klupica za trbušnjake može se iskoristiti za učenje raznih statičkih elemenata. U parku se nalazi još i klupica koje ako ste kreativni može osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> izoliranost; podloga; prostor za freestyle pokrete; ulična rasvjeta<br><strong>-</strong>  crpka za vodu; hlad<br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 set od tri šipke za zgibove različitih visina <br>#3 klupica za trbušnjake <br>#4 visoke paralelne šipke za propadanja ",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/MZWVdWoUfBAKe5Cw5' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  zapresic: {
+    lat: 45.85655302013278,
+    lng: 15.808305830752847,
+    parkName: "Street Workout park - Zaprešić",
+    parkImage: "images/zapresic.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Zaprešić smješten je u istoimenom gradu Zaprešiću, preciznije u blizini DVD Zaprešić. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Set od tri povezane šipke različitih visina za zgibove u kombinaciji sa jednim &#34monkey bars&#34 odlična su kombinacija te pružaju dovoljno mjesta za vježbanje i kod veće frekvencije ljudi u parku. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki što ponekim ljudima zna biti problem jer se ne mogu popeti na njih. Dodatne stvari u parku kao što su švedske ljestve mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalazi još i klupica koje ako ste kreativni može osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> podloga; prostor za freestyle pokrete; ulična rasvjeta<br><strong>-</strong>  crpka za vodu; hlad<br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 švedske ljestve <br>#3 set od tri šipke za zgibove različitih visina <br>#4 visoke paralelne šipke za propadanja ",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/5asWs9hdGBThUEZg6' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  javorje: {
+    lat: 45.861994439343135,
+    lng: 15.765848128532156,
+    parkName: "Street Workout park - Javorje",
+    parkImage: "images/javorje.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Javorje smješten je u općini Brdovec, preciznije u naselju Javorje preko puta crkve sv. Vid. Park bi smjestio negdje u zlatnu sredinu jer je dosta dobro postavljen, no ima mjesta za napredak. Preko pet šipki različitih visina i debljina za zgibove u kombinaciji sa dva &#34monkey bars&#34 odlična su stvar jer svatko može pronaći ono što mu najbolje odgovara bez obzira bio početnik ili napredni vježbač. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki što ponekim ljudima zna biti problem jer se ne mogu popeti na njih. Dodatne stvari u parku kao što je set od tri povezane niže šipke, švedske ljestve te šipke za sklekove mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalaze još i dvije klupice koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> podloga; prostor za freestyle pokrete; ulična rasvjeta; hlad<br><strong>-</strong>  crpka za vodu<br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "#1 dvije horizontalne ljestve &#34monkey bars&#34 <br>#2 švedske ljestve <br>#3 šipke za sklekove <br>#4 visoke paralelne šipke za propadanja <br>#5 5+ šipki različitih visina ",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/jEehUa9kcUzr6nDRA' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  santiago_de_compostela: {
+    lat: 42.87334104026675,
+    lng: -8.542347253971478,
+    parkName: "Street Workout park - Santiago de Compostela",
+    parkImage: "images/santiago_de_compostela.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Santiago de Compostela smješten je u istoimenom gradu, nedaleko od glavnog željezničkog kolodvora. Park je odlično postavljen te spada među top parkove cijele Španjolske jer je jedan od rijetkih parkova koji su baš planski i temeljito izgrađeni u dogovoru sa samim vježbačima. U parku se osim &#34monkey bars&#34 nalazi i preko deset šipki za zgibove različitih duljina, debljina i visina, pa se zbog toga ovdje najčešće i organiziraju grupni treninzi, radionice i slične stvari jer stvarno velik broj ljudi može istovremeno vježbati na istom mjestu. Set od tri paralelne šipke za propadanja odlična su solucija jer pružaju i više nego dovoljno mjesta za izvođenje, čak i kod takvih većih događaja. Dodatne stvari u parku kao što su švedske ljestve, klupica za trbušnjake, šipka za spuštanje, set ringova, set od dvije povezane niže šipke te jedna visoka paraleta mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalazi još i klupica koje ako ste kreativni može osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> podloga; prostor za freestyle pokrete; ulična rasvjeta<br><strong>-</strong>  crpka za vodu; hlad<br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "#1 10+ šipki različitih visina <br>#2 set od dvije povezane niže šipke <br>#3 visoke paralete <br>#4 visoke paralelne šipke za propadanja <br>#5 horizontalne ljestve &#34monkey bars&#34 <br>#6 klupica za trbušnjake <br>#7 set ringova",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/zT6Ey1rqC16c353F8' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  joan_oro: {
+    lat: 41.602868791450035,
+    lng: 0.6347781710504671,
+    parkName: "Street Workout park - Joan Oró",
+    parkImage: "images/joan_oro.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Joan Oró smješten je u gradu Lleida, u sklopu Joan Oró gradskog parka. Park bi smjestio negdje pri dnu ljestvice, ali ne na samo dno jer iako je dosta loš, ima i gorih od njega. Za zgibove su na raspolaganju jedan &#34monkey bars&#34 te jedna niža samostalna šipka koja je odlična za početnike kod vježbanja negativnog dijela pokreta. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki što ponekim ljudima zna biti problem jer se ne mogu popeti na njih. Dodatne stvari u parku kao što su dvije švedske ljestve te klupica za trbušnjake mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalazi još i veliki broj klupica koje ako ste kreativni mogu osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong> ulična rasvjeta; crpka za vodu<br><strong>-</strong>  hlad; podloga; prostor za freestyle pokrete;<br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 klupica za trbušnjake <br>#3 dvije švedske ljestve <br>#4 samostalna šipka manjih dimenzija <br>#5 visoke paralelne šipke za propadanja",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/PT5rLesGyLRBcray8' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
+    parkRating:
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+  },
+
+  tuhelj: {
+    lat: 46.07594739655152,
+    lng: 15.74810314379724,
+    parkName: "Street Workout park - Tuhelj",
+    parkImage: "images/tuhelj.webp",
+    border: "2px solid red",
+    "margin-bottom": "20px",
+    parkSubtitle: "StreetGainZ opis parka",
+    parkBio:
+      "Street Workout park Tuhelj smješten je u istoimenoj općini, nedaleko od Osnovne škole Lijepa naša. Park bi smjestio negdje malo ispod prosjeka jer nije toliko loš, no ima dosta mjesta za napredak. Set od tri povezane šipke različitih visina za zgibove u kombinaciji sa jednim &#34monkey bars&#34 odlična su kombinacija te pružaju dovoljno mjesta za vježbanje i kod veće frekvencije ljudi u parku. Za propadanja se u parku nalazi samo jedan par visokih paralelnih šipki što ponekim ljudima zna biti problem jer se ne mogu popeti na njih. Dodatne stvari u parku kao što su švedske ljestve mogu se iskoristiti za učenje raznih statičkih elemenata. U parku se nalazi još i dvije klupice koje ako ste kreativni može osim za odlaganje stvari poslužiti i kao dobar alat za trening.<br><strong>+</strong><br><strong>-</strong>  crpka za vodu; podloga; prostor za freestyle pokrete; ulična rasvjeta; hlad;<br><em>Napisao: Nikola Pustišek</em>",
+    equipmentSubtitle: "Popis sprava u parku: ",
+    parkEquipment:
+      "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 set od tri šipke za zgibove različitih visina <br>#3 visoke paralelne šipke za propadanja",
+    parkNavigation:
+      "Klikni <a href='https://goo.gl/maps/mgLAwY2KxKvMjgqu5' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
   },
