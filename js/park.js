@@ -53,7 +53,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/rkYZFMf3x1BFV39aA' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   srednjaci: {
@@ -148,7 +148,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/ATCuJMVBKK6HJmwH7' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   voltino: {
@@ -224,7 +224,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/XshNN5s8oKUVMTu66' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   jarun2: {
@@ -338,7 +338,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/ZsRNo65vd3HQSucm7' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroker"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   trnsko: {
@@ -528,7 +528,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/PJvkGgF1XWom3SXf7' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   sportska_gimnazija: {
@@ -585,7 +585,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/iYL738KW3wxk3TT58' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   university_of_twente: {
@@ -794,7 +794,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/JgzRCCWKvy6rZypw8' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
   },
 
   stara_tresnjevka: {
@@ -927,7 +927,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/knaw3QwRsVpQ2FiP6' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
   },
 
   komrcar: {
@@ -946,7 +946,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/yfw5ZCuzhxQN1KEbA' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
   },
 
   jastrebarsko: {
@@ -984,7 +984,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/8y6qdYUFtTSFBLDx7' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   utrine: {
@@ -1003,7 +1003,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/ETPv2u1HkAXx8U3x8' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   travno: {
@@ -1022,7 +1022,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/dBq2Fx9nrbs1CFvk7' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   slobostina: {
@@ -1041,7 +1041,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/euiJXdfhga93HQtWA' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   dugave: {
@@ -1060,7 +1060,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/Ziu59TPd5PpNjS1A6' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   buzin: {
@@ -1079,7 +1079,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/Cd9WFnDqViUs1Gq26' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   sanci: {
@@ -1098,7 +1098,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/BBkFRDbR2qpZCXYX6' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   novi_petrusevec: {
@@ -1117,7 +1117,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/tesg1ggoZYU25U2w8' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   ban_josip_jelacic: {
@@ -1136,7 +1136,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/MZWVdWoUfBAKe5Cw5' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   zapresic: {
@@ -1174,7 +1174,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/jEehUa9kcUzr6nDRA' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   santiago_de_compostela: {
@@ -1193,7 +1193,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/zT6Ey1rqC16c353F8' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>',
   },
 
   joan_oro: {
@@ -1212,7 +1212,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/PT5rLesGyLRBcray8' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   tuhelj: {
@@ -1231,7 +1231,7 @@ const parks = {
     parkNavigation:
       "Klikni <a href='https://goo.gl/maps/mgLAwY2KxKvMjgqu5' target=_blank>ovdje</a> i pogledaj još slika parka kao i detaljnije upute kako doći do parka ovisno o tvojoj trenutnoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 };
 
