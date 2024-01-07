@@ -115,7 +115,7 @@ const parks = {
     lat: 45.776868709906765,
     lng: 15.937986311481682,
     parkName: "Street Workout park - Jarun 1",
-    parkImage: "images/jarun.webp",
+    parkImage: "images/jarun1.webp",
     border: "2px solid red",
     "margin-bottom": "20px",
     parkSubtitle: "StreetGainZ opis parka",
