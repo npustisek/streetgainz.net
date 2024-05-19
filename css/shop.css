@@ -242,6 +242,9 @@ footer hr {
   color: white;
   opacity: 1;
 }
+.izbornik {
+  margin-top: 110px;
+}
 .ftext {
   font-family: "Bebas Neue", sans-serif;
   text-transform: uppercase;
@@ -337,6 +340,10 @@ p.small.text-white::before {
   }
   footer .fmenu {
     font-size: 1rem;
+  }
+  .izbornik {
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
   .ftext {
     font-family: "Bebas Neue", cursive;
