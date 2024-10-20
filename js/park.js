@@ -46,13 +46,13 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "Prednosti/Nedostatci parka",
     parkBio:
-      "<strong>+</strong> ulična rasvjeta; hlad; podloga<br><strong>-</strong> blizina stambenih zgrada; crpka za vodu, prostor za freestyle pokrete<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
+      "<strong>+</strong> ulična rasvjeta; hlad; podloga<br><strong>-</strong> blizina stambenih zgrada; crpka za vodu, prostor za freestyle pokrete; manjak sprave za propadanja<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment: "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 samostalna šipka manjih dimenzija ",
     parkNavigation:
       "Kliknite <a href='https://goo.gl/maps/rkYZFMf3x1BFV39aA' target=_blank><strong>OVDJE</strong></a> za dodatne slike parka te za pristup detaljnijim uputama kako doći do samog parka ovisno o Vašoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   srednjaci: {
@@ -83,13 +83,13 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "Prednosti/Nedostatci parka",
     parkBio:
-      "<strong>+</strong> izoliranost; podloga<br><strong>-</strong> crpka za vodu; ulična rasvjeta; prostor za freestyle pokrete; hlad<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
+      "<strong>+</strong> izoliranost; podloga<br><strong>-</strong> crpka za vodu; ulična rasvjeta; prostor za freestyle pokrete; hlad; manjak sprave za propadanja<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment: "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 samostalna šipka manjih dimenzija",
     parkNavigation:
       "Kliknite <a href='https://goo.gl/maps/HrZLmVUbE3EKmDb7A' target=_blank><strong>OVDJE</strong></a> za dodatne slike parka te za pristup detaljnijim uputama kako doći do samog parka ovisno o Vašoj lokaciji!",
     parkRating:
-      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
+      'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"> </i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
 
   remiza: {
@@ -101,7 +101,7 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "Prednosti/Nedostatci parka",
     parkBio:
-      "<strong>+</strong> prostor za freestyle pokrete; hlad;crpka za vodu; podloga<br><strong>-</strong>  ulična rasvjeta; blizina stambenih zgrada<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
+      "<strong>+</strong> prostor za freestyle pokrete; hlad; crpka za vodu; podloga<br><strong>-</strong>  ulična rasvjeta; blizina stambenih zgrada<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
       "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 paralelne šipke za propadanja različitih visina <br>#3 klupica za trbušnjake <br>#4 set od tri šipke za zgibove različitih visina <br>#5 set od dvije šipke za zgibove različitih visina",
@@ -139,7 +139,7 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "Prednosti/Nedostatci parka",
     parkBio:
-      "<strong>+</strong> izoliranost; podloga; prostor za freestyle pokrete<br><strong>-</strong> hlad; crpka za vodu; ulična rasvjeta<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
+      "<strong>+</strong> izoliranost; podloga; prostor za freestyle pokrete<br><strong>-</strong> hlad; crpka za vodu; ulična rasvjeta; manjak sprave za propadanja<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment: "#1 set od tri šipke za zgibove različitih visina <br>#2 horizontalne ljestve &#34monkey bars&#34",
     parkNavigation:
@@ -352,7 +352,7 @@ const parks = {
     parkEquipment:
       "#1 7+ šipki različitih visina <br>#2 švedske ljestve <br>#3 paralelne šipke za propadanja različitih visina",
     parkNavigation:
-      "Kliknite <a href='https://goo.gl/maps/32YSQk3gXziYMyRP9' target=_blank><strong>OVDJE</strong></a> za dodatne slike parka te za pristup detaljnijim uputama kako doći do samog parka ovisno o Vašoj lokaciji!",
+      "Kliknite <a href='https://maps.app.goo.gl/afW6JJEmwxSGPavb8' target=_blank><strong>OVDJE</strong></a> za dodatne slike parka te za pristup detaljnijim uputama kako doći do samog parka ovisno o Vašoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i>',
   },
@@ -447,7 +447,7 @@ const parks = {
     parkEquipment:
       "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 set od tri šipke za zgibove različitih visina <br>#3 šipke za sklekove <br>#4 visoke paralelne šipke za propadanja <br>#5 švedske ljestve <br>#6 klupica za trbušnjake <br>#7 set od dvije šipke za zgibove različitih visina",
     parkNavigation:
-      "Kliknite <a href='https://goo.gl/maps/RDpHY6TfSa15KeSa9' target=_blank><strong>OVDJE</strong></a> za dodatne slike parka te za pristup detaljnijim uputama kako doći do samog parka ovisno o Vašoj lokaciji!",
+      "Kliknite <a href='https://maps.app.goo.gl/9ZPApGz1DuWBBBkX6' target=_blank><strong>OVDJE</strong></a> za dodatne slike parka te za pristup detaljnijim uputama kako doći do samog parka ovisno o Vašoj lokaciji!",
     parkRating:
       'Ocjena: <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"> </i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star-half-stroke"></i>',
   },
@@ -498,7 +498,7 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "Prednosti/Nedostatci parka",
     parkBio:
-      "<strong>+</strong> izoliranost<br><strong>-</strong> crpka za vodu; prostor za freestyle pokrete; podloga; ulična rasvjeta; hlad<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
+      "<strong>+</strong> izoliranost<br><strong>-</strong> crpka za vodu; prostor za freestyle pokrete; podloga; ulična rasvjeta; hlad; manjak sprave za propadanja<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment: "#1 set od dvije šipke za zgibove različitih visina <br>#2 klupica sa ručkama",
     parkNavigation:
@@ -516,7 +516,7 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "Prednosti/Nedostatci parka",
     parkBio:
-      "<strong>+</strong> podloga<br><strong>-</strong> blizina stambenih zgrada; crpka za vodu; prostor za freestyle pokrete; ulična rasvjeta; hlad<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
+      "<strong>+</strong> podloga<br><strong>-</strong> blizina stambenih zgrada; crpka za vodu; prostor za freestyle pokrete; ulična rasvjeta; hlad; manjak sprave za propadanja<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
       "#1 švedske ljestve <br>#2 horizontalne ljestve &#34monkey bars&#34 <br>#3 set od dvije šipke za zgibove različitih visina",
@@ -573,7 +573,7 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "Prednosti/Nedostatci parka",
     parkBio:
-      "<strong>+</strong>  izoliranost<br><strong>-</strong> crpka za vodu; hlad; ulična rasvjeta; podloga; prostor za freestyle pokrete<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
+      "<strong>+</strong> izoliranost<br><strong>-</strong> crpka za vodu; hlad; ulična rasvjeta; podloga; prostor za freestyle pokrete<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
       "#1 dvije horizontalne ljestve &#34monkey bars&#34 <br>#2 5+ šipki različitih visina <br>#3 visoke paralelne šipke za propadanja <br>#4 set od tri povezane niže šipke <br>#5 švedske ljestve",
@@ -630,7 +630,7 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "Prednosti/Nedostatci parka",
     parkBio:
-      "<strong>+</strong> izoliranost; podloga; prostor za freestyle pokrete; hlad<br><strong>-</strong>  crpka za vodu; ulična rasvjeta<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
+      "<strong>+</strong> izoliranost; podloga; prostor za freestyle pokrete; hlad<br><strong>-</strong> crpka za vodu; ulična rasvjeta; manjak sprave za propadanja<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment: "#1 set od tri šipke za zgibove različitih visina <br>#2 švedske ljestve ",
     parkNavigation:
@@ -667,7 +667,7 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "Prednosti/Nedostatci parka",
     parkBio:
-      "<strong>+</strong> izoliranost; crpka za vodu; ulična rasvjeta;<br><strong>-</strong> podloga; prostor za freestyle pokrete; hlad<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
+      "<strong>+</strong> izoliranost; crpka za vodu; ulična rasvjeta;<br><strong>-</strong> podloga; prostor za freestyle pokrete; hlad; manjak sprave za propadanja<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
       "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 švedske ljestve <br>#3 set od dvije šipke za zgibove različitih visina <br>#4 klupica za trbušnjake",
@@ -874,7 +874,7 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "Prednosti/Nedostatci parka",
     parkBio:
-      "<strong>+</strong> hlad<br><strong>-</strong> podloga; izoliranost; prostor za freestyle pokrete; crpka za vodu; ulična rasvjeta<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
+      "<strong>+</strong> hlad<br><strong>-</strong> podloga; izoliranost; prostor za freestyle pokrete; crpka za vodu; ulična rasvjeta; manjak sprave za propadanja<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
       "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 set od tri šipke za zgibove različitih visina <br>#3 švedske ljestve ",
@@ -1045,7 +1045,7 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "Prednosti/Nedostatci parka",
     parkBio:
-      "<strong>+</strong> izoliranost; podloga<br><strong>-</strong> crpka za vodu; hlad; prostor za freestyle pokrete; ulična rasvjeta<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
+      "<strong>+</strong> izoliranost; podloga<br><strong>-</strong> crpka za vodu; hlad; prostor za freestyle pokrete; ulična rasvjeta; manjak sprave za propadanja<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment: "#1 švedske ljestve <br>#2 horizontalne ljestve &#34monkey bars&#34 <br>#3 klupica za trbušnjake",
     parkNavigation:
@@ -1101,7 +1101,7 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "Prednosti/Nedostatci parka",
     parkBio:
-      "<strong>+</strong> izoliranost; podloga<br><strong>-</strong> crpka za vodu; prostor za freestyle pokrete; hlad; ulična rasvjeta<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
+      "<strong>+</strong> izoliranost; podloga; ulična rasvjeta<br><strong>-</strong> crpka za vodu; prostor za freestyle pokrete; hlad; manjak sprave za propadanja<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment: "#1 set od dvije šipke za zgibove različitih visina <br>#2 klupica za trbušnjake ",
     parkNavigation:
@@ -1176,7 +1176,7 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "Prednosti/Nedostatci parka",
     parkBio:
-      "<strong>+</strong> podloga; prostor za freestyle pokrete; ulična rasvjeta<br><strong>-</strong>  crpka za vodu; hlad<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
+      "<strong>+</strong> podloga; prostor za freestyle pokrete; ulična rasvjeta<br><strong>-</strong>  crpka za vodu; hlad; blizina stambenih zgrada<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
       "#1 10+ šipki različitih visina <br>#2 set od dvije povezane niže šipke <br>#3 visoke paralete <br>#4 visoke paralelne šipke za propadanja <br>#5 horizontalne ljestve &#34monkey bars&#34 <br>#6 klupica za trbušnjake <br>#7 set ringova",
@@ -1195,7 +1195,7 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "Prednosti/Nedostatci parka",
     parkBio:
-      "<strong>+</strong> ulična rasvjeta; crpka za vodu<br><strong>-</strong> hlad; podloga; prostor za freestyle pokrete<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
+      "<strong>+</strong> ulična rasvjeta; crpka za vodu; izoliranost<br><strong>-</strong> hlad; podloga; prostor za freestyle pokrete<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
       "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 klupica za trbušnjake <br>#3 dvije švedske ljestve <br>#4 samostalna šipka manjih dimenzija <br>#5 visoke paralelne šipke za propadanja",
@@ -1214,7 +1214,7 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "Prednosti/Nedostatci parka",
     parkBio:
-      "<strong>+</strong><br><strong>-</strong> crpka za vodu; podloga; prostor za freestyle pokrete; ulična rasvjeta; hlad<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
+      "<strong>+</strong> izoliranost <br><strong>-</strong> crpka za vodu; podloga; prostor za freestyle pokrete; ulična rasvjeta; hlad<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
       "#1 horizontalne ljestve &#34monkey bars&#34 <br>#2 set od tri šipke za zgibove različitih visina <br>#3 visoke paralelne šipke za propadanja",
@@ -1233,7 +1233,7 @@ const parks = {
     "margin-bottom": "20px",
     parkSubtitle: "Prednosti/Nedostatci parka",
     parkBio:
-      "<strong>+</strong> izoliranost; ulična rasvjeta; hlad; podloga; prostor za freestyle pokrete;<br><strong>-</strong> crpka za vodu<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
+      "<strong>+</strong> izoliranost; ulična rasvjeta; podloga; prostor za freestyle pokrete;<br><strong>-</strong> crpka za vodu; hlad<br><em>Objavio: Nikola Pustišek (tajnik &#34StreetGainZ&#34 udruge)</em>",
     equipmentSubtitle: "Popis sprava u parku: ",
     parkEquipment:
       "#1 set od tri šipke za zgibove različitih visina <br>#2 horizontalne ljestve &#34monkey bars&#34 <br>#3 srednje visoke paralelne šipke za propadanja <br>#4 dvije švedske ljestve <br>#5 set od tri povezane niže šipke <br>#6 klupica za trbušnjake",
